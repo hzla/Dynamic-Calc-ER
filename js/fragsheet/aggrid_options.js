@@ -429,7 +429,13 @@ function prevoData(speciesName, encounters) {
         return [0, [], false, false]
     }
 
-    let evos = [ancestor].concat(evoData[ancestor]["evos"])
+    let evos
+    try {
+        evos = [ancestor].concat(evoData[ancestor]["evos"])
+    } catch {
+        return [0, [], false, false]
+    }
+    
 
     // Look for later evolutions first
     for (let i = evos.length - 1; i >= 0; i--) {
@@ -455,7 +461,14 @@ function createRowData() {
         encRow = {}
         encRow.totalKo = 0
 
-        let evolutions = evoData[evoData[enc].anc].evos
+        let evolution
+
+        try {
+           evolutions = evoData[evoData[enc].anc].evos 
+       } catch {
+           evolutions = []
+       }
+
 
         let foundEvo = false
         for (evo of evolutions) {
@@ -467,8 +480,15 @@ function createRowData() {
 
 
         // merge frags with prevos
-        let prevo = prevoData(enc, encounters)
-        let uniqFrags = [...new Set(encounters[enc].frags.concat(prevo[1]))].filter(item => item !== undefined);
+        let uniqFrags
+        let uniqFragCount
+        try {
+           prevo = prevoData(enc, encounters)
+           uniqFrags = [...new Set(encounters[enc].frags.concat(prevo[1]))].filter(item => item !== undefined); 
+        } catch {
+            uniqFrags = encounters[enc].frags
+        }
+        
 
         encounters[enc].frags = uniqFrags
         encounters[enc].fragCount = uniqFrags.length

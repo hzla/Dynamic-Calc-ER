@@ -185,9 +185,14 @@ function prevoData(speciesName, encounters) {
         return [0, [], false, false]
     }
 
+    let evos
 
-
-    let evos = [ancestor].concat(evoData[ancestor]["evos"])
+    try {
+		evos = [ancestor].concat(evoData[ancestor]["evos"])
+    } catch {
+    	console.log("Could not find")
+        return [0, [], false, false]
+    }
 
     // Look for later evolutions first
     for (let i = evos.length - 1; i >= 0; i--) {
