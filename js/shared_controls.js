@@ -773,7 +773,7 @@ $(".set-selector").change(function () {
 
 	} else {
 		if (SETDEX_BW) {
-			var pokesprite = pokemonName.toUpperCase().replace(" ", "").replace(".","").replace("’","")
+			var pokesprite = pokemonName.toUpperCase().replace(" ", "_").replace(".","").replace("’","")
 			
 			$('#p1 .poke-sprite').attr('src', `./img/sprites/${pokesprite}_BACK.${suffix}`)
 
