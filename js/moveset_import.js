@@ -483,7 +483,8 @@ function ExportPokemon(pokeInfo) {
 	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
-	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
+	finalText += "Ability: " + pokemon.ability;
+	finalText += `/ ${pokemon.innates[0]} / ${pokemon.innates[1]} / ${pokemon.innates[2]}\n`;
 	if (gen > 2) {
 		var EVs_Array = [];
 		for (var stat in pokemon.evs) {
@@ -559,15 +560,16 @@ function serialize(array, separator) {
 }
 
 function getAbility(row, species=false) {
-	var ability = row[1] ? row[1].trim() : '';
+	var ability = (row[1] ? row[1] : '').split("/")[0].trim();
+	return ability;
+}
 
-	
-	if (calc.ABILITIES[8].indexOf(ability) !== -1) {
-		if (abilityChanges[TITLE] && abilityChanges[TITLE][ability]) {
-			return abilityChanges[TITLE][ability]
-		}
-		return ability;
-	} 
+function getInnates(row, species=false) {
+	var innates = []
+	for (abil of (row[1] ? row[1] : '').split("/").slice(1,4)) {
+		innates.push(abil.trim())
+	}
+	return innates
 }
 
 function statToLegacyStat(stat) {
@@ -627,13 +629,10 @@ function getStats(currentPoke, rows, offset) {
 			break;
 
 		}
-		currentAbility = rows[x] ? rows[x].trim().split(":") : '';
-		if (currentAbility[0] == "Ability") {
-			currentPoke.ability = currentAbility[1].trim();
-			if (abilityChanges[TITLE] && abilityChanges[TITLE][currentPoke.ability]) {
-				currentPoke.ability = abilityChanges[TITLE][currentPoke.ability]
-			}
-		}
+		// currentAbility = rows[x] ? rows[x].trim().split(":") : '';
+		// if (currentAbility[0] == "Ability") {
+		// 	currentPoke.ability = currentAbility[1].trim();
+		// }
 
 		currentNature = rows[x] ? rows[x].trim().split(" ") : '';
 		if (currentNature[1] == "Nature" && !natureIsSet) {
@@ -702,20 +701,6 @@ function getMoves(currentPoke, rows, offset) {
 
 function addToDex(poke) {
 	var dexObject = {};
-
-
-	if (typeof npoint_data.poks_replacements != "undefined") {
-		if (typeof pokChanges === "undefined") {
-			pokChanges = {}
-		}
-		
-		pokChanges[TITLE] = npoint_data.poks_replacements
-
-		if (pokChanges[TITLE] && pokChanges[TITLE][poke.name]) {
-			poke.name = pokChanges[TITLE][poke.name] 
-		}
-	}
-
 	
 	if ($("#randoms").prop("checked")) {
 		if (GEN8RANDOMBATTLE[poke.name] == undefined) GEN8RANDOMBATTLE[poke.name] = {};
@@ -738,17 +723,19 @@ function addToDex(poke) {
 	}
 	if (poke.ability !== undefined) {
 		dexObject.ability = poke.ability;
+		dexObject.innates = poke.innates
 	}
 
 
 
 	if (isInt(poke.ability)) {
 		console.log(`cannot find ability for ${poke.name}`)
-		// dexObject.ability = pokedex[poke.name]['abilities'][parseInt(poke.ability)]
+		dexObject.ability = pokedex[poke.name]['abilities'][parseInt(poke.ability)]
 	}
 	
 
 	dexObject.level = poke.level;
+
 	dexObject.evs = poke.evs;
 	dexObject.ivs = poke.ivs;
 	dexObject.moves = poke.moves;
@@ -879,14 +866,15 @@ function addSets(pokes, name) {
 				}
 				currentPoke.isCustomSet = true;
 
-				if (INC_EM) {
-					currentPoke.ability = getAbility(rows[i + 4].split(":"), currentPoke.name);
-				} else {
-					currentPoke.ability = getAbility(rows[i + 1].split(":"));
-				}
+
+				currentPoke.ability = getAbility(rows[i + 3].split(":"));
+				console.log(currentPoke.ability)
+				currentPoke.innates = getInnates(rows[i + 3].split(":"));
+
 				
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
+
 				addToDex(currentPoke);
 				addedpokes++;
 			}

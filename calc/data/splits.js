@@ -84,5 +84,15 @@ splitData = {
 		"lvls": [15, 25, 34,47,59,68,76,82,85],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],
 		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
+	},
+	"Elite Redux Elite Mode": {
+		"lvls": [23, 36, 45,50,55,60,70,80,100],
+		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],
+		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
+	},
+	"Elite Redux": {
+		"lvls": [25, 40, 50 ,55,70,85,92,95,100],
+		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],
+		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
 	}
 }

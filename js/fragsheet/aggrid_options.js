@@ -41,7 +41,9 @@ SOURCES = {
     "17af2cc6ec56f8f293bd": "Parallel Emerald Hard",
     "a0e5b4fa06d9e7762210": "Parallel Emerald Normal",
     "55d895a19083b26c0c53": "Emerald Imperium 1.2",
-    "imp13": "Emerald Imperium 1.3"
+    "imp13": "Emerald Imperium 1.3",
+    "ere": "Elite Redux Elite Mode",
+    "er": "Elite Redux"
 }
 
 function initializeSplits() {
@@ -153,7 +155,7 @@ function setColumnDefs() {
             width: 80,
             cellRenderer: (params) => {
               if (params.data.species) {
-                return `<img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
+                return `<img src="./img/sprites/${params.data.species.toUpperCase().replace(/[ :'.-]/g, '_').replace(/[.’]/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
               }
               return '';
             },
@@ -356,7 +358,7 @@ function displayFragHistory(rowData) {
             let trName = extractTrainerName(frag)
             
             let pokName = extractPokemonName(frag)
-            let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :'.-]+/g, '-').replace(/^-|-glitched$|-$/g, '')}.png`
+            let spritePath = `./img/sprites/${pokName.toUpperCase().replace(/[ :'.-]+/g, '_').replace(/^-|-glitched$|-$/g, '')}.png`
             let typing = splitData[TITLE]["types"][i]
 
 
@@ -393,6 +395,7 @@ function extractTrainerName(str) {
 
 function extractPokemonName(str) {
     // Match everything before the opening parenthesis and trim whitespace
+    console.log(str)
     const match = str.match(/^(.+?)\s*\(/);
     return match ? match[1].trim() : null;
 }

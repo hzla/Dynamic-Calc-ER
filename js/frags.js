@@ -95,7 +95,8 @@ function addFrag(e) {
 		actualLevel = $('#levelL1').val() || "1"
 	}
 
-	fragged = fragged.replace(internalLevel, actualLevel);
+	fragged = fragged.replace("(", `(Lvl ${actualLevel} `)
+	console.log(fragged)
 
 
 

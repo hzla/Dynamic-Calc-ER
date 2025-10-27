@@ -59,7 +59,9 @@
 
        "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
        "2ec049ba9513d189a915": "Emerald Imperium",
-       "ced457ba9aa55731616c": "Radical Red 4.1 Normal"
+       "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
+       "er": "Elite Redux",
+       "ere": "Elite Redux Elite Mode"
       }
        
         if (SOURCES[params.get('data')]) {
@@ -123,7 +125,7 @@
                 <span class="slider round"></span>
               </label>
             </div>
-            <div id="toggle-switch-info" class="menu-item">
+           <!--  <div id="toggle-switch-info" class="menu-item">
               <div class="menu-label">
                 Advanced Switch Info
               </div> 
@@ -131,7 +133,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
               </label>
-            </div>
+            </div> -->
              <div id="toggle-battle-notes" class="menu-item">
               <div class="menu-label">
                 Battle Notes
@@ -150,7 +152,7 @@
                 <span class="slider round"></span>
               </label>
             </div>
-            <div id="theme-toggle" class="menu-item">
+           <!--  <div id="theme-toggle" class="menu-item">
               <div class="menu-label">
                 Use New Layout
               </div> 
@@ -158,8 +160,8 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
               </label>
-            </div>
-            <div id="save-toggle" class="menu-item">
+            </div> -->
+           <!--  <div id="save-toggle" class="menu-item">
               <div class="menu-label">
                 Auto Update Save
               </div> 
@@ -167,8 +169,8 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
               </label>
-            </div>
-            <div id="save-filter-toggle" class="menu-item">
+            </div> -->
+          <!--   <div id="save-filter-toggle" class="menu-item">
               <div class="menu-label">
                 Import Filters Illegal Moves
               </div> 
@@ -194,7 +196,7 @@
                 <input type="checkbox">
                 <span class="slider round"></span>
               </label>
-            </div>
+            </div> -->
 
         </div>
 
@@ -687,7 +689,41 @@
                         <option value="Quirky">Quirky</option>
                     </select>
                 </div>
-                <div class="gen-specific g3 g4 g5 g6 g7 g8">
+                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
+                    <label for="itemL1">Item</label>
+                    <select class="item terrain-trigger calc-trigger" id="itemL1"></select>
+                </div>
+                <div>
+                    <label for="statusL1">Status</label>
+                    <select class="status calc-trigger" id="statusL1">
+                        <option value="Healthy">Healthy</option>
+                        <option value="Poisoned">Poisoned</option>
+                        <option value="Badly Poisoned">Badly Poisoned</option>
+                        <option value="Burned">Burned</option>
+                        <option value="Paralyzed">Paralyzed</option>
+                        <option value="Asleep">Asleep</option>
+                        <option value="Frozen">Frostbitten</option>
+                        <option value="Bleeding">Bleeding</option>
+                    </select>
+                    <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
+                        <option value="1">1/16</option>
+                        <option value="2">2/16</option>
+                        <option value="3">3/16</option>
+                        <option value="4">4/16</option>
+                        <option value="5">5/16</option>
+                        <option value="6">6/16</option>
+                        <option value="7">7/16</option>
+                        <option value="8">8/16</option>
+                        <option value="9">9/16</option>
+                        <option value="10">10/16</option>
+                        <option value="11">11/16</option>
+                        <option value="12">12/16</option>
+                        <option value="13">13/16</option>
+                        <option value="14">14/16</option>
+                        <option value="15">15/16</option>
+                    </select>
+                </div>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 ability-row">
                     <label for="abilityL1">Ability</label>
                     <select class="ability terrain-trigger calc-trigger" id="abilityL1"></select>
                     <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
@@ -709,39 +745,22 @@
                         <option value="spe">Speed</option>
                     </select>
                 </div>
-                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
-                    <label for="itemL1">Item</label>
-                    <select class="item terrain-trigger calc-trigger" id="itemL1"></select>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 innate-row">
+                    <label for="innates" class="hint" title="Mouse hover an ability to get the description">Innates</label>
+                    <select class="innates terrain-trigger save-trigger calc-trigger innate1" id="innatesL1" data-index="1"></select>
+                    <input hidden type="checkbox" title= "Is this ability active?" autocomplete="off" class="innatesToggle calc-trigger">
                 </div>
-                <div>
-                    <label for="statusL1">Status</label>
-                    <select class="status calc-trigger" id="statusL1">
-                        <option value="Healthy">Healthy</option>
-                        <option value="Poisoned">Poisoned</option>
-                        <option value="Badly Poisoned">Badly Poisoned</option>
-                        <option value="Burned">Burned</option>
-                        <option value="Paralyzed">Paralyzed</option>
-                        <option value="Asleep">Asleep</option>
-                        <option value="Frozen">Frozen</option>
-                    </select>
-                    <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
-                        <option value="1">1/16</option>
-                        <option value="2">2/16</option>
-                        <option value="3">3/16</option>
-                        <option value="4">4/16</option>
-                        <option value="5">5/16</option>
-                        <option value="6">6/16</option>
-                        <option value="7">7/16</option>
-                        <option value="8">8/16</option>
-                        <option value="9">9/16</option>
-                        <option value="10">10/16</option>
-                        <option value="11">11/16</option>
-                        <option value="12">12/16</option>
-                        <option value="13">13/16</option>
-                        <option value="14">14/16</option>
-                        <option value="15">15/16</option>
-                    </select>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 innate-row">
+                    <label for="innates" class="hint" title="Mouse hover an ability to get the description">Innates</label>
+                    <select class="innates terrain-trigger save-trigger calc-trigger innate2" id="innatesL2" data-index="2"></select>
+                    <input hidden type="checkbox" title= "Is this ability active?" autocomplete="off" class="innatesToggle calc-trigger">
                 </div>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 innate-row">
+                    <label for="innates" class="hint" title="Mouse hover an ability to get the description">Innates</label>
+                    <select class="innates terrain-trigger save-trigger calc-trigger innate3" id="innatesL3" data-index="3"></select>
+                    <input hidden type="checkbox" title= "Is this ability active?" autocomplete="off" class="innatesToggle calc-trigger">
+                </div>
+                
             </div>
             <div class="info-group hp-cntrl">
                 <label for="currentHpL1">Current HP</label>
@@ -970,6 +989,8 @@
                         <label class="btn btn-small btn-mid" for="rain">Rain</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Sand" id="sand" />
                         <label class="btn btn-small btn-mid" for="sand">Sand</label>
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Fog" id="fog" />
+                        <label class="btn btn-small btn-mid" for="fog">Fog</label>
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Snow" id="snow" />
                         <label class="btn btn-small btn-right" for="snow">Snow</label>
                     </div>
@@ -1306,8 +1327,32 @@
                               <td><div class="right" title="Is the defending Pok&eacute;mon switching out?">
                                   <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="switchingR" />
                                   <label class="btn btn-xxwide" for="switchingR">Switching Out</label>
+                              </div></td>                   
+                          </tr>
+                          <tr class="gen-specific g8">
+                            <td><div class="left" title="Is the defending Pok&eacute;mon switching out?">
+                                <div hidden id="selectSwitchingInstruction">Infatuated?</div>
+                                  <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="infatuatedL" />
+                                  <label class="btn btn-xxwide" for="infatuatedL">Infatuated</label>
+                                </div></td>
+                              <td><div class="right" title="Is the defending Pok&eacute;mon Infatuated?">
+                                  <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="infatuatedR" />
+                                  <label class="btn btn-xxwide" for="infatuatedR">Infatuated</label>
                               </div></td>
                           </tr>
+                          <tr class="gen-specific g8">
+                            <td><div class="left" title="Is the defending Pok&eacute;mon Fearful?">
+                                <div hidden id="selectSwitchingInstruction">Is the defending Pok&eacute;mon Fearful?</div>
+                                  <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="fearfulL" />
+                                  <label class="btn btn-xxwide" for="fearfulL">Fearful</label>
+                                </div></td>
+                              <td><div class="right" title="Is the defending Pok&eacute;mon Fearful?">
+                                  <input aria-describedby="selectSwitchingInstruction" class="visually-hidden calc-trigger" type="checkbox" id="fearfulR" />
+                                  <label class="btn btn-xxwide" for="fearfulR">Fearful</label>
+                              </div></td>
+                          </tr>
+
+
                         <tr class="field-exports">
                             <td><div class="left" title="Export the leftmost Pok&eacute;mon set">
                                 <button id="exportL">Export</button>
@@ -1341,7 +1386,7 @@
                         <!--<button style='position:absolute' class='bs-btn bs-btn-default'>Import</button>-->
                     </form>
                     <label for="save-upload" class="bs-btn" id="read-save">
-                            Read .sav/.ss1-9
+                            Read .sav
                     </label>
                     <input id="save-upload" type="file" />
                 </div>
@@ -1679,8 +1724,42 @@
                         <option value="Timid">Timid (+Spe, -Atk)</option>
                     </select>
                 </div>
-                <div class="gen-specific g3 g4 g5 g6 g7 g8">
-                    <label for="abilityR1">Ability</label>
+                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
+                    <label for="itemR1">Item</label>
+                    <select class="item terrain-trigger calc-trigger" id="itemR1"></select>
+                </div>
+                <div>
+                    <label for="statusR1">Status</label>
+                    <select class="status calc-trigger" id="statusR1">
+                        <option value="Healthy">Healthy</option>
+                        <option value="Poisoned">Poisoned</option>
+                        <option value="Badly Poisoned">Badly Poisoned</option>
+                        <option value="Burned">Burned</option>
+                        <option value="Paralyzed">Paralyzed</option>
+                        <option value="Asleep">Asleep</option>
+                        <option value="Frozen">Frostbitten</option>
+                        <option value="Bleeding">Bleeding</option>
+                    </select>
+                    <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
+                        <option value="1">1/16</option>
+                        <option value="2">2/16</option>
+                        <option value="3">3/16</option>
+                        <option value="4">4/16</option>
+                        <option value="5">5/16</option>
+                        <option value="6">6/16</option>
+                        <option value="7">7/16</option>
+                        <option value="8">8/16</option>
+                        <option value="9">9/16</option>
+                        <option value="10">10/16</option>
+                        <option value="11">11/16</option>
+                        <option value="12">12/16</option>
+                        <option value="13">13/16</option>
+                        <option value="14">14/16</option>
+                        <option value="15">15/16</option>
+                    </select>
+                </div>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 ability-row">
+                    <label for="abilityL1">Ability</label>
                     <select class="ability terrain-trigger calc-trigger" id="abilityR1"></select>
                     <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
                     <select hidden aria-label="Allies fainted" class="alliesFainted calc-trigger">
@@ -1701,38 +1780,20 @@
                         <option value="spe">Speed</option>
                     </select>
                 </div>
-                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
-                    <label for="itemR1">Item</label>
-                    <select class="item terrain-trigger calc-trigger" id="itemR1"></select>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 innate-row">
+                    <label for="innates" class="hint" title="Mouse hover an ability to get the description">Innates</label>
+                    <select class="innates terrain-trigger save-trigger calc-trigger innate1" id="innatesR1" data-index="1"></select>
+                    <input hidden type="checkbox" title= "Is this ability active?" autocomplete="off" class="innatesToggle calc-trigger">
                 </div>
-                <div>
-                    <label for="statusR1">Status</label>
-                    <select class="status calc-trigger" id="statusR1">
-                        <option value="Healthy">Healthy</option>
-                        <option value="Poisoned">Poisoned</option>
-                        <option value="Badly Poisoned">Badly Poisoned</option>
-                        <option value="Burned">Burned</option>
-                        <option value="Paralyzed">Paralyzed</option>
-                        <option value="Asleep">Asleep</option>
-                        <option value="Frozen">Frozen</option>
-                    </select>
-                    <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
-                        <option value="1">1/16</option>
-                        <option value="2">2/16</option>
-                        <option value="3">3/16</option>
-                        <option value="4">4/16</option>
-                        <option value="5">5/16</option>
-                        <option value="6">6/16</option>
-                        <option value="7">7/16</option>
-                        <option value="8">8/16</option>
-                        <option value="9">9/16</option>
-                        <option value="10">10/16</option>
-                        <option value="11">11/16</option>
-                        <option value="12">12/16</option>
-                        <option value="13">13/16</option>
-                        <option value="14">14/16</option>
-                        <option value="15">15/16</option>
-                    </select>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 innate-row">
+                    <label for="innates" class="hint" title="Mouse hover an ability to get the description">Innates</label>
+                    <select class="innates terrain-trigger save-trigger calc-trigger innate2" id="innatesR2" data-index="2"></select>
+                    <input hidden type="checkbox" title= "Is this ability active?" autocomplete="off" class="innatesToggle calc-trigger">
+                </div>
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 innate-row">
+                    <label for="innates" class="hint" title="Mouse hover an ability to get the description">Innates</label>
+                    <select class="innates terrain-trigger save-trigger calc-trigger innate3" id="innatesR3" data-index="3"></select>
+                    <input hidden type="checkbox" title= "Is this ability active?" autocomplete="off" class="innatesToggle calc-trigger">
                 </div>
             </div>
             <div class="info-group hp-cntrl">
@@ -1933,12 +1994,12 @@
 
 
     <script type="text/javascript" src="./js/enums.js?100133"></script>
-    <script type="text/javascript" src="./js/save_constants/scrambled.js?1007"></script>
-    <script type="text/javascript" src="./js/save_constants/em_imp_constants.js?1007"></script>
-    <script type="text/javascript" src="./js/save_constants/em_imp_primary_abils.js?1009"></script>
-    <script type="text/javascript" src="./js/save_constants/em_imp_primary_mons.js?1007"></script>
+    
+    <script type="text/javascript" src="./js/save_constants/er_game_data.js?1007"></script>
+
+
     <script type="text/javascript" src="./js/save_constants/orders.js?1007"></script>
-    <script type="text/javascript" src="./js/savereader_pokeemerald.js?100144"></script>
+    <script type="text/javascript" src="./js/savereader_er.js?100144"></script>
     <script type="text/javascript" src="./js/randomizer/read.js?10014f"></script>
     <script type="text/javascript" src="./calc/data/types.js?b935c17b"></script>
 
@@ -1980,12 +2041,9 @@
 <div id="footer">
     <div class="credits">
         <br><br>
-        If you are seeing more than 6+ pokemon for a trainer (ie. Rocket Grunts), it's because Radical Red's github is not public so I can only guess which mon belongs to which trainer.    
-
-        <br><br>
             <a href="https://discord.gg/HCXJFBANV2" class="pokeweb-link" target="_blank">Click here to join the discord for announcements, feature/game requests, and bug reports</a>
         <br><br>
-        Created by Honko, maintained by Austin and Kris, modified for Pokeweb by Hzla. Custom sprites by The Smogon Sprite Project.
+        Created by Honko, maintained by Austin and Kris, modified for Pokeweb by Hzla. Special thanks to ForwardFeed. Custom sprites by The Smogon Sprite Project.
         <br><br>
         <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'P5P4H04EL');kofiwidget2.draw();</script> <br>
 
@@ -2002,17 +2060,7 @@
         <br><br>
         Right click move to apply highest dmg roll to max hp.
 
-        <br><br><br><br>
-        <h3 class="footer-title">Known AI Bugs/Behaviors</h3>
-        Switch AI does not see dynamic typing on moves. (Accounted for)
         <br><br>
-        Switch AI does not see resist berries. (Accounted for)
-        <br><br>
-        AI uses your last used move that didn't KO to determine your speed bracket. (Not Accounted for)
-        <br><br>
-        AI does not see your Mega ability until a turn has passed after your mega evolve. (Not Accounted for)
-        <br><br>
-        AI does not see choiced priority moves as having priority if there are no other priority moves in the move slots before. (Not Accounted for)
     </div>
 
 </div>

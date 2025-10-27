@@ -27,9 +27,12 @@ var Field = (function () {
         this.isWonderRoom = !!field.isWonderRoom;
         this.isGravity = !!field.isGravity;
         this.isAuraBreak = field.isAuraBreak || false;
-        this.isInverseBattle = !!field.isInverseBattle;
         this.isFairyAura = field.isFairyAura || false;
         this.isDarkAura = field.isDarkAura || false;
+        this.isBeadsOfRuin = field.isBeadsOfRuin || false;
+        this.isSwordOfRuin = field.isSwordOfRuin || false;
+        this.isTabletsOfRuin = field.isTabletsOfRuin || false;
+        this.isVesselOfRuin = field.isVesselOfRuin || false;
         this.attackerSide = new Side(field.attackerSide || {});
         this.defenderSide = new Side(field.defenderSide || {});
     }
@@ -59,13 +62,16 @@ var Field = (function () {
             terrain: this.terrain,
             isMagicRoom: this.isMagicRoom,
             isWonderRoom: this.isWonderRoom,
-            isInverseBattle: this.isInverseBattle,
             isGravity: this.isGravity,
             attackerSide: this.attackerSide,
             defenderSide: this.defenderSide,
             isAuraBreak: this.isAuraBreak,
             isDarkAura: this.isDarkAura,
-            isFairyAura: this.isFairyAura
+            isFairyAura: this.isFairyAura,
+            isBeadsOfRuin: this.isBeadsOfRuin,
+            isSwordOfRuin: this.isSwordOfRuin,
+            isTabletsOfRuin: this.isTabletsOfRuin,
+            isVesselOfRuin: this.isVesselOfRuin
         });
     };
     return Field;
@@ -97,13 +103,10 @@ var Side = (function () {
         this.isAuroraVeil = !!side.isAuroraVeil;
         this.isBattery = !!side.isBattery;
         this.isPowerSpot = !!side.isPowerSpot;
+        this.isDefenseCurl = !!side.isDefenseCurl;
+        this.isInfatuated = !!side.isInfatuated;
+        this.isFearful = !!side.isFearful;
         this.isSwitching = side.isSwitching;
-        this.is10Buff = !!side.is10Buff
-        this.is15Buff = !!side.is15Buff
-        this.is20Buff = !!side.is20Buff
-        this.is25Buff = !!side.is25Buff
-        this.is30Buff = !!side.is30Buff
-        this.is50Buff = !!side.is50Buff
     }
     Side.prototype.clone = function () {
         return new Side(this);

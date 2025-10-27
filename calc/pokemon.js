@@ -21,11 +21,36 @@ var __values = (this && this.__values) || function(o) {
     };
     throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 };
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 exports.__esModule = true;
 
 var stats_1 = require("./stats");
 var util_1 = require("./util");
-var STATS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
+exports.STATS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 var SPC = new Set(['spc']);
 var Pokemon = (function () {
     function Pokemon(gen, name, options) {
@@ -36,11 +61,14 @@ var Pokemon = (function () {
         this.gen = gen;
         this.name = options.name || name;
         this.types = this.species.types;
-        this.weightkg = this.species.weightkg;
+        this.weightkg = options.weightkg || this.species.weightkg;
+        this.heads = options.heads || this.species.heads || 0;
         this.level = options.level || 100;
         this.gender = options.gender || this.species.gender || 'M';
         this.ability = options.ability || ((_b = this.species.abilities) === null || _b === void 0 ? void 0 : _b[0]) || undefined;
+        this.innates = options.innates || [];
         this.abilityOn = !!options.abilityOn;
+        this.innatesOn = options.innatesOn || [false, false, false];
         this.isDynamaxed = !!options.isDynamaxed;
         this.dynamaxLevel = this.isDynamaxed
             ? (options.dynamaxLevel === undefined ? 10 : options.dynamaxLevel) : undefined;
@@ -67,7 +95,7 @@ var Pokemon = (function () {
         this.rawStats = {};
         this.stats = {};
         try {
-            for (var STATS_1 = __values(STATS), STATS_1_1 = STATS_1.next(); !STATS_1_1.done; STATS_1_1 = STATS_1.next()) {
+            for (var STATS_1 = __values(exports.STATS), STATS_1_1 = STATS_1.next(); !STATS_1_1.done; STATS_1_1 = STATS_1.next()) {
                 var stat = STATS_1_1.value;
                 var val = this.calcStat(gen, stat);
                 this.rawStats[stat] = val;
@@ -101,12 +129,65 @@ var Pokemon = (function () {
         }
         return this.originalCurHP;
     };
+    Pokemon.prototype.hasAbilityActive = function () {
+        var abilities = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            abilities[_i] = arguments[_i];
+        }
+        var ability = this.hasAbility.apply(this, __spreadArray([], __read(abilities), false));
+        switch (ability) {
+            case -1:
+                return this.abilityOn;
+            case undefined:
+                return false;
+            default:
+                if (!this.innatesOn)
+                    return false;
+                return this.innatesOn[ability - 1];
+        }
+    };
     Pokemon.prototype.hasAbility = function () {
         var abilities = [];
         for (var _i = 0; _i < arguments.length; _i++) {
             abilities[_i] = arguments[_i];
         }
-        return !!(this.ability && abilities.includes(this.ability));
+        if (this.ability && abilities.includes(this.ability)) {
+            this.descAbility = this.ability;
+            return -1;
+        }
+        if (!this.innates)
+            return undefined;
+        for (var i = 0; i < this.innates.length; i++) {
+            var innate = this.innates[i];
+            if (abilities === null || abilities === void 0 ? void 0 : abilities.includes(innate.toString())) {
+                this.descAbility = innate;
+                return i + 1;
+            }
+        }
+        return undefined;
+    };
+    Pokemon.prototype.removeAllAbilities = function () {
+        var _a;
+        this.ability = '';
+        if (!this.innates)
+            return;
+        for (var i = 0; i < ((_a = this.innates) === null || _a === void 0 ? void 0 : _a.length); i++) {
+            this.innates[i] = '';
+        }
+    };
+    Pokemon.prototype.remplaceAbility = function (ability, remplacement) {
+        var _a;
+        if (this.ability && this.ability === ability) {
+            this.ability = remplacement;
+        }
+        if (!this.innates)
+            return;
+        for (var i = 0; i < ((_a = this.innates) === null || _a === void 0 ? void 0 : _a.length); i++) {
+            var innate = this.innates[i];
+            if (ability === innate.toString()) {
+                this.innates[i] = remplacement;
+            }
+        }
     };
     Pokemon.prototype.hasItem = function () {
         var items = [];
@@ -176,6 +257,8 @@ var Pokemon = (function () {
     Pokemon.prototype.clone = function () {
         return new Pokemon(this.gen, this.name, {
             level: this.level,
+            innates: Object.assign([], this.innates),
+            innatesOn: Object.assign([], this.innatesOn),
             ability: this.ability,
             abilityOn: this.abilityOn,
             isDynamaxed: this.isDynamaxed,

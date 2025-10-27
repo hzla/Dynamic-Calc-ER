@@ -360,7 +360,7 @@ a:visited {
 
 .fragged-mons img {
     display: flex;
-    width: 60px;
+    width: 40px;
     max-width: calc(16% - 1px);
     object-fit: cover;
 }

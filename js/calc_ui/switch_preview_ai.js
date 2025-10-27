@@ -358,7 +358,6 @@ function get_next_in() {
     for (i in trainer_poks) {
         analysis = ""
 
-
         p2 = createPokemon(trainer_poks[i].slice(0,-3))
 
         let isCurrent = currentp2.name == p2.name
@@ -386,21 +385,17 @@ function get_next_in() {
         calcingForSwitchIns = true
         p1Name = p1.name
 
-
-        // console.log(p2field)
-        // console.log(p2)
-
-        let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
+        // let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
 
 
 
-        calcingForSwitchIns = false
+        // calcingForSwitchIns = false
         
-        player_results = all_results[0]
-        results = all_results[1]
+        // player_results = all_results[0]
+        // results = all_results[1]
 
-        player_results_list.push(player_results)
-        ai_results_list.push(results)
+        // player_results_list.push(player_results)
+        // ai_results_list.push(results)
 
         let pok_name = trainer_poks[i].split(" (")[0]
         let tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
@@ -415,7 +410,7 @@ function get_next_in() {
 
         matchup = {}
         if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"   
-        analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
+        // analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
 
         if (isCurrent) {
             currentTypeMatchup = type_matchup
@@ -523,7 +518,6 @@ function get_next_in() {
             }
 
             analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div></div>` 
-
         }
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
     }
@@ -537,8 +531,7 @@ function get_next_in() {
         if (badOdds[0]) {
             $('.bad-odds').show()
             $('.bad-odds').text(`Bad Odds: ${badOdds[1]}`)
-        }
-        
+        }      
     }
 
 

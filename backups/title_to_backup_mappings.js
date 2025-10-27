@@ -25,7 +25,9 @@ backupFiles = {
 	"Emerald": "em",
 	"Luminescent Platinum": "lumi",
 	"Radical Red 4.1 Hardcore": "radredhc",
-	"Radical Red 4.1 Normal": "radrednm"
+	"Radical Red 4.1 Normal": "radrednm",
+	"Elite Redux": "er",
+	"Elite Redux Elite Mode": "ere"
 }
 
 

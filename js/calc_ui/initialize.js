@@ -93,7 +93,9 @@ SOURCES = {
   "2ec049ba9513d189a915": "Emerald Imperium",
   "55d895a19083b26c0c53": "Emerald Imperium 1.2",
   "imp13": "Emerald Imperium 1.3",
-  "ced457ba9aa55731616c": "Radical Red 4.1 Normal"
+  "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
+  "er": "Elite Redux",
+  "ere": "Elite Redux Elite Mode"
 }
 
 INC_EM = false
@@ -105,7 +107,7 @@ if (SOURCES[params.get('data')]) {
         location.href = 'https://hzla.github.io/Dynamic-Calc/?data=26138cc1d500b0cf7334&gen=7&switchIn=4&types=6'
     }
 
-    baseGame = ""
+    baseGame = "er"
     if (TITLE.includes("Inclement") ) {
         baseGame = "inc_em"
     } else if (TITLE.includes("Imperium")) {
@@ -124,12 +126,8 @@ if (SOURCES[params.get('data')]) {
 
     $('.genSelection').hide()
     $('#rom-title').text(TITLE).show()
-    if (TITLE.includes("Radical Red") || TITLE.includes("Emerald Imperium")) {
-        // INC_EM = true
-        $("#lvl-cap").show()
-        // $("#harsh-sunshine").next().text("Ability Sun")
-        // $("#heavy-rain").next().text("Ability Rain")
-    }
+
+    $("#lvl-cap").show()
 
     if ( TITLE == "Cascade White 2") {
         $('.cascade-effects .btn-small').show()
@@ -194,7 +192,7 @@ function initCalc() {
   }
 
   if (typeof localStorage.filterAbilities === 'undefined') {
-    localStorage.filterAbilities = 1
+    localStorage.filterAbilities = 0
   }
 
   if (typeof localStorage.themeIndex === 'undefined') {
@@ -385,50 +383,51 @@ function loadDataSource(data) {
     // imperium changes
     if (TITLE.includes("Emerald Imperium")) {
 
-        delete moves['Chloroblast'].recoil 
-        delete MOVES_BY_ID[g].chloroblast.recoil
-        moves['Chloroblast'].mindBlownRecoil = true;
-        MOVES_BY_ID[g].chloroblast.mindBlownRecoil = true;
+        // delete moves['Chloroblast'].recoil 
+        // delete MOVES_BY_ID[g].chloroblast.recoil
+        // moves['Chloroblast'].mindBlownRecoil = true;
+        // MOVES_BY_ID[g].chloroblast.mindBlownRecoil = true;
         
-        if (TITLE.includes("1.3")) {
-            $('#reasoning').show()
-            $('.move-pp').show()
-            adjustStat("Unfezant", "at", 115)
-            adjustStat("Unfezant", "sp", 108)
+        // if (TITLE.includes("1.3")) {
+        //     $('#reasoning').show()
+        //     $('.move-pp').show()
+        //     adjustStat("Unfezant", "at", 115)
+        //     adjustStat("Unfezant", "sp", 108)
 
-            adjustStat("Empoleon-Mega-O", "hp", 84)
-            adjustStat("Empoleon-Mega-O", "df", 83)
-            adjustStat("Empoleon-Mega-O", "sd", 83)
+        //     adjustStat("Empoleon-Mega-O", "hp", 84)
+        //     adjustStat("Empoleon-Mega-O", "df", 83)
+        //     adjustStat("Empoleon-Mega-O", "sd", 83)
 
-            adjustStat("Empoleon-Mega-D", "hp", 118)
-            adjustStat("Empoleon-Mega-D", "df", 88)
-            adjustStat("Empoleon-Mega-D", "sd", 157)
-            adjustStat("Empoleon-Mega-D", "sa", 131)
+        //     adjustStat("Empoleon-Mega-D", "hp", 118)
+        //     adjustStat("Empoleon-Mega-D", "df", 88)
+        //     adjustStat("Empoleon-Mega-D", "sd", 157)
+        //     adjustStat("Empoleon-Mega-D", "sa", 131)
 
-            adjustStat("Infernape-Mega", "df", 82)
-            adjustStat("Infernape-Mega", "sd", 82)
-            adjustStat("Infernape-Mega", "sp", 120)
+        //     adjustStat("Infernape-Mega", "df", 82)
+        //     adjustStat("Infernape-Mega", "sd", 82)
+        //     adjustStat("Infernape-Mega", "sp", 120)
 
-            adjustStat("Slaking-Mega", "sa", 95)
-            adjustStat("Slaking-Mega", "sd", 75)
+        //     adjustStat("Slaking-Mega", "sa", 95)
+        //     adjustStat("Slaking-Mega", "sd", 75)
 
-            adjustStat("Roserade-Mega", "at", 80)
-            adjustStat("Roserade-Mega", "df", 90)
-            adjustStat("Roserade-Mega", "sa", 140)
-            adjustStat("Roserade-Mega", "sd", 125)
-            adjustStat("Roserade-Mega", "sp", 120)
+        //     adjustStat("Roserade-Mega", "at", 80)
+        //     adjustStat("Roserade-Mega", "df", 90)
+        //     adjustStat("Roserade-Mega", "sa", 140)
+        //     adjustStat("Roserade-Mega", "sd", 125)
+        //     adjustStat("Roserade-Mega", "sp", 120)
 
 
-            moves['Mighty Cleave'].bp = 90;
-            MOVES_BY_ID[g].mightycleave.basePower = 90
+        //     moves['Mighty Cleave'].bp = 90;
+        //     MOVES_BY_ID[g].mightycleave.basePower = 90
 
-            $('#learnset-show').show()
-        }
+        //     $('#learnset-show').show()
+        // }
     
+
+        // pokedex["Raichu"]["types"] = ["Electric", "Normal"]
+    }
         $('#maxL').next().remove()
         $('#maxR').next().remove()
-        pokedex["Raichu"]["types"] = ["Electric", "Normal"]
-    }
     initCalc() 
 
 

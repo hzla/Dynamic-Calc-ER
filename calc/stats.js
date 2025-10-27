@@ -10,7 +10,8 @@ var BW = GSC;
 var XY = GSC;
 var SM = GSC;
 var SS = GSC;
-exports.STATS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
+var SV = GSC;
+exports.STATS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var HP_TYPES = [
     'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel',
     'Fire', 'Water', 'Grass', 'Electric', 'Psychic', 'Ice', 'Dragon', 'Dark',
@@ -94,15 +95,14 @@ exports.Stats = new ((function () {
         }
         return ivs;
     };
-    class_1.prototype.calcStat = function (gen, stat, base, iv, ev, level, nature, manual=null) {
-        if (gen.num < 1 || gen.num > 8)
+    class_1.prototype.calcStat = function (gen, stat, base, iv, ev, level, nature) {
+        if (gen.num < 1 || gen.num > 9)
             throw new Error("Invalid generation ".concat(gen.num));
         if (gen.num < 3)
             return this.calcStatRBY(stat, base, iv, level);
-        return this.calcStatADV(gen.natures, stat, base, iv, ev, level, nature, manual);
+        return this.calcStatADV(gen.natures, stat, base, iv, ev, level, nature);
     };
-    class_1.prototype.calcStatADV = function (natures, stat, base, iv, ev, level, nature, manual=null) {
-
+    class_1.prototype.calcStatADV = function (natures, stat, base, iv, ev, level, nature) {
         if (stat === 'hp') {
             return base === 1
                 ? base
@@ -111,15 +111,9 @@ exports.Stats = new ((function () {
         else {
             var mods = [undefined, undefined];
             if (nature) {
-                
-                
-
                 var nat = natures.get((0, util_1.toID)(nature));
-
-
                 mods = [nat === null || nat === void 0 ? void 0 : nat.plus, nat === null || nat === void 0 ? void 0 : nat.minus];
-            } 
-
+            }
             var n = mods[0] === stat && mods[1] === stat
                 ? 1
                 : mods[0] === stat
@@ -147,7 +141,7 @@ exports.Stats = new ((function () {
             return undefined;
         return gen.num === 2 ? exports.Stats.DVsToIVs(hp.dvs) : hp.ivs;
     };
-    class_1.prototype.getHiddenPower = function (gen, ivs, trueBP=false) {
+    class_1.prototype.getHiddenPower = function (gen, ivs) {
         var tr = function (num, bits) {
             if (bits === void 0) { bits = 0; }
             if (bits)
@@ -180,7 +174,7 @@ exports.Stats = new ((function () {
             }
             return {
                 type: HP_TYPES[tr(hpTypeX * 15 / 63)],
-                power: (gen.num && gen.num < 6) ? tr(hpPowerX * 40 / 63) + 30 : (trueBP ? (tr(hpPowerX * 40 / 63) + 30) : 60)
+                power: (gen.num && gen.num < 6) ? tr(hpPowerX * 40 / 63) + 30 : 60
             };
         }
     };

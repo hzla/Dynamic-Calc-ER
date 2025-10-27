@@ -130,7 +130,7 @@ function displayParty() {
                 if (!setdex[species_name]) {
                     continue;
                 }
-                var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
+                var sprite_name = species_name.toUpperCase().replace(" ","_").replace(".","").replace("’","").replace(":","_")
                 var set_data = setdex[species_name]["My Box"]
                 var data_id = species_name + " (My Box)"
             } catch {
@@ -143,7 +143,7 @@ function displayParty() {
 
             
             var pok = `<div class="trainer-pok-container">
-                <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">`
+                <img class="trainer-pok left-side" src="./img/sprites/${sprite_name}.png" data-id="${data_id}">`
             for (let i in [1,2,3,4]) {
                 if (set_data['moves'][i]) {
                    pok += `<div class="bp-info">${abv(set_data['moves'][i].replace("Hidden Power", "HP"))}</div>` 
@@ -172,13 +172,13 @@ function get_box() {
         if (names[i].includes("My Box")) {
             box.push(names[i].split("[")[0])
 
-            var pok_name = names[i].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
+            var pok_name = names[i].split(" (")[0].toUpperCase().replace(" ","_").replace(".","").replace(".","").replace("’","").replace(":","_")
             
             if (encounters && encounters[names[i].split(" (")[0]] && !encounters[names[i].split(" (")[0]].alive) {
                 continue
             }
 
-            var pok = `<img class="trainer-pok left-side ${sprite_style}" src="./img/${sprite_style}/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
+            var pok = `<img class="trainer-pok left-side ${sprite_style}" src="./img/sprites/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
 
             box_html += pok
         }   

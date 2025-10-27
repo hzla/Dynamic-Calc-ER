@@ -52,52 +52,21 @@ function get_trainer_poks(trainer_name)
     var matches = []
 
     trainer_name = trainer_name.replace("*", "")
-    var og_trainer_name = trainer_name.split(/Lvl [-+]?\d+ /)[1]
+    var og_trainer_name = trainer_name.split("(")[1].split(")")[0]
 
 
     if (og_trainer_name) {
         og_trainer_name = og_trainer_name.replace(/.?\)/, "")
     }
 
-    let og_white_space = " "
-    let partner_white_space = " "
-
-    if (og_trainer_name && og_trainer_name.includes(" - ")) {
-        og_white_space = ""
-    }
-
-    if (partnerName && partnerName.includes(" - ")) {
-        partner_white_space = ""
-    }
 
     for (i in TR_NAMES) {
 
-        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partnerName + partner_white_space)))) {
-            
-
-            // To avoid cases where grunt1 matches grunt11, we check the last word in the set string to make sure it's  an actual match
-            if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-               matches.push(TR_NAMES[i])
-
-            }
-            if (partnerName) {
-                if (partnerName.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partnerName.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   matches.push(TR_NAMES[i])
-                }  
-            }    
+        if (TR_NAMES[i].split("(")[1].split(")")[0] == og_trainer_name) {
+            matches.push(TR_NAMES[i])
         }
     }
 
-    if (matches.length == 0) {
-        for (i in TR_NAMES) {
-
-            if (TR_NAMES[i].includes(og_trainer_name)) {
-                if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   matches.push(TR_NAMES[i])
-                }    
-            }
-        }
-    }
     return matches
 }
 
@@ -114,7 +83,7 @@ function get_current_in() {
 function setOpposing(id) {
     // if in multi battle mode and user selects pokemon from already set partner, switch partners
     if (partnerName && id.includes(partnerName)) {
-        partnerName = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+        partnerName = $('.set-selector .select2-chosen')[1].innerHTML
         if (partnerName) {
             partnerName = partnerName.replace(/\s?\)/, "").replace(/\s$/, "")
             console.log(`Switching partners: ${partnerName}`)
