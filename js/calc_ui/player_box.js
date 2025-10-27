@@ -130,7 +130,7 @@ function displayParty() {
                 if (!setdex[species_name]) {
                     continue;
                 }
-                var sprite_name = species_name.toUpperCase().replace(" ","_").replace(".","").replace("’","").replace(":","_")
+                var sprite_name = species_name.toUpperCase().replaceAll(" ","_").replaceAll(".","").replaceAll("’","").replaceAll(":","_")
                 var set_data = setdex[species_name]["My Box"]
                 var data_id = species_name + " (My Box)"
             } catch {
@@ -172,7 +172,7 @@ function get_box() {
         if (names[i].includes("My Box")) {
             box.push(names[i].split("[")[0])
 
-            var pok_name = names[i].split(" (")[0].toUpperCase().replace(" ","_").replace(".","").replace(".","").replace("’","").replace(":","_")
+            var pok_name = names[i].split(" (")[0].toUpperCase().replaceAll(" ","_").replaceAll(".","").replaceAll(".","").replaceAll("’","").replaceAll(":","_")
             
             if (encounters && encounters[names[i].split(" (")[0]] && !encounters[names[i].split(" (")[0]].alive) {
                 continue

@@ -310,7 +310,7 @@ $(document).ready(function() {
 
         var data_id = $(this).attr('data-id')
         var species_name = data_id.split(" (")[0]
-        var sprite_name = species_name.toUpperCase().replace(" ","_").replace(".","").replace("’","").replace(":","_")
+        var sprite_name = species_name.toUpperCase().replaceAll(" ","_").replaceAll(".","").replaceAll("’","").replaceAll(":","_")
         var set_data = customSets[species_name]["My Box"]
 
 

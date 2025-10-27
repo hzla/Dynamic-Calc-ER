@@ -588,7 +588,7 @@ function refresh_next_in() {
 		// if (next_poks[i][0].includes($('input.opposing').val()) && noSwitch != "1"){
 		// 	continue
 		// }
-		var pok_name = next_poks[i][0].split(" (")[0].toUpperCase().replace(" ","_").replace(".","").replace("’","").replace(":","_")
+		var pok_name = next_poks[i][0].split(" (")[0].toUpperCase().replaceAll(" ","_").replaceAll(".","").replaceAll("’","").replaceAll(":","_")
 
 		if (pok_name.includes("galarian-")) {
 			pok_name = pok_name.split("galarian-")[1] +  "-galar"
@@ -620,8 +620,10 @@ function refresh_next_in() {
 			isFainted = "fainted"
 		}
 
+		
+
 		var pok = `<div class="trainer-pok-container">
-			<img class="trainer-pok right-side ${highlight} ${isFainted} " src="./img/sprites/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
+			<img class="trainer-pok right-side ${highlight} ${isFainted} " src="./img/sprites/${pok_name.replaceAll(" ", "_")}.png" data-id="${dataID}">`
 
 
 		var species = next_poks[i][0].split(" (")[0]
@@ -629,16 +631,16 @@ function refresh_next_in() {
 		var item = setdex[species][set_name]["item"]
 
 		if (item && item != "-" && !item.toLowerCase().includes("none")) {
-			item_name = item.toLowerCase().replace(" ", "_").replace("'","") 
+			item_name = item.toLowerCase().replaceAll(" ", "_").replaceAll("'","") 
             pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
 		}
 
 		
 		pok +=`<div class="bp-infos">
-			<div class="bp-info">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div></div>`
+			<div class="bp-info">${next_poks[i][4][0].replaceAll("Hidden Power", "HP")}</div>
+			<div class="bp-info">${next_poks[i][4][1].replaceAll("Hidden Power", "HP")}</div>
+			<div class="bp-info">${next_poks[i][4][2].replaceAll("Hidden Power", "HP")}</div>
+			<div class="bp-info">${next_poks[i][4][3].replaceAll("Hidden Power", "HP")}</div></div>`
 		
 		if (TITLE.includes("1.3")) {
 			pok += next_poks[i][5]
@@ -748,7 +750,8 @@ $(".set-selector").change(function () {
 		} else {
 			$('#trainer-sprite').hide()
 		}
-		var pokesprite = pokemonName.toUpperCase().replace(" ", "_").replace(".","").replace("’","").replace(":","_")
+
+		var pokesprite = pokemonName.toUpperCase().replaceAll(" ", "_").replaceAll(".","").replaceAll("’","").replaceAll(":","_").replaceAll("-", "_")
 
 		if (pokesprite.includes("galarian-")) {
 			pokesprite = pokesprite.split("galarian-")[1] +  "-galar"
@@ -765,7 +768,7 @@ $(".set-selector").change(function () {
 	
 
 
-		$('#p2 .poke-sprite').attr('src', `./img/sprites/${pokesprite.replace("-glitched", "")}.${suffix}`)
+		$('#p2 .poke-sprite').attr('src', `./img/sprites/${pokesprite.replaceAll("-glitched", "")}.${suffix}`)
 
 		if ($('#player-poks-filter:visible').length > 0) {
 	       box_rolls() 
@@ -773,7 +776,7 @@ $(".set-selector").change(function () {
 
 	} else {
 		if (SETDEX_BW) {
-			var pokesprite = pokemonName.toUpperCase().replace(" ", "_").replace(".","").replace("’","")
+			var pokesprite = pokemonName.toUpperCase().replaceAll(" ", "_").replaceAll(".","").replaceAll("’","")
 			
 			$('#p1 .poke-sprite').attr('src', `./img/sprites/${pokesprite}_BACK.${suffix}`)
 
@@ -1236,7 +1239,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		if (setName.indexOf("(") === -1) {
 			name = setName;
 		} else {
-			var pokemonName = setName.substring(0, setName.indexOf(" (")).replace("n Z", "n-Z").replace("o o", "o-o");
+			var pokemonName = setName.substring(0, setName.indexOf(" (")).replaceAll("n Z", "n-Z").replaceAll("o o", "o-o");
 			
 			var species = pokedex[pokemonName];
 			name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
@@ -1538,8 +1541,8 @@ $(".gen").change(function () {
 	if (gen === 8) {
 		// params.delete('gen');
 		// params = '' + params;
-		// if (window.history && window.history.replaceState) {
-		// 	window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
+		// if (window.history && window.history.replaceAllState) {
+		// 	window.history.replaceAllState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
 		// }
 	} else {
 		params.set('gen', gen);
