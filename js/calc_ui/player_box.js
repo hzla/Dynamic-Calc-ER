@@ -370,66 +370,68 @@ function can_topkill(damages, hp) {
 }
 
 function get_current_learnset() {
-    var pok_name = createPokemon($("#p1")).name
-    if (pok_name.includes("-Mega")) {
-        pok_name = pok_name.split("-Mega")[0]
-    } 
+    var pok_name = createPokemon($("#p1")).name.replace(" Mega", "")
 
-    if (pok_name.includes("Ogerpon")) {
-        pok_name = "Ogerpon"
+    let lvlUp = false
+    let tutors = []
+    let evos = []
+    let abils = []
+
+    for (let monData of gameData.species) {
+        if (monData.name == pok_name) {
+            lvlUp = monData.levelUpMoves
+            tutors = monData.tutor
+            evos = monData.evolutions
+            break;
+        }
     }
-    current_learnset = learnsets[pok_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]
     
-    if (!current_learnset || !TITLE.includes("1.3")) {
-        // $("#learnset-show").hide()
-        return
+    if (lvlUp) {
+       $("#learnset-show").show()  
     } else {
-        $("#learnset-show").show()
-    }
+        return;
+    }  
 
     var ls_html = ""
 
-    for (let i = 0; i < current_learnset["ls"].length; i++) {
-        var lvl = current_learnset["ls"][i][0]
-        var mv_name = current_learnset["ls"][i][1]
+    for (let i = 0; i < lvlUp.length; i++) {
+        var lvl = lvlUp[i].lv
+        var mv_name = gameData.moves[lvlUp[i].id].name
         ls_html += `<div class='ls-row'><div class='ls-level'>${lvl}</div><div class='ls-name'>${mv_name}</div></div>`
     }
     $(".lvl-up-moves").html(ls_html)
 
     var tm_html = ""
-
-    if (current_learnset["tms"]) {
-        for (let i = 0; i < current_learnset["tms"].length; i++) {
-            var mv_name = current_learnset["tms"][i]
-
-            let tm_index = ""
-            if (tms["tms"][mv_name]) {
-                tm_index = `TM${tms["tms"][mv_name]}`
-            } else if (tms["hms"][mv_name]) {
-                tm_index = `HM${tms["hms"][mv_name]}`
-            }
-
-            tm_html += `<div class='ls-row'><div class='ls-level'>${tm_index}</div><div class='ls-name'>${mv_name}</div></div>`
-        }
+    for (let i = 0; i < tutors.length; i++) {
+        var mv_name = gameData.moves[tutors[i]].name
+        tm_html += `<div class='ls-row'><div class='ls-level'>Tutor:</div><div class='ls-name'>${mv_name}</div></div>`
     }
-    
     $(".tms").html(tm_html)
-    sort_tms()
-
+    
     let evo_html = ""
 
-    if (em_imp_primary_mons[pok_name] && em_imp_primary_mons[pok_name]["evos"]) {
-        let evos = em_imp_primary_mons[pok_name]["evos"]
 
-    
-        for (evo of evos) {
-            let method = formatString(evo.method)
-            let parameter = formatString(evo.parameter)
-            let target = formatString(evo.target)
-            
-            evo_html += `<div class='ls-row'><div class='ls-level'>${method}: ${parameter}</div><div class='ls-name'>${target}</div></div>`
-        }
-        $(".evos").html(evo_html)   
+    abils = []
+
+
+    abils = [$('#abilityL1').val(), $('#innatesL1').val(), $('#innatesL2').val(),$('#innatesL3').val()]
+
+    for (let evo of evos) {        
+        evo_html += `<div class='ls-row'><div class='ls-level'>Lvl: ${evo.rs}</div><div class='ls-name'>${evo.in}</div></div>`
     }
-    return current_learnset    
+
+    for (let ab of abils) {        
+        evo_html += `<div class='ls-row ab-row'><div class='ls-level'>${ab}</div><div class='ls-name'>${abilityDesc[ab]}</div></div>`
+    }
+
+
+    $(".evos").html(evo_html)   
+
 }
+
+
+
+
+
+
+

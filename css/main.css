@@ -244,8 +244,8 @@ input[type="file"] {
     position: fixed;
     background: #f8f8f2;
     height:  80vh;
-    width:  400px;
-    left: calc(50vw - 200px);
+    width:  600px;
+    left: calc(50vw - 300px);
     top:  10vh;
     display:  none;
     z-index: 10000;
@@ -282,6 +282,16 @@ input[type="file"] {
     height:  20px;
     line-height: 20px;
     width: calc(100% - 40px);
+    border-bottom: 1px solid black;
+}
+
+.ab-row.ls-row {
+    height: auto;
+}
+
+.ls-name {
+    text-align: right;
+    margin-left: 20px;
 }
 
 #nav-tags div {
@@ -1021,6 +1031,21 @@ table td {
 }
 
 
+#tooltip {
+    position: fixed;
+    height: 40px;
+    width: 240px;
+    left: 10px;
+    top: 20vh;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 10;
+    padding: 10px;
+    text-align: left;
+
+}
+
 .info-group.hp-cntrl {
     margin-bottom: 0;
     height: 40px;
@@ -1040,6 +1065,17 @@ table td {
 
 .ability-row {
     margin-top: 20px;
+    position: relative;
+}
+
+.innate-row {
+    position: relative;
+}
+
+.abilityToggle, .innatesToggle {
+    position: absolute;
+    top: 4px;
+    left: -20px;
 }
 
 .info-group.info-selectors select {

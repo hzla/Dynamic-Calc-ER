@@ -379,55 +379,9 @@ function loadDataSource(data) {
     console.log("loaded custom poks data")
 
     $('#save-pok').show()
-
-    // imperium changes
-    if (TITLE.includes("Emerald Imperium")) {
-
-        // delete moves['Chloroblast'].recoil 
-        // delete MOVES_BY_ID[g].chloroblast.recoil
-        // moves['Chloroblast'].mindBlownRecoil = true;
-        // MOVES_BY_ID[g].chloroblast.mindBlownRecoil = true;
-        
-        // if (TITLE.includes("1.3")) {
-        //     $('#reasoning').show()
-        //     $('.move-pp').show()
-        //     adjustStat("Unfezant", "at", 115)
-        //     adjustStat("Unfezant", "sp", 108)
-
-        //     adjustStat("Empoleon-Mega-O", "hp", 84)
-        //     adjustStat("Empoleon-Mega-O", "df", 83)
-        //     adjustStat("Empoleon-Mega-O", "sd", 83)
-
-        //     adjustStat("Empoleon-Mega-D", "hp", 118)
-        //     adjustStat("Empoleon-Mega-D", "df", 88)
-        //     adjustStat("Empoleon-Mega-D", "sd", 157)
-        //     adjustStat("Empoleon-Mega-D", "sa", 131)
-
-        //     adjustStat("Infernape-Mega", "df", 82)
-        //     adjustStat("Infernape-Mega", "sd", 82)
-        //     adjustStat("Infernape-Mega", "sp", 120)
-
-        //     adjustStat("Slaking-Mega", "sa", 95)
-        //     adjustStat("Slaking-Mega", "sd", 75)
-
-        //     adjustStat("Roserade-Mega", "at", 80)
-        //     adjustStat("Roserade-Mega", "df", 90)
-        //     adjustStat("Roserade-Mega", "sa", 140)
-        //     adjustStat("Roserade-Mega", "sd", 125)
-        //     adjustStat("Roserade-Mega", "sp", 120)
-
-
-        //     moves['Mighty Cleave'].bp = 90;
-        //     MOVES_BY_ID[g].mightycleave.basePower = 90
-
-        //     $('#learnset-show').show()
-        // }
-    
-
-        // pokedex["Raichu"]["types"] = ["Electric", "Normal"]
-    }
-        $('#maxL').next().remove()
-        $('#maxR').next().remove()
+    $('#learnset-show').show()
+    $('#maxL').next().remove()
+    $('#maxR').next().remove()
     initCalc() 
 
 
