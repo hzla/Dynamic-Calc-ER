@@ -144,9 +144,9 @@ function getFinalSpeed(gen, pokemon, field, side) {
     }
     else if (pokemon.hasAbility('Quick Feet') && pokemon.status ||
         (pokemon.hasAbilityActive('Violent Rush', 'Showdown Mode', 'Rapid Response', "Champion's Entrance")) ||
-        (pokemon.hasAbility('Chlorophyll') && weather.includes('Sun')) ||
-        (pokemon.hasAbility('Swift Swim', 'Break Water', 'Way of Swiftness') && weather.includes('Rain')) ||
-        (pokemon.hasAbility('Slush Rush') && ['Hail', 'Snow'].includes(weather)) ||
+        (pokemon.hasAbility('Chlorophyll', 'Rite Of Spring') && weather.includes('Sun')) ||
+        (pokemon.hasAbility('Swift Swim', 'Break Water', 'Way of Swiftness', 'Aquatic Ruler') && weather.includes('Rain')) ||
+        (pokemon.hasAbility('Slush Rush', 'Glacial Ghost') && ['Hail', 'Snow'].includes(weather)) ||
         (pokemon.hasAbility('Surge Surfer') && (terrain === 'Electric')) ||
         (pokemon.hasAbility('Sand Rush') && weather === 'Sand') ||
         (pokemon.hasAbility('Ethereal Rush') && weather === 'Fog')) {
@@ -466,7 +466,7 @@ function checkDownload(source, target, wonderRoomActive) {
     }
 }
 exports.checkDownload = checkDownload;
-function checkMajesticMoth(source) {
+function checkStatRaises(source, field) {
     if (source.hasAbility('Majestic Moth')) {
         var stat = getQPBoostedStat(source);
         var boostValue = 1;
@@ -477,7 +477,6 @@ function checkMajesticMoth(source) {
     }
 
     if (source.hasAbilityActive("Let's Roll")) {
-
         var stat = 'def';
         var boostValue = 1;
         if (source.hasAbility('Simple')) {
@@ -485,8 +484,26 @@ function checkMajesticMoth(source) {
         }
         source.boosts[stat] = Math.min(6, source.boosts[stat] + boostValue);
     }
+
+    if (source.hasAbilityActive("Headstrong")) {
+        var stat = 'spd';
+        var boostValue = 1;
+        if (source.hasAbility('Simple')) {
+            boostValue = 2;
+        }
+        source.boosts[stat] = Math.min(6, source.boosts[stat] + boostValue);
+    }
+
+    if (source.hasAbilityActive("Biofilm") && field.hasTerrain('Toxic')) {
+        var stat = 'spd';
+        var boostValue = 1;
+        if (source.hasAbility('Simple')) {
+            boostValue = 2;
+        }
+        source.boosts[stat] = Math.min(6, source.boosts[stat] + boostValue);
+    }
 }
-exports.checkMajesticMoth = checkMajesticMoth;
+exports.checkStatRaises = checkStatRaises;
 function checkNoTurningBack(source) {
     if (source.hasAbility('No Turning Back')) {
         var boostValue = 1;

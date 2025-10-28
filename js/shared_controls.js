@@ -215,71 +215,45 @@ $(".percent-hp").keyup(function () {
 	calcCurrentHP($(this).parent(), max, percent);
 });
 
-$(".ability").bind("keyup change", function () {
+function showAbilityToggles(abilityObj) {
 	var moveHits =
-		$(this).val() === 'Skill Link' ? 5 :
-			$(this).closest(".poke-info").find(".item").val() === 'Loaded Dice' ? 4 : 3;
-	$(this).closest(".poke-info").find(".move-hits").val(moveHits);
+		$(abilityObj).val() === 'Skill Link' ? 5 :
+			$(abilityObj).closest(".poke-info").find(".item").val() === 'Loaded Dice' ? 4 : 3;
+	$(abilityObj).closest(".poke-info").find(".move-hits").val(moveHits);
 
-	var ability = $(this).closest(".poke-info").find(".ability").val();
+	var ability = $(abilityObj).val();
 
-	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Scare', 'Gleam Eyes', 'Monkey Business', 'Yuki Onna', 'Showdown Mode',
+	var TOGGLE_ABILITIES = ['Madness Enhancement', 'Headstrong', 'Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Scare', 'Scarecrow', 'Gleam Eyes', 'Monkey Business', 'Yuki Onna', 'Showdown Mode',
         'Unburden', 'Stakeout','Overwatch', 'Coil Up', 'Let\'s Roll', 'Grip Pincer', 'Violent Rush', 'Dreamcatcher', 'Ambush', 'Readied Action', 'Demolitionist', 'Rapid Response', 'Malicious', 'Stall', 'Breakwater', 'Champion\'s Entrance', 'Soothsayer'];
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
-		$(this).closest(".poke-info").find(".abilityToggle").show();
+		$(abilityObj).next().show();
 	} else {
-		$(this).closest(".poke-info").find(".abilityToggle").hide();
+		$(abilityObj).next().hide();
 	}
-	var boostedStat = $(this).closest(".poke-info").find(".boostedStat");
+	var boostedStat = $(abilityObj).closest(".poke-info").find(".boostedStat");
 
 	if (ability === "Protosynthesis" || ability === "Quark Drive") {
 		boostedStat.show();
-		autosetQP($(this).closest(".poke-info"));
+		autosetQP($(abilityObj).closest(".poke-info"));
 	} else {
 		boostedStat.hide();
 	}
 
 	if (ability === "Supreme Overlord") {
-		$(this).closest(".poke-info").find(".alliesFainted").show();
+		$(abilityObj).closest(".poke-info").find(".alliesFainted").show();
 	} else {
-		$(this).closest(".poke-info").find(".alliesFainted").val('0');
-		$(this).closest(".poke-info").find(".alliesFainted").hide();
+		$(abilityObj).closest(".poke-info").find(".alliesFainted").val('0');
+		$(abilityObj).closest(".poke-info").find(".alliesFainted").hide();
 
 	}
+}
+
+$(".ability").bind("keyup change", function () {
+	showAbilityToggles(this);
 });
 
 $(".innates").bind("keyup change", function () {
-	var moveHits =
-		$(this).val() === 'Skill Link' ? 5 :
-			$(this).closest(".poke-info").find(".item").val() === 'Loaded Dice' ? 4 : 3;
-	$(this).closest(".poke-info").find(".move-hits").val(moveHits);
-
-	var ability = $(this).val();
-
-	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Scare', 'Gleam Eyes', 'Monkey Business', 'Yuki Onna', 'Showdown Mode',
-        'Unburden', 'Stakeout','Overwatch', 'Coil Up', 'Let\'s Roll', 'Grip Pincer', 'Violent Rush', 'Dreamcatcher', 'Ambush', 'Readied Action', 'Demolitionist', 'Rapid Response', 'Malicious', 'Stall', 'Breakwater', 'Champion\'s Entrance', 'Soothsayer'];
-
-	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
-		$(this).next().show();
-	} else {
-		$(this).next().hide();
-	}
-	var boostedStat = $(this).closest(".poke-info").find(".boostedStat");
-
-	if (ability === "Protosynthesis" || ability === "Quark Drive") {
-		boostedStat.show();
-		autosetQP($(this).closest(".poke-info"));
-	} else {
-		boostedStat.hide();
-	}
-
-	if (ability === "Supreme Overlord") {
-		$(this).closest(".poke-info").find(".alliesFainted").show();
-	} else {
-		$(this).closest(".poke-info").find(".alliesFainted").val('0');
-		$(this).closest(".poke-info").find(".alliesFainted").hide();
-
-	}
+	showAbilityToggles(this);
 });
 
 function detectAutoWeather() {
@@ -403,6 +377,10 @@ function autosetTerrain(ability, i) {
 	case "Psychic Surge":
 		lastAutoTerrain[i] = "Psychic";
 		$("#psychic").prop("checked", true);
+		break;
+	case "Toxic Surge":
+		lastAutoTerrain[i] = "Toxic";
+		$("#Toxic").prop("checked", true);
 		break;
 	default:
 		lastAutoTerrain[i] = "";
@@ -683,6 +661,9 @@ $(".set-selector").change(function () {
 		var left_max_hp = $("#p2 .max-hp").text()
 		$("#p2 .current-hp").val(left_max_hp).change()
 
+		$(".nav-tag.next").attr('data-next', SETDEX_BW[pokemonName][setName]['tr_id'] + 1 ).show()
+		$(".nav-tag.prev").attr('data-next', SETDEX_BW[pokemonName][setName]['tr_id'] - 1 ).show()
+
 
 	} else {
 		var right_max_hp = $("#p1 .max-hp").text()		
@@ -696,8 +677,8 @@ $(".set-selector").change(function () {
 			if (setName != "Blank Set") {
 				// var sprite = SETDEX_BW[pokemonName][setName]["sprite"]
 				
-				var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
-				var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
+				// var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
+				// var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
 				
 
 
@@ -705,17 +686,9 @@ $(".set-selector").change(function () {
 					
 				// 	let orderInfo = emImpOrders[CURRENT_TRAINER_POKS.find(str => str.includes("[0]")).split("[")[0]]
 
-				// 	if (orderInfo) {
-				// 		if (orderInfo.next) {
-				// 			$(".nav-tag.next").attr('data-next', orderInfo.next).show()
-				// 		}
-				// 		if (orderInfo.prev) {
-				// 			$(".nav-tag.prev").attr('data-next', orderInfo.prev).show()
-				// 		}
-				// 	} else {
-				// 		$('.nav-tag.next, .nav-tag.prev').hide()
-				// 	}	
-				// }
+
+
+
 
 				if (SETDEX_BW[pokemonName][setName]["partner"]) {
 					$(".nav-tag.partner").show().attr('data-next', SETDEX_BW[pokemonName][setName]["partner"])
@@ -972,13 +945,14 @@ $(".set-selector").change(function () {
 		calcHP(pokeObj);
 		calcStats(pokeObj);
 
-		// todo: don't recalculate damages just check to see if ability toggles need to be shown
-		abilityObj.change();
-		innate1Obj.change();
-		innate2Obj.change();
-		innate3Obj.change();
+		showAbilityToggles(abilityObj);
+		showAbilityToggles(innate1Obj);
+		showAbilityToggles(innate2Obj);
+		showAbilityToggles(innate3Obj);
 
-		itemObj.change();
+
+		// itemObj.change();
+
 		if (pokemon.gender === "N") {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");

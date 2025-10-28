@@ -1,0 +1,609 @@
+ability {
+  id: ABILITY_GUARDIAN_COAT
+  name: "Guardian Coat"
+  description: "Blocks weather dmg and powders. Takes -20% physical damage."
+  expanded_description: "Provides immunity to weather damage from Sandstorm and Hail, and blocks all powder moves including Sleep Powder, Stun Spore, Poison Powder, Spore, Cotton Spore, Rage Powder, Powder, and Magic Powder. Also reduces incoming physical  damage by 20%. Multiplicative with other damage reduction sources."
+}
+ability {
+  id: ABILITY_NEUTRALIZING_FOG
+  name: "Neutralizing Fog"
+  description: "Uses Defog on entry."
+  expanded_description: "Uses Defog on switch in, clearing all entry hazards, screens, Safeguard, and Mist. Also lowers the opponent's evasion by one stage."
+}
+ability {
+  id: ABILITY_POISON_QUILLS
+  name: "Poison Quills"
+  description: "Rough Skin + Poison Point."
+  expanded_description: "Damages attackers using contact moves for 1/8 of their max HP. Also has a 30% chance to inflict poison on contact moves, both when attacking and being attacked. Activates on every hit for multihitting moves."
+}
+ability {
+  id: ABILITY_DRACONIC_MIGHT
+  name: "Draconic Might"
+  description: "Draconize + Half Drake."
+  expanded_description: "Converts all Normal-type moves into Dragon-type moves and grants STAB for Dragon-type moves, regardless of the user's typing. On entry, adds Dragon to the user's current typing. Retains Dragon typing even upon losing the ability, going away only when switching out."
+}
+ability {
+  id: ABILITY_FESTIVITIES
+  name: "Festivities"
+  description: "Sound moves become dance moves and vice versa."
+  expanded_description: "Sound moves are also treated as dance moves, benefiting from Dancer-type abilities. Dancer moves are also treated as sound moves, benefiting from sound-based abilities."
+}
+ability {
+  id: ABILITY_FEY_FLIGHT
+  name: "Fey Flight"
+  description: "Adds Fairy-type and levitates."
+  expanded_description: "Upon entering battle, adds Fairy to the user's current typing. Retains Fairy typing even upon losing the ability, going away only when switching out. The user is immune to Ground-type moves and other ground effects such as Spikes and terrains. Boosts the damage of Flying-type moves by 25%."
+}
+ability {
+  id: ABILITY_BEST_OFFENSE
+  name: "Best Offense"
+  description: "Mystic blades + use 20% of spdef during moves."
+  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations."
+}
+ability {
+  id: ABILITY_IMPALER
+  name: "Impaler"
+  description: "Mighty Horn + 30% Bleed chance on horn moves."
+  expanded_description: "Boosts the power of horn and drill-based attacks by 30% and they have a 30% chance to inflict Bleed on the target. Bleeding causes 1/16 max HP damage per turn, prevents healing, and negates the effects of stat stages. Rock and Ghost types are immune to bleeding."
+}
+ability {
+  id: ABILITY_MAGUS_BLADES
+  name: "Magus Blades"
+  description: "Dual Wield + Best Offense."
+  expanded_description: "Keen Edge moves become Special (deal Special damage and use the Special Attack stat) and use 20% of the user's Special Defense stat for attack calculations. Also, Keen Edge moves hit twice, dealing 70% of the move's normal damage. Secondary effects roll independently for each hit (except flinch)."
+}
+ability {
+  id: ABILITY_LIGHTNING_BORN
+  name: "Lightning Born"
+  description: "Adds Electric-type on entry."
+  expanded_description: "Upon entering battle, adds Electric to the user's current typing. Retains Electric typing even upon losing the ability, going away only when switching out."
+}
+ability {
+  id: ABILITY_SUPERHEAVY
+  name: "Superheavy (N)"
+  description: "Steadfast + blocks phasing moves."
+  expanded_description: "Getting flinched raises Speed by one stage. Prevents forced switching from moves and Red Card."
+}
+ability {
+  id: ABILITY_WORLD_SERPENT
+  name: "World Serpent"
+  description: "Long Reach + Grip Pincer."
+  expanded_description: "Physical non-contact moves deal 20% more damage. Contact moves have a 50% chance to trap the target for 4-5 turns."
+}
+ability {
+  id: ABILITY_LUCKY_WINGS
+  name: "Lucky Wings"
+  description: "Serene Grace + Giant Wings."
+  expanded_description: "Doubles the activation chance of the user's secondary effects on their attacks. Boosts the power of all wing, wind, and air-based moves by 30%."
+}
+ability {
+  id: ABILITY_KOMODO
+  name: "Komodo"
+  description: "Adds Dragon-type + moves have 30% Bad Poison chance."
+  expanded_description: "Upon entering battle, adds Dragon to the user's current typing. Retains Dragon typing even upon losing the ability, going away only when switching out. The user has a 30% to badly poison the target after landing any move. Multihits roll the activation chance on each hit."
+}
+ability {
+  id: ABILITY_ENVENOM
+  name: "Envenom"
+  description: "Moves have a 30% chance to poison the target."
+  expanded_description: "The user has a 30% to poison the target after landing any move. Multihits roll the activation chance on each hit."
+}
+ability {
+  id: ABILITY_PURPLE_HAZE
+  name: "Purple Haze"
+  description: "Triggers a 20BP Poison Gas after using a move."
+  expanded_description: "After using a move, follow up with a 20 BP Poison Gas (Poison, Special, 20% chance to poison, super effective on Flying-types)."
+}
+ability {
+  id: ABILITY_GNASHING_CANNON
+  name: "Gnashing Cannon"
+  description: "Mega Launcher + Mind Crunch."
+  expanded_description: "Boosts pulse, beam, ball, and aura moves by 30%. Biting moves use the Special Attack (still targets enemy's Defense unless stated otherwise) and deal 30% more damage."
+}
+ability {
+  id: ABILITY_HYPER_CLEANSE
+  name: "Hyper Cleanse"
+  description: "Immune to status. Halves poison damage taken."
+}
+ability {
+  id: ABILITY_MOLTEN_COAT
+  name: "Molten Coat"
+  description: "Mineralize + Rock moves have 50% burn chance."
+}
+ability {
+  id: ABILITY_ROYAL_DECREE
+  name: "Royal Decree"
+  description: "Queenly Majesty + Glare on entry once per battle."
+  expanded_description: "Prevents the user and its ally from being targeted by priority moves with priority higher than 0. Use Glare on entry, paralyzing the target. Once per battle."
+}
+ability {
+  id: ABILITY_BREEZY_NEIGH
+  name: "Breezy Neigh"
+  description: "KOs raise Speed by one stage."
+  expanded_description: "Boosts the Pokemon's Speed by one stage when it causes an opponent to faint with a direct attack."
+}
+ability {
+  id: ABILITY_DREAMSCAPE
+  name: "Dreamscape"
+  description: "Comatose + Dreamcatcher + Deal 20% more damage."
+  expanded_description: "Considers the user as asleep for moves and statuses. User can act normally and gains immunity to status conditions. Doubles the power of moves when any active Pokemon is asleep. Attacks hit sleeping foes who are switching out for 1x power instead, damaging them before leaving. Boosts damage by 20%."
+}
+ability {
+  id: ABILITY_HASTE_MAKES_WASTE
+  name: "Haste Makes Waste"
+  description: "Stall + Analytic."
+  expanded_description: "Reduces damage by 30% if the user has not moved yet. Multiplicative with other damage reduction sources. Works when the user switches in mid-turn. Boosts damage by 30% if the target has already moved this turn."
+}
+ability {
+  id: ABILITY_HUNGRY_MAWS
+  name: "Hungry Maws"
+  description: "Strong Jaw + Jaws of Carnage."
+  expanded_description: "Bite and jaw moves are boosted by 30%. Restores 50% max HP when defeating foes with biting moves or 25% with other moves. Only activates when knocking out a target with a direct hit."
+}
+ability {
+  id: ABILITY_THERMAL_SLIDE
+  name: "Thermal Slide"
+  description: "Ups speed by 50% in sun or hail."
+  expanded_description: "Boosts the Pokemon's Speed by 50% during hail or sun. Also grants immunity to hail damage."
+}
+ability {
+  id: ABILITY_THERMOMANCY
+  name: "Thermomancy"
+  description: "Pyromancy + Cryomancy."
+  expanded_description: "Multiplies the chance of inflicting burn or frostbite by 5x on all moves. Does not interact with Flame Body or Freezing Point."
+}
+ability {
+  id: ABILITY_CHUCKSTER
+  name: "Chuckster (N)"
+  description: "Once per entry, take 1/2 damage and force-switch the target."
+  expanded_description: "Once per entry when receiving a contact move, gain 50% damage reduction and force out the attacker. Multiplicative with other sources of damage  reduction."
+}
+ability {
+  id: ABILITY_HEAT_SINK
+  name: "Heat Sink"
+  description: "Redirects Fire moves. Absorbs them, ups highest Atk."
+  expanded_description: "Draws in Fire-type moves and gain immunity to them. Additionally, Fire-type moves boost the highest attacking stat of the user by one stage."
+}
+ability {
+  id: ABILITY_RELIC_STONE
+  name: "Relic Stone"
+  description: "Other battlers don't benefit from STAB."
+  expanded_description: "While the user is on field, every other Pokemon does not receive a STAB bonus from typing or abilities."
+}
+ability {
+  id: ABILITY_SUPERCELL
+  name: "Supercell"
+  description: "Drizzle + Electro Surge."
+  expanded_description: "Summons rain and Electric Terrain upon entry, lasting 8 turns (12 with Damp Rock/Terrain Extender). Boosts Water moves by 50% and cuts Fire damage by 50%. Grounded Pokemon cannot fall asleep and Electric moves gain 30% power boost."
+}
+ability {
+  id: ABILITY_LIGHTNING_ASPECT
+  name: "Lightning Aspect"
+  description: "Absorbs electric moves then ups highest stat by +1."
+  expanded_description: "Absorbs Electric moves for immunity and boosts higher attacking stat by +1. Compares Attack vs Special Attack to determine boost target. Excellent for setup against Electric attacks while providing defensive immunity and offensive gains"
+}
+ability {
+  id: ABILITY_FIRE_ASPECT
+  name: "Fire Aspect"
+  description: "Absorbs fire moves and always burns with fire."
+  expanded_description: "Creates Extremely Harsh Sunlight lasting until user switches. Nullifies all damaging Water moves. Fire moves gain 50% boost. Cannot be overridden except by other primal weather. Activates extra effects on sun related moves. Sets up a 3-turn Tailwind on entry. Doubles the Speed of all allies."
+}
+ability {
+  id: ABILITY_ICE_PLUMES
+  name: "Ice Plumes"
+  description: "Halves damage taken by Special moves. Does NOT double SpDef."
+  expanded_description: "Boosts Speed by +2 stages when hit by Rock-type moves or when switching in with Stealth Rock present. Also, absorbs any Rock-type or Stealth Rock damage and heals for 25% of their max HP."
+}
+ability {
+  id: ABILITY_BLISTERING_SUN
+  name: "Blistering Sun"
+  description: "Desolate Land + Air Blower."
+  expanded_description: "The user gains immunity to Fire-type moves and they heal for 25% of their max HP when hit by them. Always burn with moves that can activate them."
+}
+ability {
+  id: ABILITY_MOLTEN_CORE
+  name: "Molten Core"
+  description: "Furnace + Absorbs Rock-moves/Stealth Rocks."
+  expanded_description: "Boosts the user's Special Attack stat by 50%. Multiplicative with other damage boosts. Sets up Aurora Veil on entry, cutting physical and special damage recieved by half for your allies. Lasts 5 turns, or 8 turns with Light Clay. Immune to Hail damage."
+}
+ability {
+  id: ABILITY_AURORAS_GALE
+  name: "Aurora's Gale"
+  description: "Majestic Bird + Aurora Veil."
+  expanded_description: "Halves all incoming Special Attack damage. Multiplicative with other sources of damage reduction."
+}
+ability {
+  id: ABILITY_WINTER_THRONE
+  name: "Winter Throne"
+  description: "1/8 Damage each turn to non-ice. Heals Ice 1/8 each turn."
+  expanded_description: "All non-Ice-types lose 1/8 of their max HP at the end of each turn. Restores 1/8 max HP to Ice-types at the end of each turn."
+}
+ability {
+  id: ABILITY_ENERGY_TAP
+  name: "Energy Tap"
+  description: "Heals the user for 1/8 of the damage they deal."
+  expanded_description: "Heals the user for 1/8 of all damage they deal to opponents. Healing occurs immediately after damage is dealt. Minimum healing of 1 HP."
+}
+ability {
+  id: ABILITY_SLUDGE_SPIT
+  name: "Sludge Spit"
+  description: "follows up with 35BP Venom Bolt after using an attack."
+}
+ability {
+  id: ABILITY_SWAMP_THING
+  name: "Swamp Thing"
+  description: "Sets the Swamp Pledge effect on entry."
+}
+ability {
+  id: ABILITY_FROSTY_PRESCENCE
+  name: "Frosty Prescence"
+  description: "Uses Mist on entry."
+}
+ability {
+  id: ABILITY_CHILLING_PELLETS
+  name: "Chilling Pellets"
+  description: "Uses 13BP Icicle Spear when hit by contact."
+}
+ability {
+  id: ABILITY_PAINT_SHOT
+  name: "Paint Shot"
+  description: "Mega launcher moves change the target's type to the move used."
+}
+ability {
+  id: ABILITY_STONECUTTER
+  name: "Stonecutter"
+  description: "Fossilized + Rock moves ignore abilities."
+}
+ability {
+  id: ABILITY_EDGELORD
+  name: "Edgelord"
+  description: "First Keen Edge move each entry gets +1 priority. Resets on KO."
+}
+ability {
+  id: ABILITY_WARMONGER
+  name: "Warmonger"
+  description: "Boosts the user's rock, steel, and fighting moves by 30%."
+}
+ability {
+  id: ABILITY_LOCUST_SWARM
+  name: "Locust Swarm"
+  description: "Changes into Hivemind form until 1/4 HP or less."
+}
+ability {
+  id: ABILITY_REVELATION
+  name: "Revelation"
+  description: "Changes into Revelation form until 1/4 HP or less."
+}
+ability {
+  id: ABILITY_CURSE_OF_FAMINE
+  name: "Curse of Famine"
+  description: "Eats terrain, restores hp, and boosts a defense."
+}
+ability {
+  id: ABILITY_CRYSTALLINE_ARMOR
+  name: "Crystalline Armor (N)"
+  description: "Reflects stat drops and immune to critical hits."
+}
+ability {
+  id: ABILITY_SOUL_HARVEST
+  name: "Soul Harvest"
+  description: "Fainted Pokemon increase your offenses and spdef by 5%."
+}
+ability {
+  id: ABILITY_THICK_BLUBBER
+  name: "Thick Blubber"
+  description: "Take 1/4 damage from fire and ice in return for having 1/2 speed."
+}
+ability {
+  id: ABILITY_CRAVING
+  name: "Craving (N)"
+  description: "Eat a random berry at the end of the turn."
+}
+ability {
+  id: ABILITY_RAT_KING
+  name: "Rat King"
+  description: "Allies with a BST below 400 get their stats boosted by 50%."
+}
+ability {
+  id: ABILITY_CRISPY_CREAM
+  name: "Crispy Cream"
+  description: "30% to inflict burn/frostbite when hit by contact."
+}
+ability {
+  id: ABILITY_DEEP_FRIED
+  name: "Deep Fried"
+  description: "Summons a sea of fire on entry."
+}
+ability {
+  id: ABILITY_FOOD_LOVERS
+  name: "Food Lovers"
+  description: "Hospitality + Friend Guard."
+}
+ability {
+  id: ABILITY_LUNAR_WRATH
+  name: "Lunar Wrath"
+  description: "After using a Ghost move, follow up with a 50BP Moongeist Beam."
+}
+ability {
+  id: ABILITY_SPYWARE
+  name: "Spyware (N)"
+  description: "Sharply raises a stat based on foe's strong point."
+}
+ability {
+  id: ABILITY_VIRUS
+  name: "Virus"
+  description: "Electric moves have 30% chance to poison as well."
+}
+ability {
+  id: ABILITY_POWER_LEAK
+  name: "Power Leak"
+  description: "When hit, set up Electric Terrain."
+}
+ability {
+  id: ABILITY_BACKUP_POWER
+  name: "Backup Power"
+  description: "Revives at 25% HP once after fainting in Electric Terrain."
+}
+ability {
+  id: ABILITY_SAND_FIEND
+  name: "Sand Fiend"
+  description: "Sand Force + Sand Guard."
+}
+ability {
+  id: ABILITY_MOUSTACHE
+  name: "Moustache"
+  description: "Tangling Hair + Stamina."
+}
+ability {
+  id: ABILITY_DEPTH_EXPLORER
+  name: "Depth Explorer"
+  description: "Field Explorer + Illuminate."
+}
+ability {
+  id: ABILITY_DUNE_VEIL
+  name: "Dune Veil"
+  description: "Sand Guard + Self Sufficient."
+}
+ability {
+  id: ABILITY_STRONG_FOUNDATION
+  name: "Strong Foundation (P)"
+  description: "Takes 1/2 Water and Ground dmg and can't be forced out."
+}
+ability {
+  id: ABILITY_FOG_MACHINE
+  name: "Fog Machine"
+  description: "When hit, Set up Eerie Fog."
+}
+ability {
+  id: ABILITY_DROP_BLOCKS
+  name: "Drop Blocks"
+  description: "When hit, set up spikes."
+}
+ability {
+  id: ABILITY_TURF_WAR
+  name: "Turf War (N)"
+  description: "Destroys terrain and boosts highest stat on entry."
+}
+ability {
+  id: ABILITY_GREEDY
+  name: "Greedy (N)"
+  description: "Uses Thief when it loses an item."
+}
+ability {
+  id: ABILITY_LIGHT_SABER
+  name: "Lightsaber (N)"
+  description: "Adds Fire-type. Keen Edge moves have 25% burn or paralysis."
+}
+ability {
+  id: ABILITY_LOOSE_THORNS
+  name: "Loose Thorns (N)"
+  description: "Sets Creeping Thorns when hit by contact."
+}
+ability {
+  id: ABILITY_MUSICAL_NOTES
+  name: "Musical Notes (N)"
+  description: "Status moves become sound-based."
+}
+ability {
+  id: ABILITY_LASER_DRILL
+  name: "Laser Drill (N)"
+  description: "Horn moves have a 50% burn chance."
+}
+ability {
+  id: ABILITY_STRIKEOUT
+  name: "Strikeout (N)"
+  description: "Forces the foe out if they don't attack for 3 turns."
+}
+ability {
+  id: ABILITY_HOME_RUN
+  name: "Home Run (N)"
+  description: "Landing a crit boosts your 3 lowest stats. RAW stat, not base."
+}
+ability {
+  id: ABILITY_BRUISER
+  name: "Bruiser"
+  description: "Adds Fighting-type on entry."
+}
+ability {
+  id: ABILITY_NARCISSIST
+  name: "Narcissist (N)"
+  description: "When a stat is lowered, sharply raise both offenses."
+}
+ability {
+  id: ABILITY_LETS_DANCE
+  name: "Let's Dance"
+  description: "Uses Teeter Dance on entry, Confusing the field."
+}
+ability {
+  id: ABILITY_DRAGONFRUIT
+  name: "Dragonfruit (N)"
+  description: "Half Drake + Rough Skin."
+}
+ability {
+  id: ABILITY_ROCKY_EXTERIOR
+  name: "Rocky Exterior (N)"
+  description: "Adds Rock-type."
+}
+ability {
+  id: ABILITY_LEAD_CLAWS
+  name: "Lead Claws (N)"
+  description: "Tough Claws + Mineralize."
+}
+ability {
+  id: ABILITY_FLAWLESS_PRECISION
+  name: "Flawless Precision (N)"
+  description: "Fatal + Deadly Precision."
+}
+ability {
+  id: ABILITY_CHAINSAW
+  name: "Chainsaw (N)"
+  description: "Keen edge moves now lower defense by -1."
+}
+ability {
+  id: ABILITY_GALEFORCE_WINGS
+  name: "Galeforce Wings (N)"
+  description: "Flying moves now have +1 Priority."
+}
+ability {
+  id: ABILITY_EMPRESS
+  name: "Empress (N)"
+  description: "Queenly Majesty + Rivalry."
+}
+ability {
+  id: ABILITY_MASHED_POTATO
+  name: "Mashed Potato (N)"
+  description: "Syrup Bomb effect on the foe for 3 turns."
+}
+ability {
+  id: ABILITY_RAINBOW_SCALES
+  name: "Rainbow Scales (N)"
+  description: "Fire Scales + Taste the Rainbow."
+}
+ability {
+  id: ABILITY_TASTE_THE_RAINBOW
+  name: "Taste the Rainbow (N)"
+  description: "Summons the Rainbow Pledge effect on entry."
+}
+ability {
+  id: ABILITY_HYPNOTIC_TOUCH
+  name: "Hypnotic Touch (N)"
+  description: "Contact moves have a 20% Chance to sleep. Works on offense."
+}
+ability {
+  id: ABILITY_HYDRA
+  name: "Hydra (N)"
+  description: "Multiheaded + Beast Boost."
+}
+ability {
+  id: ABILITY_WINGS_OF_PESTILENCE
+  name: "Wings of Pestilence (N)"
+  description: "Every attack has a 20% Bleed chance and 10% Curse chance."
+}
+ability {
+  id: ABILITY_SUNDAE
+  name: "Sundae (N)"
+  description: "Snow Warning + Ice Body."
+}
+ability {
+  id: ABILITY_ICE_PICK
+  name: "Ice Picks (N)"
+  description: "Tough Claws + Slush Rush."
+}
+ability {
+  id: ABILITY_HAMMER_FIST
+  name: "Hammer Fist (N)"
+  description: "Boosts punch and hammer moves by 25%."
+}
+ability {
+  id: ABILITY_MACH_3
+  name: "Mach 3 (N)"
+  description: "Deadly Precision + Slipstream."
+}
+ability {
+  id: ABILITY_RAGING_STORM
+  name: "Raging Storm (N)"
+  description: "Boosts offense by 50% in rain."
+}
+ability {
+  id: ABILITY_SUMO_GUARD
+  name: "Sumo Guard (N)"
+  description: "Juggernaut + Thick Fat."
+}
+ability {
+  id: ABILITY_SUMO_WRESTLER
+  name: "Sumo Wrestler (N)"
+  description: "Uses Circle throw at the end of each 2nd turn."
+}
+ability {
+  id: ABILITY_COSMIC_WINGS
+  name: "Cosmic Wings (N)"
+  description: "Flying moves become Fairy-type."
+}
+ability {
+  id: ABILITY_COSMIC_DUST
+  name: "Cosmic Dust (N)"
+  description: "Magic Guard + Cosmic Daze."
+}
+ability {
+  id: ABILITY_COOL_EXIT
+  name: "Cool Exit (N)"
+  description: "Uses Chilly Reception at the end of your 2nd turn."
+}
+ability {
+  id: ABILITY_DEVIOUS_PRESENT
+  name: "Devious Present (N)"
+  description: "Boosts Ice and throwing moves by 50%."
+}
+ability {
+  id: ABILITY_CHRISTMAS_NIGHTMARE
+  name: "Christmas Nightmare (N)"
+  description: "Enemies take 1/8 damage when in hail."
+}
+ability {
+  id: ABILITY_SAP_TRAP
+  name: "Sap Trap (N)"
+  description: "Lowers foe's speed at the end of turns. At -3 they get trapped."
+}
+ability {
+  id: ABILITY_BARK_SKIN
+  name: "Dead Bark (N)"
+  description: "Adds Ghost-type. Takes 15% less damage. 30% less damage if SE."
+}
+ability {
+  id: ABILITY_ECHOLOCATION
+  name: "Echolocation (N)"
+  description: "In fog, deal 20% more damage and never miss."
+}
+ability {
+  id: ABILITY_MASSIVE_PELT
+  name: "Massive Pelt (N)"
+  description: "Tangling Hair + Fluffy."
+}
+ability {
+  id: ABILITY_I_AM_STEVE
+  name: "i am steve"
+  description: "dude what even is this game anymore"
+}
+ability {
+  id: ABILITY_TANGLED_TAILS
+  name: "Tangled Tails (N)"
+  description: "Know Your Place + Grappler."
+  expanded_description: "Landing contact moves causes the target to always move last regardless of priority, speed, or other effects for 5 turns. Effect does not stack or refresh on already afflicted targets. Trapping moves last 6 turns instead of 4-5 turns and increases their damage at the end of the turn to 1/6 max HP per turn."
+}
+ability {
+  id: ABILITY_FOAMY_WEB
+  name: "Foamy Web"
+  description: "Casts an unremovable Sticky Web on entry. Lasts 5 turns."
+  expanded_description: "Sets Sticky Web on opponent's field when the user enters battle. Lasts 5 turns and lowers Speed by 1 stage for any grounded Pokemon switching in. Cannot activate if Sticky Web is already present on opponent's field."
+}
+ability {
+  id: ABILITY_SHARP_TALONS
+  name: "Sharp Talons"
+  description: "Kicking moves have a 50% Bleed chance."
+}
+ability {
+  id: ABILITY_ZEN_GARDEN
+  name: "Zen Garden"
+  description: "Sets up Grassy or Psychic Terrain at random."
+  expanded_description: "Sets either Grassy or Psychic Terrain on entry with a 50% chance for either. Holding a Grassy Seed will guarantee Grassy Terrain while holding a Psychic Seed will guarantee Psychic Terrain."
+}

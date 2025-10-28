@@ -108,7 +108,7 @@ $(document).ready(function() {
                         if (localStorage["right"]) {
                             $(`[data-id='${localStorage["left"]}']`).click()
                         }             
-                    }, 20)
+                    }, 500)
                 },
                 onNotFound: (src) => console.log(`Not found: ${src}`)
         });    
@@ -172,7 +172,12 @@ $(document).ready(function() {
    })
    
    $(document).on('click', '.nav-tag', function() {
-        var set = $(this).attr('data-next')
+        if (TITLE.includes("Elite Mode")) {
+          trainer_list = eliteTrainers
+        } else {
+          trainers = normalTrainers
+        }
+        var set = trainer_list[parseInt($(this).attr('data-next'))]
 
         $("#weather-bar label").first().click()
 
