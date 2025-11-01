@@ -726,6 +726,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         move.hasType('Water')) {
         stabMod += 2048;
     }
+    if (attacker.hasAbility('Dragonfly') && !attacker.hasType('Dragon') &&
+        move.hasType('Dragon')) {
+        stabMod += 2048;
+    }
     if (attacker.hasAbility('Draconic Might') && !attacker.hasType('Dragon') &&
         move.hasType('Dragon')) {
         stabMod += 2048;
@@ -1333,7 +1337,20 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         (isCritical && attackSource.boosts[attackStat] < 0)) {
         attack = attackSource.rawStats[attackStat];
     }
-    else if (defender.hasAbility('Unaware', 'Sword of Damnation', 'Contempt')) {
+
+    if (attacker.hasAbility('Momentum') && move.flags.contact) {
+        attack = attacker.stats.spe;
+        attackStat = 'spe';
+    }
+    if ((attacker.hasAbility('Impulse') && !move.flags.contact) || attacker.hasAbility('Max Acceleration')) {
+        attack = attacker.stats.spe;
+        attackStat = 'spe';
+    }
+    if ((attacker.hasAbility('Speed Force') && move.flags.contact) || attacker.hasAbility('Slipstream')) {
+        attack +=  (0, util_2.pokeRound)((attacker.stats.spe * 0.20));
+    }
+
+    if (defender.hasAbility('Unaware', 'Sword of Damnation', 'Contempt')) {
         attack = attackSource.rawStats[attackStat];
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
     }
@@ -1350,15 +1367,7 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
             defender.stats.def = defender.stats.spd;
         }
     }
-    if (attacker.hasAbility('Momentum') && move.flags.contact) {
-        attack = attacker.stats.spe;
-    }
-    if ((attacker.hasAbility('Impulse') && !move.flags.contact) || attacker.hasAbility('Max Acceleration')) {
-        attack = attacker.stats.spe;
-    }
-    if ((attacker.hasAbility('Speed Force') && move.flags.contact) || attacker.hasAbility('Slipstream')) {
-        attack = attacker.stats.atk + (0, util_2.pokeRound)((attacker.stats.spe * 0.20));
-    }
+    
     if (attacker.hasAbility('Terminal Velocity') && move.category === 'Special') {
         attack += (0, util_2.pokeRound)((attacker.stats.spe * 0.20));
     }

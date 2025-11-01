@@ -1599,8 +1599,8 @@ $(".notation").change(function () {
 });
 
 function clearField() {
-	$("#singles-format").prop("checked", false);
-	$("#doubles-format").prop("checked", true);
+	$("#singles-format").prop("checked", true);
+	$("#doubles-format").prop("checked", false);
 	$("#clear").prop("checked", true);
 	$("#clear-cascade").prop("checked", true);
 	$("#gscClear").prop("checked", true);
