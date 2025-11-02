@@ -425,6 +425,26 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     var isGhostRevealed = !!attacker.hasAbility('Scrappy', 'Blind Rage') || field.defenderSide.isForesight;
     var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
     var typeEffectiveness = 1;
+
+    const typeGainAbilities = [
+        [["Dragonfly", "Draconic Might"], "Dragon"],
+        [['Amphibious', 'Old Mariner'], "Water"],
+        [["Staineless Steel"], "Steel"],
+        [['Tender Affection','Lunar Eclipse','Moon Spirit'], 'Fairy'],
+        [['Acidic Slime'], 'Poison'],
+        [['Lunar Eclipse', 'Moon Spirit'], 'Dark'],
+        [['Aurora Borealis'], 'Ice'],
+        [['Solar Flare'], 'Fire']
+    ]
+
+    for (const typeGain of typeGainAbilities) {
+        if (typeGain[0].includes(defender.ability) || typeGain[0].filter(ab => defender.innates.includes(ab)).length > 0 ) {
+            defender.types.push(typeGain[1])
+        }
+    }
+
+
+
     try {
         for (var _k = __values(defender.types), _l = _k.next(); !_l.done; _l = _k.next()) {
             var defenderType = _l.value;
@@ -1346,9 +1366,18 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         attack = attacker.stats.spe;
         attackStat = 'spe';
     }
-    if ((attacker.hasAbility('Speed Force') && move.flags.contact) || attacker.hasAbility('Slipstream')) {
-        attack +=  (0, util_2.pokeRound)((attacker.stats.spe * 0.20));
+
+    if (attacker.hasAbility('Ancient Idol')) {
+        if (move.category === 'Physical') {
+            attackStat = 'def';
+        }
+        else {
+            attackStat = 'spd';
+        }
     }
+
+
+    // Anything that changes what stat the attack uses goes above here
 
     if (defender.hasAbility('Unaware', 'Sword of Damnation', 'Contempt')) {
         attack = attackSource.rawStats[attackStat];
@@ -1367,12 +1396,16 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
             defender.stats.def = defender.stats.spd;
         }
     }
+
+    if ((attacker.hasAbility('Speed Force') && move.flags.contact) || attacker.hasAbility('Slipstream')) {
+        attack = attack + (0, util_2.pokeRound)((attacker.stats.spe * 0.20));
+    }
     
     if (attacker.hasAbility('Terminal Velocity') && move.category === 'Special') {
         attack += (0, util_2.pokeRound)((attacker.stats.spe * 0.20));
     }
     if (attacker.hasAbility('Juggernaut', 'Iron Giant') && move.flags.contact) {
-        attack = attacker.stats.atk + (0, util_2.pokeRound)((attacker.stats.def * 0.20));
+        attack = attack + (0, util_2.pokeRound)((attacker.stats.def * 0.20));
     }
     if (attacker.hasAbility('Power Core') && defender.hasAbility('Unaware', 'Sword of Damnation', 'Contempt')) {
         if (move.category === 'Physical') {
@@ -1390,14 +1423,7 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
             attack = attacker.stats.spa + (0, util_2.pokeRound)((attacker.stats.spd * 0.20));
         }
     }
-    if (attacker.hasAbility('Ancient Idol')) {
-        if (move.category === 'Physical') {
-            attack = attacker.stats.def;
-        }
-        else {
-            attack = attacker.stats.spd;
-        }
-    }
+    
     var atMods = calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
     attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
     return attack;

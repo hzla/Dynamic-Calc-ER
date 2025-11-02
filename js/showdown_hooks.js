@@ -1,37 +1,9 @@
 $(document).ready(function() {
-    document.addEventListener(
-        'blur',
-        (event) => {
-          const defaultViewportContent = 'width=device-width, initial-scale=1.0'
 
-          localStorage.lvlCap = $('#lvl-cap').val()
-
-          const isRelevantElement =
-            event.target instanceof Element &&
-              (['input', 'textarea', 'select'].includes(
-                event.target.tagName.toLowerCase()
-              ) ||
-            event.target.hasAttribute('contenteditable'))
-
-          refresh_next_in()
-          if (isRelevantElement) {
-            const viewportMeta = document.querySelector('meta[name="viewport"]')
-            if (viewportMeta) {
-              setTimeout(() => {
-                viewportMeta.setAttribute(
-                  'content',
-                  defaultViewportContent + ', maximum-scale=1.0'
-                )
-              }, 50)
-
-              setTimeout(() => {
-                viewportMeta.setAttribute('content', defaultViewportContent)
-              }, 100)
-            }
-          }
-        },
-        true
-    )
+    $(document).on('blur', 'input, select', function() {
+      localStorage.lvlCap = $('#lvl-cap').val()
+      refresh_next_in()
+    }) 
 
     // Apply highest damage roll to max HP
     $('.results-right label').on('contextmenu', function(e) {
