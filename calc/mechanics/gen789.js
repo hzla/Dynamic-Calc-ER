@@ -427,7 +427,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     var typeEffectiveness = 1;
 
     const typeGainAbilities = [
-        [["Dragonfly", "Draconic Might"], "Dragon"],
+        [["Dragonfly", "Draconic Might", "Half Drake"], "Dragon"],
         [['Amphibious', 'Old Mariner'], "Water"],
         [["Staineless Steel"], "Steel"],
         [['Tender Affection','Lunar Eclipse','Moon Spirit'], 'Fairy'],
@@ -474,7 +474,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         typeEffectiveness = 0;
     }
     if (isNormalize || (move.hasType('Psychic') && attacker.hasAbility('Corrupted Mind')) || (move.isCrit && attacker.hasAbility('Overrule'))) {
-        typeEffectiveness = Math.min(typeEffectiveness, 1);
+        typeEffectiveness = Math.max(typeEffectiveness, 1);
     }
     if (attacker.hasAbility('Unown Power') && (move.name.includes("Hidden Power") || move.name.includes("Secret Power"))) {
         typeEffectiveness = Math.min(typeEffectiveness, 2);
@@ -1121,11 +1121,11 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         var item = gen.items.get((0, util_1.toID)(defender.item));
         resistedKnockOffDamage = !!item.megaEvolves && defender.name.includes(item.megaEvolves);
     }
-    if ((move.named('Bitter Malice', 'Infernal Parade', 'Barb Barrage') && defender.hasStatus())) {
+    if ((move.named('Bitter Malice', 'Infernal Parade', 'Barb Barrage') && defender.hasStatus('brn', 'psn', 'tox', 'frz', 'bld'))) {
         bpMods.push(6144);
         desc.moveBP = basePower * 1.5;
     }
-    if ((move.named('Facade', 'Bravado') && attacker.hasStatus()) ||
+    if ((move.named('Facade', 'Bravado') && attacker.hasStatus('brn', 'psn', 'tox', 'frz', 'bld')) ||
         (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
         (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||
         (move.named('Lash Out') && ((0, util_2.countBoosts)(gen, attacker.boosts) < 0))) {

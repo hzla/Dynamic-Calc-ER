@@ -198,6 +198,7 @@ var Pokemon = (function () {
     };
     Pokemon.prototype.hasStatus = function () {
         var statuses = [];
+
         for (var _i = 0; _i < arguments.length; _i++) {
             statuses[_i] = arguments[_i];
         }
