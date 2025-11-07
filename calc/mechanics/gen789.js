@@ -972,7 +972,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             desc.moveBP = basePower;
             break;
         case 'Acrobatics':
-            basePower = move.bp * (attacker.hasItem('Flying Gem') || !attacker.item ? 2 : 1);
+            basePower = move.bp * (attacker.hasItem('Flying Gem') || !attacker.item ? 1.5 : 1);
             desc.moveBP = basePower;
             break;
         case 'Assurance':
@@ -1163,6 +1163,9 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
             bpMods.push(5461);
             desc.moveBP = basePower * (5461 / 4096);
         }
+    } else if (move.named('Rollout', 'Ice Ball') && attacker.hasAbilityActive("Let's Roll")) {
+        bpMods.push(8192);
+        desc.moveBP = basePower * 2;
     }
     if (field.attackerSide.isHelpingHand) {
         bpMods.push(6144);
@@ -1551,7 +1554,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }
     if (attacker.hasAbility('Water Bubble') && move.hasType('Water')) {
-        atMods.push(5120);
+        atMods.push(8192);
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }
 
@@ -1796,7 +1799,7 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
     if (hitsPhysical === void 0) { hitsPhysical = false; }
     var dfMods = [];
     if (defender.hasAbility('Overcoat') && move.category == 'Special') {
-        dfMods.push(4505);
+        dfMods.push(3276);
     }
     if ((defender.hasAbility('Immunity') && move.type == 'Poison') ||
         (defender.hasAbility('Water Compaction') && move.type == 'Water')) {

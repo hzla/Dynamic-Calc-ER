@@ -358,6 +358,8 @@ function loadDataSource(data) {
     SETDEX_XY = data
     setdex = data
 
+    moves = SS_PATCH
+
     TR_NAMES = get_trainer_names()
     if ('move_replacements' in data) {
         CHANGES = data['move_replacements']
