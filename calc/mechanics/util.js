@@ -392,7 +392,7 @@ function checkMonkeyBusiness(gen, source, target) {
     var blocked = target.hasAbility('Clear Body', 'Hyper Cutter', 'Full Metal Body', 'Discipline', 'Overwhelm') ||
         (gen.num >= 8 && target.hasAbility('Inner Focus', 'Way of Precision', 'Unlocked Potential', 'Own Tempo', 'Oblivious', 'Scrappy')) ||
         target.hasItem('Clear Amulet');
-    if (source.hasAbilityActive('Monkey Business', 'Yuki Onna') && !blocked) {
+    if (source.hasAbilityActive('Yuki Onna') && !blocked) {
         if (target.hasAbility('Contrary')) {
             target.boosts.spa = Math.min(6, target.boosts.spa + 2);
             target.boosts.atk = Math.min(6, target.boosts.atk + 2);
@@ -408,6 +408,32 @@ function checkMonkeyBusiness(gen, source, target) {
         target.boosts.atk = Math.max(-6, target.boosts.atk - 1);
         if (target.hasAbility('Competitive')) {
             target.boosts.spa = Math.min(6, target.boosts.spa + 3);
+            target.boosts.atk = Math.min(6, target.boosts.atk + 3);
+        }
+        if (target.hasAbility('Run Away')) {
+            target.boosts.spe = Math.min(6, target.boosts.spe + 1);
+        }
+    }
+
+    if (source.hasAbilityActive('Monkey Business') && !blocked) {
+        
+        if (target.hasAbility('Contrary')) {
+            target.boosts.def = Math.min(6, target.boosts.def + 2);
+            target.boosts.atk = Math.min(6, target.boosts.atk + 2);
+        }
+        if (target.hasAbility('Defiant', 'Contempt', 'Guard Dog')) {
+            target.boosts.atk = Math.max(6, target.boosts.atk + 1);
+        }
+        if (target.hasAbility('Simple')) {
+            target.boosts.def = Math.max(-6, target.boosts.def - 1);
+            target.boosts.atk = Math.max(-6, target.boosts.atk - 1);
+        }
+        target.boosts.def = Math.max(-6, target.boosts.def - 1);
+        target.boosts.atk = Math.max(-6, target.boosts.atk - 1);
+
+        console.log(target.boosts)
+        if (target.hasAbility('Competitive')) {
+            target.boosts.def = Math.min(6, target.boosts.def + 3);
             target.boosts.atk = Math.min(6, target.boosts.atk + 3);
         }
         if (target.hasAbility('Run Away')) {

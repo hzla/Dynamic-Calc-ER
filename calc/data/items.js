@@ -729,7 +729,8 @@ var SV = SS.concat([
     'Wellspring Mask',
      'Swirly Glasses',
     'Protective Pads',
-    'Tactical Vest'
+    'Tactical Vest',
+    'Smoke Ball'
 ]);
 SV.push('Burnt Seed');
 var BERRIES = {

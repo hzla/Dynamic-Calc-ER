@@ -70,6 +70,11 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     (0, util_2.checkBleed)(defender, attacker);
     (0, util_2.checkLuckyHalo)(attacker);
     (0, util_2.checkLuckyHalo)(defender);
+
+    (0, util_2.checkMonkeyBusiness)(gen, attacker, defender);
+    (0, util_2.checkMonkeyBusiness)(gen, defender, attacker);
+
+    
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
     (0, util_2.checkIntimidate)(gen, attacker, defender);
     (0, util_2.checkIntimidate)(gen, defender, attacker);
@@ -79,8 +84,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     (0, util_2.checkScare)(gen, defender, attacker);
     if (defenderFriend)
         (0, util_2.checkScare)(gen, defenderFriend, attacker);
-    (0, util_2.checkMonkeyBusiness)(gen, attacker, defender);
-    (0, util_2.checkMonkeyBusiness)(gen, defender, attacker);
+
     if (defenderFriend)
         (0, util_2.checkMonkeyBusiness)(gen, defenderFriend, attacker);
     (0, util_2.checkCounterBuffingAbility)(attacker);
@@ -428,7 +432,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
 
     const typeGainAbilities = [
         [["Dragonfly", "Draconic Might", "Half Drake"], "Dragon"],
-        [['Amphibious', 'Old Mariner'], "Water"],
+        [['Aquatic', 'Aquatic Dweller'], "Water"],
         [["Staineless Steel"], "Steel"],
         [['Tender Affection','Lunar Eclipse','Moon Spirit'], 'Fairy'],
         [['Acidic Slime'], 'Poison'],
@@ -742,7 +746,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         stabMod += 819;
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }
-    if (attacker.hasAbility('Amphibious') && !attacker.hasType('Water') &&
+    if (attacker.hasAbility('Aquatic', 'Amphibious') && !attacker.hasType('Water') &&
         move.hasType('Water')) {
         stabMod += 2048;
     }
@@ -1009,7 +1013,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             }
             break;
         case 'Fling':
-            basePower = (0, items_1.getFlingPower)(attacker.item);
+            basePower = 90;
             desc.moveBP = basePower;
             desc.attackerItem = attacker.item;
             break;
@@ -1343,7 +1347,10 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         (move.named('Tera Blast') && attackSource.teraType)) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
-    var attackStat = ((move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') || (move.named("Tachyon Cutter", "Malignant Chain", "Tera Starstorm") && attackSource.stats.atk > attackSource.stats.spa))
+
+    const useHighestOffenseMoves = ["Tachyon Cutter", "Malignant Chain", "Tera Starstorm", "Water Pledge", "Fire Pledge", "Grass Pledge", "Tri Attack", "Blast Burn", "Hydro Cannon", "Frenzy Plant", "Rock Wrecker", "Attack Order", "Relic Song", "Prismatic Laser", "Multi Attack", "Photon Geyser", "Pika Papow", "Veevee Volley", "Black Magic", "Bleakwind Storm", "Wildbolt Storm", "Sandsear Storm", "Springtide Storm", "Spectral Serenade", "Mystical Power", "Banished Power"]
+
+    var attackStat = ((move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') || (useHighestOffenseMoves.includes(move.name) && attackSource.stats.atk > attackSource.stats.spa))
         ? 'atk'
         : move.named('Body Press')
             ? 'def'
