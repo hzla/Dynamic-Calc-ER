@@ -544,8 +544,13 @@ function checkNoTurningBack(source) {
     }
 }
 exports.checkNoTurningBack = checkNoTurningBack;
-function checkEctoplasm(source) {
-    if (source.hasAbility('Ectoplasm')) {
+function checkWeatherBoostAbil(source, field) {
+    const shouldBoostHighestAtkStat = (field.hasWeather("Fog") && source.hasAbility("Ectoplasm")) ||
+    (field.hasWeather("Sand") && source.hasAbility("Sand Force", "Sand Bender")) ||
+    (field.hasWeather("Sun") && source.hasAbility("Solar Power")) || 
+    (field.hasWeather("Snow") && source.hasAbility("Whiteout")) 
+
+    if (shouldBoostHighestAtkStat) {
         var atk = source.stats.atk;
         var spa = source.stats.spa;
         if (atk <= spa) {
@@ -556,7 +561,8 @@ function checkEctoplasm(source) {
         }
     }
 }
-exports.checkEctoplasm = checkEctoplasm;
+exports.checkWeatherBoostAbil = checkWeatherBoostAbil;
+
 function checkIntrepidSword(source, gen) {
     if (source.hasAbility('Intrepid Sword', 'Crowned Sword') && gen.num < 9) {
         source.boosts.atk = Math.min(6, source.boosts.atk + 1);
@@ -765,8 +771,8 @@ function getShellSideArmCategory(source, target) {
 }
 exports.getShellSideArmCategory = getShellSideArmCategory;
 function getWeightFactor(pokemon) {
-    return pokemon.hasAbility('Heavy Metal') ? 2
-        : (pokemon.hasAbility('Light Metal') || pokemon.hasItem('Float Stone')) ? 0.5 : pokemon.hasAbility('Lead Coat') ? 3 : 1;
+    return pokemon.hasAbility('Heavy Metal') ? 0.2
+        : (pokemon.hasAbility('Light Metal') || pokemon.hasItem('Float Stone')) ? 0.05 : pokemon.hasAbility('Lead Coat') ? 0.3 : 0.1;
 }
 exports.getWeightFactor = getWeightFactor;
 function countBoosts(gen, boosts) {

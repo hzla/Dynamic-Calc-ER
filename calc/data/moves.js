@@ -8834,7 +8834,8 @@ var SS_PATCH = {
     "acc": 100,
     "priority": 0,
     "isPulse": true,
-    "isBullet": true
+    "isBullet": true,
+    "mindBlownRecoil": true,
   },
   "Expanding Force": {
     "bp": 80,

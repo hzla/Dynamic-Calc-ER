@@ -153,7 +153,7 @@ var Pokemon = (function () {
         }
         if (this.ability && abilities.includes(this.ability)) {
             this.descAbility = this.ability;
-            return -1;
+            return true;
         }
         if (!this.innates)
             return undefined;
