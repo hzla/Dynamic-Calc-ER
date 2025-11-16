@@ -743,6 +743,7 @@ function addToDex(poke) {
 	dexObject.item = poke.item;
 	dexObject.nn = poke.nn
 	dexObject.isCustomSet = poke.isCustomSet;
+	dexObject.gender = poke.gender
 
 	if (typeof poke["met"] != "undefined") {
 		dexObject.met = poke["met"] 
@@ -829,16 +830,16 @@ function addSets(pokes, name) {
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
+	
 	// currentParty = []
 	for (var i = 0; i < rows.length; i++) {
 		var item = false
-		// if (rows[i].split(" |Party")[1]) {
-		// 	if (rows[i].includes("@")) {
-		// 		item = rows[i].split("@")[1].trim()
-		// 	}
-		// 	rows[i] = rows[i].split(" |Party")[0]
-		// 	currentParty.push(rows[i])
-		// }
+		var gender = null;
+		
+		if (rows[i].split("|")[1]) {
+			gender = rows[i].split("|")[1]
+			rows[i] = rows[i].replace(/\|.\|/, "")
+		}
 
 
 		currentRow = rows[i].split(/[()@]/);
@@ -858,6 +859,10 @@ function addSets(pokes, name) {
 				currentPoke = calc.SPECIES[8][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
+				currentPoke.gender = gender
+
+				console.log(currentPoke)
+
 				if (j === 1 && currentRow[0].trim()) {
 					currentPoke.nameProp = "My Box";
 					currentPoke.nn = currentRow[0].trim()
@@ -868,7 +873,6 @@ function addSets(pokes, name) {
 
 
 				currentPoke.ability = getAbility(rows[i + 3].split(":"));
-				console.log(currentPoke.ability)
 				currentPoke.innates = getInnates(rows[i + 3].split(":"));
 
 				

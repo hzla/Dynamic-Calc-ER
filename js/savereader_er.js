@@ -289,7 +289,6 @@ function readMonParty(start, bytes){
 
     mon.status = readNbytes(start + 57, 4, bytes);
     mon.level = readNbytes(start + 61, 1, bytes);
-    console.log(mon.level)
     mon.mail = readNbytes(start + 62, 1, bytes);
     mon.liveStat = {
         currentHP: readNbytes(start + 64, 2, bytes),
@@ -401,13 +400,7 @@ function createGEN3mon(mon){
         }
     }
     const speciesLen = gameData.species.length
-    for (let i =0; i < speciesLen; i++){
-        const specie = gameData.species[i]
-        if (mon.species === specie.id) {
-            poke.species = i
-            break
-        }
-    }
+    poke.species = mon.species
     /*if (window.randomAbi){
         var ability = pokedex[poke.species].abilities[mon.altAbility]
         poke.ability = getRandomAbi(mon, ability)
@@ -428,7 +421,7 @@ function createGEN3mon(mon){
         df: mon.defenseIV,
         sa: mon.spAttackIV,
         sd: mon.spDefenseIV,
-        sp: mon.speedIV
+        se: mon.speedIV
     };
     poke.evs = {
         hp: mon.hpEV,
@@ -436,7 +429,7 @@ function createGEN3mon(mon){
         df: mon.defenseEV,
         sa: mon.spAttackEV,
         sd: mon.spDefenseEV,
-        sp: mon.speedEV
+        se: mon.speedEV
     };
     poke.hPWR = mon.hptype//getGEN3HP(mon)
     poke.moves = [];
@@ -464,11 +457,11 @@ function createGEN3mon(mon){
     }
 
     poke.zeroSpe = mon.zeroSpe;
-    var genderRatio = gameData.species[poke.species].stats.gender
+    var genderRatio = gameData.species[poke.species].stats.gender / 100
     var pGender = mon.personality % 256
     if (genderRatio == 255){
         poke.gender = 'N'
-    } else if (genderRatio != 0 && genderRatio < pGender ){
+    } else if (genderRatio != 0 && genderRatio > pGender ){
         poke.gender = 'F'
     } else {
         poke.gender = 'M'
@@ -476,9 +469,10 @@ function createGEN3mon(mon){
 
     var speciesName = gameData.species[mon.species].name
 
-    showdown_paste += speciesName
+    showdown_paste += `${speciesName}|${poke.gender}|`
+    
     if (poke.item) {
-        showdown_paste += ` @ ${poke.item}`
+        showdown_paste += ` @ ${gameData.items[poke.item].name}`
     }
     showdown_paste += "\n"
     showdown_paste += `Level: ${lvlCap}\n`
@@ -487,7 +481,6 @@ function createGEN3mon(mon){
     showdown_paste += `EVs: ${poke.evs.hp} Hp / ${poke.evs.at} Atk / ${poke.evs.df} Def / ${poke.evs.sa} Spa / ${poke.evs.sd} Spd / ${poke.evs.se} Spe\n`
 
     for (move_id of poke.moves) {
-        console.log(move_id)
         showdown_paste += `- ${gameData.moves[move_id].name}\n`
     }
     showdown_paste += "\n"
