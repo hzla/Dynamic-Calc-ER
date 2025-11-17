@@ -639,7 +639,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
                     ? 'spa'
                     : 'atk';
 
-    attackStat = (useHighestOffenseMoves.includes(move.name) && attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa'
+    if (useHighestOffenseMoves.includes(move.name)) {
+       attackStat = (attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa' 
+    }
+    
 
     var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, !!isCritical);
     var targetWeakestDefense = (attacker.hasAbility('Exploit Weakness') && defender.status) || move.named('Shell Side Arm') || (attacker.hasAbility('Deadeye') && (move.flags.pulse || move.flags.arrow));
@@ -1371,7 +1374,9 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
                     ? 'spa'
                     : 'atk';
 
-    attackStat = (useHighestOffenseMoves.includes(move.name) && attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa'
+    if (useHighestOffenseMoves.includes(move.name)) {
+       attackStat = (attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa' 
+    }
 
 
     desc.attackEVs =
