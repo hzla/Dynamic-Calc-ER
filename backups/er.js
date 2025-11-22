@@ -19,7 +19,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Wing Attack",
@@ -55,7 +55,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Wing Attack",
@@ -93,7 +93,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Mega Drain",
@@ -129,7 +129,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Mega Drain",
@@ -165,7 +165,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Mega Drain",
@@ -201,7 +201,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Drain",
         "Water Pulse",
@@ -237,7 +237,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Mega Drain",
@@ -273,7 +273,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Mega Drain",
@@ -309,7 +309,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Pulse",
         "Earth Power",
@@ -347,7 +347,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Seed Bomb",
@@ -383,7 +383,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Seed Bomb",
@@ -421,7 +421,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Rock Throw",
@@ -457,7 +457,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Rock Throw",
@@ -495,7 +495,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stealth Rock",
@@ -531,7 +531,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "U-turn",
@@ -569,7 +569,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Frustration",
@@ -607,7 +607,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Bug Buzz",
@@ -645,7 +645,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Belly Drum",
         "Extreme Speed",
@@ -683,7 +683,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Facade",
         "Brave Bird",
@@ -721,7 +721,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Hit",
         "Arm Thrust",
@@ -759,7 +759,7 @@ backup_data = {
       },
       "item": "Heat Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Hyper Voice",
@@ -797,7 +797,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Growth",
         "Solar Beam",
@@ -835,7 +835,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Gunk Shot",
@@ -873,7 +873,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Knock Off",
@@ -911,7 +911,7 @@ backup_data = {
       },
       "item": "Damp Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rain Dance",
         "Hydro Pump",
@@ -949,7 +949,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Volt Switch",
@@ -987,7 +987,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Scald",
@@ -1025,7 +1025,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Jet",
         "Storm Throw",
@@ -1061,7 +1061,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Superpower",
@@ -1099,7 +1099,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Jet",
         "Acrobatics",
@@ -1137,7 +1137,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Signal Beam",
         "Sludge Bomb",
@@ -1175,7 +1175,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Beam",
         "Hydro Pump",
@@ -1213,7 +1213,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Bite",
         "Iron Defense",
@@ -1249,7 +1249,7 @@ backup_data = {
       },
       "item": "Purple Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tackle",
         "Poison Sting",
@@ -1287,7 +1287,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Fang",
         "Leech Life",
@@ -1325,7 +1325,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sticky Web",
         "Soil Drain",
@@ -1361,7 +1361,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sticky Web",
         "Skitter Smack",
@@ -1397,7 +1397,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sticky Web",
         "Skitter Smack",
@@ -1435,7 +1435,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Fell Stinger",
@@ -1471,7 +1471,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Bug Buzz",
@@ -1507,7 +1507,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Bug Buzz",
@@ -1543,7 +1543,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Silver Wind",
@@ -1579,7 +1579,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Bug Buzz",
@@ -1615,7 +1615,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Bug Buzz",
@@ -1653,7 +1653,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Hydro Pump",
@@ -1689,7 +1689,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Scald",
@@ -1727,7 +1727,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -1763,7 +1763,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wave Crash",
         "Crunch",
@@ -1801,7 +1801,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Sludge Bomb",
@@ -1837,7 +1837,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Toxic Spikes",
@@ -1875,7 +1875,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Psychic",
@@ -1911,7 +1911,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Surf",
@@ -1949,7 +1949,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Chilling Water",
         "Toxic Spikes",
@@ -1985,7 +1985,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Knock Off",
@@ -2023,7 +2023,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Spout",
         "Shadow Ball",
@@ -2059,7 +2059,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Chilling Water",
         "Hex",
@@ -2097,7 +2097,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Wave",
         "Ice Beam",
@@ -2133,7 +2133,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -2169,7 +2169,7 @@ backup_data = {
       },
       "item": "Damp Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Draining Kiss",
@@ -2205,7 +2205,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Lovely Kiss",
         "Surf",
@@ -2241,7 +2241,7 @@ backup_data = {
       },
       "item": "Damp Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Freeze-Dry",
@@ -2277,7 +2277,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Draining Kiss",
@@ -2315,7 +2315,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Lariat",
         "Ice Punch",
@@ -2351,7 +2351,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dynamic Punch",
         "Knock Off",
@@ -2389,7 +2389,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Hyper Fang",
@@ -2425,7 +2425,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Hyper Fang",
@@ -2461,7 +2461,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Facade",
@@ -2497,7 +2497,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Quick Attack",
@@ -2535,7 +2535,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Defog",
@@ -2573,7 +2573,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Thunderbolt",
@@ -2609,7 +2609,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Thunderbolt",
@@ -2647,7 +2647,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "U-turn",
         "Moonblast",
@@ -2685,7 +2685,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Gunk Shot",
@@ -2723,7 +2723,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Bite",
         "Pursuit",
@@ -2759,7 +2759,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Bug Buzz",
@@ -2795,7 +2795,7 @@ backup_data = {
       },
       "item": "Poison Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Focus Blast",
@@ -2831,7 +2831,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Bug Buzz",
@@ -2869,7 +2869,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "Stealth Rock",
@@ -2905,7 +2905,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Rock Blast",
@@ -2941,7 +2941,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Iron Head",
@@ -2977,7 +2977,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "-",
@@ -3013,7 +3013,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "-",
@@ -3051,7 +3051,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Thunderbolt",
@@ -3089,7 +3089,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Wood Hammer",
@@ -3125,7 +3125,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stone Edge",
         "Wood Hammer",
@@ -3161,7 +3161,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stone Edge",
         "Wood Hammer",
@@ -3199,7 +3199,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Tackle",
         "Metal Claw",
@@ -3237,7 +3237,7 @@ backup_data = {
       },
       "item": "Black Glasses",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Frustration",
@@ -3273,7 +3273,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Play Rough",
@@ -3309,7 +3309,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Play Rough",
@@ -3345,7 +3345,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Thunder Wave",
@@ -3381,7 +3381,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Assist",
         "Thunder Wave",
@@ -3419,7 +3419,7 @@ backup_data = {
       },
       "item": "Loaded Dice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Slap",
         "Rapid Spin",
@@ -3457,7 +3457,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rapid Spin",
         "Stealth Rock",
@@ -3495,7 +3495,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "U-turn",
@@ -3531,7 +3531,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Skill Swap",
         "Light Screen",
@@ -3567,7 +3567,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Stored Power",
@@ -3603,7 +3603,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Calm Mind",
@@ -3641,7 +3641,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Rock Slide",
@@ -3677,7 +3677,7 @@ backup_data = {
       },
       "item": "Power Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Dig",
@@ -3715,7 +3715,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Head Smash",
@@ -3753,7 +3753,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Rock Blast",
@@ -3791,7 +3791,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wood Hammer",
         "Head Smash",
@@ -3829,7 +3829,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Accelerock",
@@ -3867,7 +3867,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Rock Slide",
@@ -3905,7 +3905,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Metal Burst",
         "Rock Blast",
@@ -3943,7 +3943,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Head Smash",
@@ -3979,7 +3979,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shock Wave",
         "Power Gem",
@@ -4017,7 +4017,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Meteor Beam",
         "Hydro Pump",
@@ -4055,7 +4055,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Salt Cure",
         "Recover",
@@ -4093,7 +4093,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Crunch",
@@ -4131,7 +4131,7 @@ backup_data = {
       },
       "item": "Hard Stone",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Dance",
         "Rock Blast",
@@ -4169,7 +4169,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Jet",
         "Rock Blast",
@@ -4207,7 +4207,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Double-Edge",
@@ -4245,7 +4245,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Dual Wingbeat",
@@ -4283,7 +4283,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Double-Edge",
@@ -4321,7 +4321,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Scald",
@@ -4357,7 +4357,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Protect",
@@ -4393,7 +4393,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Mirror Coat",
@@ -4429,7 +4429,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Recover",
@@ -4465,7 +4465,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Scald",
@@ -4503,7 +4503,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sandstorm",
         "Earth Power",
@@ -4541,7 +4541,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Calm Mind",
         "Moonblast",
@@ -4577,7 +4577,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "Moonblast",
@@ -4615,7 +4615,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Fire Punch",
@@ -4653,7 +4653,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Air Slash",
@@ -4689,7 +4689,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Air Slash",
@@ -4725,7 +4725,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hurricane",
@@ -4763,7 +4763,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -4799,7 +4799,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -4835,7 +4835,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -4871,7 +4871,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -4907,7 +4907,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -4943,7 +4943,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -4979,7 +4979,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -5015,7 +5015,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -5051,7 +5051,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -5087,7 +5087,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -5123,7 +5123,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -5159,7 +5159,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "U-turn",
@@ -5195,7 +5195,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Brave Bird",
@@ -5231,7 +5231,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Protect",
@@ -5267,7 +5267,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Protect",
@@ -5303,7 +5303,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Protect",
@@ -5339,7 +5339,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Protect",
@@ -5375,7 +5375,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Protect",
@@ -5411,7 +5411,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Protect",
@@ -5447,7 +5447,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5483,7 +5483,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5519,7 +5519,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5555,7 +5555,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5591,7 +5591,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5627,7 +5627,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5663,7 +5663,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Facade",
@@ -5699,7 +5699,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -5735,7 +5735,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Facade",
@@ -5773,7 +5773,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Blizzard",
@@ -5809,7 +5809,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Blizzard",
@@ -5845,7 +5845,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Blizzard",
@@ -5881,7 +5881,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -5917,7 +5917,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -5953,7 +5953,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Hydro Pump",
@@ -5989,7 +5989,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Ice Beam",
@@ -6025,7 +6025,7 @@ backup_data = {
       },
       "item": "Mystic Water",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Psyshock",
@@ -6061,7 +6061,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Psyshock",
@@ -6097,7 +6097,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Psyshock",
@@ -6133,7 +6133,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Blizzard",
@@ -6169,7 +6169,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icy Wind",
         "Protect",
@@ -6205,7 +6205,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Scald",
@@ -6241,7 +6241,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Psyshock",
@@ -6277,7 +6277,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Hydro Pump",
@@ -6313,7 +6313,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spotlight",
         "Hydro Pump",
@@ -6351,7 +6351,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Knock Off",
@@ -6387,7 +6387,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Knock Off",
@@ -6423,7 +6423,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Knock Off",
@@ -6459,7 +6459,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Knock Off",
@@ -6495,7 +6495,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Acrobatics",
@@ -6531,7 +6531,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "High Jump Kick",
@@ -6567,7 +6567,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "High Jump Kick",
@@ -6603,7 +6603,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Triple Kick",
@@ -6639,7 +6639,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Knock Off",
@@ -6675,7 +6675,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trop Kick",
         "Knock Off",
@@ -6711,7 +6711,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Axel",
         "Triple Kick",
@@ -6749,7 +6749,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Protect",
@@ -6785,7 +6785,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Protect",
@@ -6821,7 +6821,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Protect",
@@ -6859,7 +6859,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Claw",
@@ -6895,7 +6895,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Claw",
@@ -6931,7 +6931,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Claw",
@@ -6967,7 +6967,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Claw",
@@ -7003,7 +7003,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Claw",
@@ -7039,7 +7039,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Claw",
@@ -7077,7 +7077,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "Wild Charge",
@@ -7113,7 +7113,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "Wild Charge",
@@ -7149,7 +7149,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -7185,7 +7185,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -7221,7 +7221,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "High Jump Kick",
@@ -7257,7 +7257,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Double Kick",
@@ -7293,7 +7293,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "High Jump Kick",
@@ -7329,7 +7329,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "High Jump Kick",
@@ -7365,7 +7365,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "Wild Charge",
@@ -7401,7 +7401,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -7439,7 +7439,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Giga Drain",
@@ -7475,7 +7475,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Giga Drain",
@@ -7513,7 +7513,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stealth Rock",
@@ -7549,7 +7549,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stealth Rock",
@@ -7587,7 +7587,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Liquidation",
@@ -7623,7 +7623,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Liquidation",
@@ -7659,7 +7659,7 @@ backup_data = {
       },
       "item": "Splash Plate",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Liquidation",
@@ -7695,7 +7695,7 @@ backup_data = {
       },
       "item": "Splash Plate",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Liquidation",
@@ -7731,7 +7731,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Leech Life",
@@ -7767,7 +7767,7 @@ backup_data = {
       },
       "item": "Mystic Water",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Leech Life",
@@ -7803,7 +7803,7 @@ backup_data = {
       },
       "item": "Mystic Water",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Leech Life",
@@ -7839,7 +7839,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Leech Life",
@@ -7877,7 +7877,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Leech Seed",
@@ -7913,7 +7913,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Leech Seed",
@@ -7949,7 +7949,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Bullet Seed",
@@ -7985,7 +7985,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Bullet Seed",
@@ -8021,7 +8021,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Chop",
         "Poison Jab",
@@ -8057,7 +8057,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mach Punch",
         "Bullet Seed",
@@ -8093,7 +8093,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mach Punch",
         "Bullet Seed",
@@ -8129,7 +8129,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Bullet Seed",
@@ -8165,7 +8165,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Thunder Punch",
@@ -8201,7 +8201,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Seed Bomb",
@@ -8237,7 +8237,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Bullet Seed",
@@ -8275,7 +8275,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Jaw Lock",
@@ -8311,7 +8311,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Jaw Lock",
@@ -8347,7 +8347,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Fang",
         "Jaw Lock",
@@ -8383,7 +8383,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Fang",
         "Jaw Lock",
@@ -8419,7 +8419,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Jaw Lock",
@@ -8455,7 +8455,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Close Combat",
@@ -8491,7 +8491,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Extreme Speed",
@@ -8527,7 +8527,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -8563,7 +8563,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -8599,7 +8599,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -8635,7 +8635,7 @@ backup_data = {
       },
       "item": "Aguav Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Snarl",
@@ -8671,7 +8671,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Wild Charge",
@@ -8707,7 +8707,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Wild Charge",
@@ -8743,7 +8743,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Wild Charge",
@@ -8779,7 +8779,7 @@ backup_data = {
       },
       "item": "Arcanite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Close Combat",
@@ -8815,7 +8815,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snarl",
         "Extreme Speed",
@@ -8853,7 +8853,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tailwind",
         "Chilling Water",
@@ -8891,7 +8891,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Liquidation",
@@ -8927,7 +8927,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Liquidation",
@@ -8965,7 +8965,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Meteor Mash",
@@ -9001,7 +9001,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Meteor Mash",
@@ -9039,7 +9039,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Earthquake",
@@ -9075,7 +9075,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Drill Run",
@@ -9111,7 +9111,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Double-Edge",
@@ -9147,7 +9147,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Earthquake",
@@ -9185,7 +9185,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Lash",
         "Iron Tail",
@@ -9221,7 +9221,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Iron Head",
@@ -9257,7 +9257,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Lash",
         "Iron Tail",
@@ -9293,7 +9293,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Iron Head",
@@ -9331,7 +9331,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Power Gem",
@@ -9367,7 +9367,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Calm Mind",
@@ -9405,7 +9405,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stone Edge",
@@ -9443,7 +9443,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Anchor Shot",
         "Poltergeist",
@@ -9479,7 +9479,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Anchor Shot",
         "Shadow Claw",
@@ -9515,7 +9515,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Phantom Force",
@@ -9551,7 +9551,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Poltergeist",
@@ -9587,7 +9587,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Anchor Shot",
         "Shadow Claw",
@@ -9623,7 +9623,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Energy Ball",
@@ -9659,7 +9659,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Anchor Shot",
         "Shadow Claw",
@@ -9697,7 +9697,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Scald",
@@ -9733,7 +9733,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Hydro Pump",
@@ -9769,7 +9769,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Cutter",
         "Seed Bomb",
@@ -9805,7 +9805,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Hydro Pump",
@@ -9841,7 +9841,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Scald",
@@ -9877,7 +9877,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Hydro Pump",
@@ -9913,7 +9913,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Roost",
         "Tailwind",
@@ -9951,7 +9951,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Hammer Arm",
@@ -9987,7 +9987,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Drain Punch",
@@ -10025,7 +10025,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Punch",
         "Double Lariat",
@@ -10063,7 +10063,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Quick Attack",
@@ -10101,7 +10101,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Aqua Jet",
@@ -10137,7 +10137,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Substitute",
         "Aqua Jet",
@@ -10173,7 +10173,7 @@ backup_data = {
       },
       "item": "Fairy Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Aqua Jet",
@@ -10209,7 +10209,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Play Rough",
@@ -10245,7 +10245,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Ice Punch",
@@ -10281,7 +10281,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Aqua Jet",
@@ -10317,7 +10317,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Aqua Jet",
@@ -10353,7 +10353,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Play Rough",
@@ -10389,7 +10389,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Aqua Jet",
@@ -10427,7 +10427,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Fang",
         "Aqua Fang",
@@ -10463,7 +10463,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Dive",
@@ -10499,7 +10499,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Strength",
@@ -10535,7 +10535,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Fang",
         "Defense Curl",
@@ -10573,7 +10573,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Rising Voltage",
@@ -10609,7 +10609,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Rising Voltage",
@@ -10647,7 +10647,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Knock Off",
@@ -10683,7 +10683,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Ice Beam",
@@ -10721,7 +10721,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Dragon Dance",
@@ -10759,7 +10759,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Stomping Tantrum",
@@ -10797,7 +10797,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Bash",
         "Shocking Jab",
@@ -10833,7 +10833,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Agility",
@@ -10869,7 +10869,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Drill Run",
@@ -10905,7 +10905,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Drill Run",
@@ -10941,7 +10941,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Scale Shot",
@@ -10977,7 +10977,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Acupressure",
@@ -11013,7 +11013,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Poison Jab",
@@ -11049,7 +11049,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Megahorn",
@@ -11085,7 +11085,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Megahorn",
@@ -11121,7 +11121,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Horn Drill",
@@ -11157,7 +11157,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Throat Chop",
@@ -11195,7 +11195,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Psychic Fangs",
@@ -11231,7 +11231,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -11267,7 +11267,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -11303,7 +11303,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -11339,7 +11339,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Psychic Fangs",
@@ -11375,7 +11375,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Psychic Fangs",
@@ -11413,7 +11413,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "U-turn",
@@ -11451,7 +11451,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Belly Drum",
         "Aura Force",
@@ -11489,7 +11489,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Crabhammer",
@@ -11527,7 +11527,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power-Up Punch",
         "Drain Punch",
@@ -11565,7 +11565,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Return",
@@ -11601,7 +11601,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Return",
@@ -11639,7 +11639,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Claw",
         "Counter",
@@ -11677,7 +11677,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Light Screen",
         "Reflect",
@@ -11715,7 +11715,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Arm Thrust",
@@ -11753,7 +11753,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Parting Shot",
         "Drain Punch",
@@ -11789,7 +11789,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Parting Shot",
         "Drain Punch",
@@ -11827,7 +11827,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Mach Punch",
@@ -11865,7 +11865,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Light Screen",
@@ -11903,7 +11903,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Stone Edge",
@@ -11941,7 +11941,7 @@ backup_data = {
       },
       "item": "Fighting Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Knock Off",
@@ -11977,7 +11977,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Knock Off",
@@ -12015,7 +12015,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Storm Throw",
@@ -12051,7 +12051,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Storm Throw",
         "Payback",
@@ -12089,7 +12089,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "High Jump Kick",
@@ -12127,7 +12127,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Dance",
         "Head Smash",
@@ -12165,7 +12165,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Protect",
@@ -12203,7 +12203,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Mach Punch",
@@ -12241,7 +12241,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Nasty Plot",
         "Vacuum Wave",
@@ -12279,7 +12279,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Scald",
@@ -12315,7 +12315,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Sludge Wave",
@@ -12351,7 +12351,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Sludge Wave",
@@ -12387,7 +12387,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Sludge Bomb",
@@ -12423,7 +12423,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Sludge Wave",
@@ -12459,7 +12459,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Sludge Wave",
@@ -12495,7 +12495,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Sludge Bomb",
@@ -12531,7 +12531,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Scald",
@@ -12567,7 +12567,7 @@ backup_data = {
       },
       "item": "Psychic Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Psychic",
@@ -12603,7 +12603,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Whirlpool",
         "Toxic",
@@ -12639,7 +12639,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Rapid Spin",
@@ -12677,7 +12677,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Play Rough",
@@ -12713,7 +12713,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Fire Fang",
@@ -12749,7 +12749,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "Sucker Punch",
@@ -12785,7 +12785,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Play Rough",
@@ -12821,7 +12821,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Play Rough",
@@ -12857,7 +12857,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Play Rough",
@@ -12893,7 +12893,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Play Rough",
@@ -12929,7 +12929,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Fire Fang",
@@ -12967,7 +12967,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "High Jump Kick",
@@ -13003,7 +13003,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Sucker Punch",
@@ -13041,7 +13041,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Poison Fang",
@@ -13077,7 +13077,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Toxic",
@@ -13115,7 +13115,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Surf",
@@ -13151,7 +13151,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Draining Kiss",
@@ -13187,7 +13187,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Protect",
@@ -13223,7 +13223,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Hydro Pump",
@@ -13259,7 +13259,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Protect",
@@ -13295,7 +13295,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Draining Kiss",
@@ -13333,7 +13333,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Knock Off",
@@ -13369,7 +13369,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Crunch",
@@ -13405,7 +13405,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Poison Jab",
@@ -13441,7 +13441,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Crunch",
@@ -13479,7 +13479,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Poison Fang",
@@ -13515,7 +13515,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Super Fang",
         "Tailwind",
@@ -13551,7 +13551,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Poison Fang",
@@ -13587,7 +13587,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Cross Poison",
@@ -13623,7 +13623,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Cross Poison",
@@ -13659,7 +13659,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fly",
         "Roost",
@@ -13695,7 +13695,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Poison",
         "Brave Bird",
@@ -13731,7 +13731,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fly",
         "Toxic",
@@ -13767,7 +13767,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Poison Fang",
@@ -13803,7 +13803,7 @@ backup_data = {
       },
       "item": "Crobatite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Hurricane",
@@ -13841,7 +13841,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Crunch",
@@ -13877,7 +13877,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "Crunch",
@@ -13913,7 +13913,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Crunch",
@@ -13949,7 +13949,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Dark Pulse",
@@ -13985,7 +13985,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Crunch",
@@ -14021,7 +14021,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Blizzard",
@@ -14057,7 +14057,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Crunch",
@@ -14093,7 +14093,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scale Shot",
         "Crunch",
@@ -14129,7 +14129,7 @@ backup_data = {
       },
       "item": "Sharpedonite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -14165,7 +14165,7 @@ backup_data = {
       },
       "item": "Petaya Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Dark Pulse",
@@ -14201,7 +14201,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Crunch",
@@ -14239,7 +14239,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Discharge",
         "U-turn",
@@ -14277,7 +14277,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Volt Switch",
@@ -14313,7 +14313,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Volt Switch",
@@ -14349,7 +14349,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Volt Switch",
@@ -14387,7 +14387,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Snarl",
@@ -14423,7 +14423,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Discharge",
         "Snarl",
@@ -14459,7 +14459,7 @@ backup_data = {
       },
       "item": "Manectite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Overheat",
@@ -14495,7 +14495,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Overheat",
@@ -14531,7 +14531,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Overheat",
@@ -14567,7 +14567,7 @@ backup_data = {
       },
       "item": "Manectite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Electro Shot",
         "Bravado",
@@ -14603,7 +14603,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Overheat",
@@ -14639,7 +14639,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Spark",
@@ -14675,7 +14675,7 @@ backup_data = {
       },
       "item": "Manectite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Flamethrower",
@@ -14713,7 +14713,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Parabolic Charge",
@@ -14749,7 +14749,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Ball",
         "Parabolic Charge",
@@ -14787,7 +14787,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Solar Beam",
@@ -14823,7 +14823,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Solar Beam",
@@ -14859,7 +14859,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Solar Beam",
@@ -14897,7 +14897,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Growth",
@@ -14935,7 +14935,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Grass Knot",
@@ -14971,7 +14971,7 @@ backup_data = {
       },
       "item": "Loaded Dice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fury Cutter",
         "Bullet Seed",
@@ -15007,7 +15007,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sludge Bomb",
@@ -15043,7 +15043,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Drain",
         "Hidden Power",
@@ -15079,7 +15079,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Grass Knot",
@@ -15115,7 +15115,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sleep Powder",
         "Sludge Bomb",
@@ -15151,7 +15151,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sleep Powder",
         "Sludge Bomb",
@@ -15187,7 +15187,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Drain",
         "Hidden Power",
@@ -15223,7 +15223,7 @@ backup_data = {
       },
       "item": "Loaded Dice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fury Cutter",
         "Bullet Seed",
@@ -15261,7 +15261,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Strength Sap",
         "Quiver Dance",
@@ -15297,7 +15297,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Strength Sap",
         "Quiver Dance",
@@ -15333,7 +15333,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Strength Sap",
         "Giga Drain",
@@ -15369,7 +15369,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Moonblast",
@@ -15407,7 +15407,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Draining Kiss",
@@ -15443,7 +15443,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Draining Kiss",
@@ -15479,7 +15479,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Petal Dance",
         "Moonblast",
@@ -15515,7 +15515,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Moonblast",
@@ -15553,7 +15553,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Stone Edge",
@@ -15589,7 +15589,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brick Break",
         "U-turn",
@@ -15627,7 +15627,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Earthquake",
@@ -15663,7 +15663,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Giga Impact",
@@ -15699,7 +15699,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Knock Off",
@@ -15737,7 +15737,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "U-turn",
         "Air Slash",
@@ -15773,7 +15773,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Substitute",
@@ -15809,7 +15809,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hurricane",
@@ -15847,7 +15847,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Air Slash",
@@ -15883,7 +15883,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hurricane",
@@ -15919,7 +15919,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hurricane",
@@ -15955,7 +15955,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Air Slash",
@@ -15991,7 +15991,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Hurricane",
@@ -16029,7 +16029,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Zen Headbutt",
@@ -16065,7 +16065,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Return",
@@ -16101,7 +16101,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Aqua Tail",
@@ -16137,7 +16137,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Fissure",
@@ -16173,7 +16173,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Body Slam",
@@ -16211,7 +16211,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Agility",
@@ -16247,7 +16247,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Agility",
@@ -16283,7 +16283,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Agility",
@@ -16321,7 +16321,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Return",
@@ -16357,7 +16357,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Poison Jab",
@@ -16393,7 +16393,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Poison Jab",
@@ -16429,7 +16429,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Poison Jab",
@@ -16465,7 +16465,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Poison Jab",
@@ -16501,7 +16501,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Poison Jab",
@@ -16539,7 +16539,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Hydro Pump",
@@ -16577,7 +16577,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Ice Beam",
@@ -16613,7 +16613,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Giga Drain",
@@ -16649,7 +16649,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Giga Drain",
@@ -16685,7 +16685,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Beam",
         "Surf",
@@ -16721,7 +16721,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Surf",
@@ -16757,7 +16757,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Ball",
         "Quiver Dance",
@@ -16793,7 +16793,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rain Dance",
         "Ice Beam",
@@ -16829,7 +16829,7 @@ backup_data = {
       },
       "item": "Absorb Bulb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Surf",
@@ -16867,7 +16867,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sleep Powder",
@@ -16903,7 +16903,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sleep Powder",
@@ -16939,7 +16939,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sleep Powder",
@@ -16977,7 +16977,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Will-O-Wisp",
@@ -17015,7 +17015,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Flare Blitz",
@@ -17051,7 +17051,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Flare Blitz",
@@ -17087,7 +17087,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Flare Blitz",
@@ -17123,7 +17123,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Flare Blitz",
@@ -17159,7 +17159,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Flare Blitz",
@@ -17195,7 +17195,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Flame Charge",
@@ -17231,7 +17231,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Brave Bird",
@@ -17267,7 +17267,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Whirling Strikes",
         "Swords Dance",
@@ -17305,7 +17305,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Substitute",
         "Calm Mind",
@@ -17341,7 +17341,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sparkling Aria",
         "Dazzling Gleam",
@@ -17377,7 +17377,7 @@ backup_data = {
       },
       "item": "Fairy Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sparkling Aria",
         "Moonblast",
@@ -17413,7 +17413,7 @@ backup_data = {
       },
       "item": "Fairy Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Moonblast",
@@ -17449,7 +17449,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sparkling Aria",
         "Moonblast",
@@ -17485,7 +17485,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Light Screen",
         "Reflect",
@@ -17523,7 +17523,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Scald",
@@ -17559,7 +17559,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Scald",
@@ -17595,7 +17595,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Hydro Pump",
@@ -17631,7 +17631,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Scald",
@@ -17667,7 +17667,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Hydro Pump",
@@ -17703,7 +17703,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Hydro Pump",
@@ -17739,7 +17739,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Cutter",
         "Hydro Pump",
@@ -17775,7 +17775,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Hurricane",
@@ -17811,7 +17811,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hurricane",
@@ -17849,7 +17849,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Spirit Shackle",
@@ -17885,7 +17885,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Spirit Shackle",
@@ -17921,7 +17921,7 @@ backup_data = {
       },
       "item": "Deciduite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spirit Shackle",
         "Bramble Blast",
@@ -17959,7 +17959,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Gyro Ball",
@@ -17997,7 +17997,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Drill Run",
@@ -18035,7 +18035,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stockpile",
         "Pain Split",
@@ -18073,7 +18073,7 @@ backup_data = {
       },
       "item": "Chesto Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snarl",
         "Frost Breath",
@@ -18111,7 +18111,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -18147,7 +18147,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -18183,7 +18183,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -18219,7 +18219,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -18255,7 +18255,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -18291,7 +18291,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -18327,7 +18327,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Play Rough",
@@ -18363,7 +18363,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Play Rough",
@@ -18399,7 +18399,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Play Rough",
@@ -18435,7 +18435,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Play Rough",
@@ -18471,7 +18471,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Play Rough",
@@ -18507,7 +18507,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Play Rough",
@@ -18545,7 +18545,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Blaze Kick",
@@ -18581,7 +18581,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Blaze Kick",
@@ -18617,7 +18617,7 @@ backup_data = {
       },
       "item": "Blazikenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "Double Kick",
@@ -18653,7 +18653,7 @@ backup_data = {
       },
       "item": "Blazikenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "Double Kick",
@@ -18689,7 +18689,7 @@ backup_data = {
       },
       "item": "Blazikenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "High Jump Kick",
@@ -18725,7 +18725,7 @@ backup_data = {
       },
       "item": "Blazikenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "High Jump Kick",
@@ -18761,7 +18761,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Flare Blitz",
@@ -18797,7 +18797,7 @@ backup_data = {
       },
       "item": "Blazikenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Aura Sphere",
@@ -18835,7 +18835,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -18871,7 +18871,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -18907,7 +18907,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -18943,7 +18943,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -18979,7 +18979,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19015,7 +19015,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19051,7 +19051,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Bug Buzz",
@@ -19087,7 +19087,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19123,7 +19123,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19159,7 +19159,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19195,7 +19195,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19231,7 +19231,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19267,7 +19267,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19303,7 +19303,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -19339,7 +19339,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Bug Buzz",
@@ -19377,7 +19377,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Dual Chop",
@@ -19413,7 +19413,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Dual Chop",
@@ -19449,7 +19449,7 @@ backup_data = {
       },
       "item": "Sceptilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Leech Blade",
@@ -19485,7 +19485,7 @@ backup_data = {
       },
       "item": "Sceptilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Leech Blade",
@@ -19521,7 +19521,7 @@ backup_data = {
       },
       "item": "Sceptilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Dragon Pulse",
@@ -19557,7 +19557,7 @@ backup_data = {
       },
       "item": "Sceptilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Dragon Pulse",
@@ -19593,7 +19593,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Draco Meteor",
@@ -19629,7 +19629,7 @@ backup_data = {
       },
       "item": "Sceptilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Chop",
         "Solar Blade",
@@ -19667,7 +19667,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Flip Turn",
@@ -19703,7 +19703,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Flip Turn",
@@ -19739,7 +19739,7 @@ backup_data = {
       },
       "item": "Swampertite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Torrent Fist",
         "Earthquake",
@@ -19775,7 +19775,7 @@ backup_data = {
       },
       "item": "Swampertite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Torrent Fist",
         "Earthquake",
@@ -19811,7 +19811,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Earthquake",
@@ -19847,7 +19847,7 @@ backup_data = {
       },
       "item": "Swampertite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Earthquake",
@@ -19883,7 +19883,7 @@ backup_data = {
       },
       "item": "Swampertite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Earthquake",
@@ -19919,7 +19919,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Earthquake",
@@ -19955,7 +19955,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Earthquake",
@@ -19993,7 +19993,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Tackle",
         "Fire Fang",
@@ -20029,7 +20029,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Tackle",
         "Ice Fang",
@@ -20065,7 +20065,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Tackle",
         "Protect",
@@ -20101,7 +20101,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Fang",
         "Crunch",
@@ -20137,7 +20137,7 @@ backup_data = {
       },
       "item": "Luxraynite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Scary Face",
@@ -20173,7 +20173,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wild Charge",
         "Ice Fang",
@@ -20211,7 +20211,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wild Charge",
         "Explosion",
@@ -20247,7 +20247,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Taunt",
         "Light Screen",
@@ -20285,7 +20285,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Charge Beam",
         "Iron Defense",
@@ -20321,7 +20321,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Charge Beam",
         "Iron Defense",
@@ -20357,7 +20357,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Iron Defense",
@@ -20395,7 +20395,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rest",
         "Sleep Talk",
@@ -20431,7 +20431,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rest",
         "Discharge",
@@ -20469,7 +20469,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Hidden Power",
@@ -20507,7 +20507,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aura Sphere",
         "Psychic",
@@ -20543,7 +20543,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Hidden Power",
@@ -20579,7 +20579,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Focus Blast",
@@ -20615,7 +20615,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aura Sphere",
         "Psychic",
@@ -20651,7 +20651,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Focus Blast",
@@ -20687,7 +20687,7 @@ backup_data = {
       },
       "item": "Alakazite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Aura Sphere",
@@ -20725,7 +20725,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psycho Boost",
         "Hyper Fang",
@@ -20761,7 +20761,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psycho Boost",
         "Swagger",
@@ -20797,7 +20797,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Crunch",
@@ -20833,7 +20833,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Crunch",
@@ -20869,7 +20869,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Hyper Fang",
@@ -20907,7 +20907,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Hurricane",
@@ -20943,7 +20943,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Air Slash",
@@ -20979,7 +20979,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Psychic",
@@ -21015,7 +21015,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tailwind",
         "Protect",
@@ -21051,7 +21051,7 @@ backup_data = {
       },
       "item": "Psychic Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Psychic",
@@ -21089,7 +21089,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Quiver Dance",
@@ -21125,7 +21125,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Psychic",
@@ -21163,7 +21163,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Rest",
@@ -21201,7 +21201,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Wish",
@@ -21237,7 +21237,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heal Pulse",
         "Whirlpool",
@@ -21273,7 +21273,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Wish",
@@ -21309,7 +21309,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dive",
         "Toxic",
@@ -21345,7 +21345,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Wish",
@@ -21383,7 +21383,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Calm Mind",
         "Psyshock",
@@ -21421,7 +21421,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Counter",
@@ -21459,7 +21459,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Psychic",
@@ -21495,7 +21495,7 @@ backup_data = {
       },
       "item": "Smooth Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Rapid Spin",
@@ -21531,7 +21531,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extrasensory",
         "Earth Power",
@@ -21567,7 +21567,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Cosmic Power",
@@ -21603,7 +21603,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Shadow Ball",
@@ -21639,7 +21639,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Body Press",
@@ -21677,7 +21677,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Confide",
         "Taunt",
@@ -21713,7 +21713,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Dark Pulse",
@@ -21749,7 +21749,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Protect",
@@ -21785,7 +21785,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Psychic",
@@ -21823,7 +21823,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Future Sight",
         "Shadow Ball",
@@ -21859,7 +21859,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dream Eater",
         "Hypnosis",
@@ -21895,7 +21895,7 @@ backup_data = {
       },
       "item": "Absorb Bulb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Dream Eater",
@@ -21933,7 +21933,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "-",
@@ -21971,7 +21971,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Quick Attack",
@@ -22007,7 +22007,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -22043,7 +22043,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Quick Attack",
@@ -22079,7 +22079,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Double-Edge",
@@ -22115,7 +22115,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Brave Bird",
@@ -22151,7 +22151,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Brave Bird",
@@ -22187,7 +22187,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -22225,7 +22225,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Parabolic Charge",
         "Volt Switch",
@@ -22261,7 +22261,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Volt Switch",
@@ -22297,7 +22297,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Substitute",
         "Hyper Voice",
@@ -22335,7 +22335,7 @@ backup_data = {
       },
       "item": "Frost Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Play Rough",
@@ -22371,7 +22371,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Belly Drum",
         "Extreme Speed",
@@ -22407,7 +22407,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Surf",
@@ -22443,7 +22443,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Belly Drum",
         "Extreme Speed",
@@ -22479,7 +22479,7 @@ backup_data = {
       },
       "item": "Nugget",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fury Swipes",
         "Mud Sport",
@@ -22515,7 +22515,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Play Rough",
@@ -22551,7 +22551,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Headbutt",
         "Sand Attack",
@@ -22589,7 +22589,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Coil",
         "Earthquake",
@@ -22625,7 +22625,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Meteor Mash",
@@ -22663,7 +22663,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Roost",
@@ -22699,7 +22699,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Fickle Beam",
@@ -22737,7 +22737,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Dragon Rush",
@@ -22773,7 +22773,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Dragon Pulse",
@@ -22809,7 +22809,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Dragon Rush",
@@ -22845,7 +22845,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Hurricane",
@@ -22881,7 +22881,7 @@ backup_data = {
       },
       "item": "Gyaradosite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Crunch",
@@ -22917,7 +22917,7 @@ backup_data = {
       },
       "item": "Gyaradosite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Hurricane",
@@ -22953,7 +22953,7 @@ backup_data = {
       },
       "item": "Gyaradosite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Crunch",
@@ -22989,7 +22989,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Dragon Rush",
@@ -23025,7 +23025,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Giga Impact",
@@ -23061,7 +23061,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Thrash",
@@ -23097,7 +23097,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Rush",
         "Earthquake",
@@ -23133,7 +23133,7 @@ backup_data = {
       },
       "item": "Gyaradosite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Flamethrower",
@@ -23171,7 +23171,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Scald",
@@ -23207,7 +23207,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Toxic",
@@ -23243,7 +23243,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Thunder",
@@ -23279,7 +23279,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Parabolic Charge",
@@ -23315,7 +23315,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Discharge",
         "Protect",
@@ -23351,7 +23351,7 @@ backup_data = {
       },
       "item": "Lanturnite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Electro Shot",
@@ -23387,7 +23387,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Thunder",
@@ -23423,7 +23423,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Discharge",
@@ -23459,7 +23459,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Blizzard",
@@ -23497,7 +23497,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Frost Brand",
         "Psycho Cut",
@@ -23535,7 +23535,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Poison Jab",
@@ -23571,7 +23571,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Poison Jab",
@@ -23607,7 +23607,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Sludge Bomb",
@@ -23643,7 +23643,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Blade",
         "Poison Jab",
@@ -23679,7 +23679,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Poison Jab",
@@ -23715,7 +23715,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Poison Jab",
@@ -23753,7 +23753,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seed Bomb",
         "Acrobatics",
@@ -23789,7 +23789,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Strength Sap",
         "Seed Bomb",
@@ -23825,7 +23825,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sleep Powder",
         "Rage Powder",
@@ -23861,7 +23861,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seed Bomb",
         "Return",
@@ -23899,7 +23899,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Dig",
@@ -23935,7 +23935,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Dire Claw",
@@ -23971,7 +23971,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stone Edge",
@@ -24007,7 +24007,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Rock Slide",
@@ -24043,7 +24043,7 @@ backup_data = {
       },
       "item": "Sandslashite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Dire Claw",
@@ -24079,7 +24079,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spiky Shield",
         "Earthquake",
@@ -24117,7 +24117,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "U-turn",
         "Sacred Sword",
@@ -24153,7 +24153,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Bite",
         "Sacred Sword",
@@ -24189,7 +24189,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aerial Ace",
         "Pin Missile",
@@ -24225,7 +24225,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Sacred Sword",
@@ -24263,7 +24263,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heal Bell",
         "Thunder Wave",
@@ -24299,7 +24299,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Seismic Toss",
@@ -24335,7 +24335,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Curse",
         "Hammer Arm",
@@ -24371,7 +24371,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Surf",
@@ -24407,7 +24407,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Iron Head",
@@ -24445,7 +24445,7 @@ backup_data = {
       },
       "item": "Chople Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Accelerock",
@@ -24481,7 +24481,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rapid Spin",
         "Ice Fang",
@@ -24519,7 +24519,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Phantom Force",
         "Power Whip",
@@ -24555,7 +24555,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Giga Drain",
@@ -24593,7 +24593,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -24629,7 +24629,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Zen Headbutt",
@@ -24665,7 +24665,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Zen Headbutt",
@@ -24701,7 +24701,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Psychic",
@@ -24737,7 +24737,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Zen Headbutt",
@@ -24773,7 +24773,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Hydro Pump",
@@ -24809,7 +24809,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zen Headbutt",
         "Aqua Tail",
@@ -24845,7 +24845,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fury Swipes",
         "Disable",
@@ -24881,7 +24881,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Zen Headbutt",
@@ -24917,7 +24917,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -24955,7 +24955,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Rock Slide",
@@ -24991,7 +24991,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Heat Wave",
@@ -25027,7 +25027,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Rock Slide",
@@ -25063,7 +25063,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Stealth Rock",
@@ -25099,7 +25099,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Lava Plume",
@@ -25135,7 +25135,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Heat Crash",
@@ -25171,7 +25171,7 @@ backup_data = {
       },
       "item": "Cameruptite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorched Earth",
         "Eruption",
@@ -25207,7 +25207,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Lava Plume",
@@ -25243,7 +25243,7 @@ backup_data = {
       },
       "item": "Cameruptite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Searing Shot",
@@ -25279,7 +25279,7 @@ backup_data = {
       },
       "item": "Cameruptite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Searing Shot",
@@ -25315,7 +25315,7 @@ backup_data = {
       },
       "item": "Heat Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Fire Blast",
@@ -25353,7 +25353,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Baneful Bunker",
         "Karma",
@@ -25389,7 +25389,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Land's Wrath",
         "Gunk Shot",
@@ -25427,7 +25427,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Fire Blast",
@@ -25463,7 +25463,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Fire Blast",
@@ -25501,7 +25501,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Wish",
@@ -25537,7 +25537,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -25573,7 +25573,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Wish",
@@ -25609,7 +25609,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acid Armor",
         "Aurora Beam",
@@ -25645,7 +25645,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Toxic",
@@ -25681,7 +25681,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Heal Bell",
@@ -25719,7 +25719,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Fang",
         "Fire Fang",
@@ -25757,7 +25757,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Seed",
         "Stun Spore",
@@ -25793,7 +25793,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Energy Ball",
@@ -25829,7 +25829,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Substitute",
         "Leech Seed",
@@ -25865,7 +25865,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Taunt",
         "Helping Hand",
@@ -25903,7 +25903,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Ice Beam",
@@ -25939,7 +25939,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Icy Wind",
@@ -25975,7 +25975,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Crunch",
@@ -26011,7 +26011,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Ice Punch",
@@ -26047,7 +26047,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Jet",
         "Bite",
@@ -26083,7 +26083,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Dive",
         "Fake Out",
@@ -26119,7 +26119,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Bite",
@@ -26157,7 +26157,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Sludge Wave",
@@ -26193,7 +26193,7 @@ backup_data = {
       },
       "item": "Poison Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Flamethrower",
@@ -26229,7 +26229,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Sludge Wave",
@@ -26265,7 +26265,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Fire Blast",
@@ -26301,7 +26301,7 @@ backup_data = {
       },
       "item": "Dragon Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Sludge Wave",
@@ -26337,7 +26337,7 @@ backup_data = {
       },
       "item": "Poison Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Sludge Wave",
@@ -26373,7 +26373,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Flame Burst",
@@ -26411,7 +26411,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Bulk Up",
@@ -26447,7 +26447,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Bulk Up",
@@ -26483,7 +26483,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Head Smash",
@@ -26519,7 +26519,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Horn Leech",
@@ -26555,7 +26555,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Grassy Terrain",
@@ -26591,7 +26591,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Horn Leech",
@@ -26629,7 +26629,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Close Combat",
@@ -26665,7 +26665,7 @@ backup_data = {
       },
       "item": "Heracronite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Horn Attack",
@@ -26701,7 +26701,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pin Missile",
         "Close Combat",
@@ -26737,7 +26737,7 @@ backup_data = {
       },
       "item": "Heracronite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pin Missile",
         "Bullet Seed",
@@ -26773,7 +26773,7 @@ backup_data = {
       },
       "item": "Heracronite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Blast",
         "Bullet Seed",
@@ -26809,7 +26809,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Guillotine",
         "Close Combat",
@@ -26845,7 +26845,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pin Missile",
         "Arm Thrust",
@@ -26883,7 +26883,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Guillotine",
         "Stone Edge",
@@ -26919,7 +26919,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Close Combat",
@@ -26955,7 +26955,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Guillotine",
         "Stone Edge",
@@ -26991,7 +26991,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Stone Edge",
@@ -27029,7 +27029,7 @@ backup_data = {
       },
       "item": "Scizorite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Extreme Speed",
@@ -27065,7 +27065,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Bug Bite",
@@ -27101,7 +27101,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "U-turn",
@@ -27137,7 +27137,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Superpower",
@@ -27173,7 +27173,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Superpower",
@@ -27209,7 +27209,7 @@ backup_data = {
       },
       "item": "Scizorite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Superpower",
@@ -27245,7 +27245,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "U-turn",
@@ -27281,7 +27281,7 @@ backup_data = {
       },
       "item": "Metal Coat",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Bullet Punch",
@@ -27319,7 +27319,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Jagged Fangs",
@@ -27357,7 +27357,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Toxic",
@@ -27393,7 +27393,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Bug Buzz",
@@ -27431,7 +27431,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Bug Buzz",
@@ -27467,7 +27467,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Bug Buzz",
@@ -27503,7 +27503,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Infestation",
@@ -27541,7 +27541,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Follow Me",
         "Bullet Punch",
@@ -27577,7 +27577,7 @@ backup_data = {
       },
       "item": "Fighting Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Meteor Mash",
         "Extreme Speed",
@@ -27613,7 +27613,7 @@ backup_data = {
       },
       "item": "Punching Glove",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Meteor Mash",
@@ -27649,7 +27649,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aura Sphere",
         "Flash Cannon",
@@ -27685,7 +27685,7 @@ backup_data = {
       },
       "item": "Senzu Bean",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Meteor Mash",
         "Close Combat",
@@ -27721,7 +27721,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Nasty Plot",
         "Focus Blast",
@@ -27757,7 +27757,7 @@ backup_data = {
       },
       "item": "Lucarionite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Crunch",
@@ -27793,7 +27793,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Meteor Mash",
@@ -27829,7 +27829,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Follow Me",
         "Bullet Punch",
@@ -27867,7 +27867,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Metal Burst",
         "Sucker Punch",
@@ -27903,7 +27903,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Excalibur",
         "Sucker Punch",
@@ -27939,7 +27939,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Night Slash",
         "Excalibur",
@@ -27975,7 +27975,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Excalibur",
         "Night Slash",
@@ -28011,7 +28011,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Head",
         "Knock Off",
@@ -28049,7 +28049,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Heat Wave",
@@ -28085,7 +28085,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Flare Blitz",
@@ -28121,7 +28121,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Flare Blitz",
@@ -28157,7 +28157,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Fire Blast",
@@ -28193,7 +28193,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Flare Blitz",
@@ -28229,7 +28229,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Raging Fury",
         "Rage",
@@ -28267,7 +28267,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Reflect",
@@ -28303,7 +28303,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Dark Pulse",
@@ -28339,7 +28339,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Protect",
@@ -28375,7 +28375,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Shadow Ball",
@@ -28411,7 +28411,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Dark Pulse",
@@ -28449,7 +28449,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Moonlight",
@@ -28485,7 +28485,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Moonblast",
@@ -28521,7 +28521,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Moonblast",
@@ -28557,7 +28557,7 @@ backup_data = {
       },
       "item": "Psychic Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Dream Eater",
@@ -28593,7 +28593,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dream Eater",
         "Yawn",
@@ -28631,7 +28631,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Dazzling Gleam",
@@ -28667,7 +28667,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Draining Kiss",
@@ -28703,7 +28703,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Dazzling Gleam",
@@ -28739,7 +28739,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dazzling Gleam",
         "Mystical Fire",
@@ -28775,7 +28775,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Dazzling Gleam",
@@ -28811,7 +28811,7 @@ backup_data = {
       },
       "item": "Gardevoirite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Psychic",
@@ -28847,7 +28847,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Psyshock",
@@ -28883,7 +28883,7 @@ backup_data = {
       },
       "item": "Gardevoirite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Psyshock",
@@ -28919,7 +28919,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Draining Kiss",
@@ -28957,7 +28957,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Facade",
@@ -28993,7 +28993,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Facade",
@@ -29031,7 +29031,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Twin Beam",
         "Armor Cannon",
@@ -29067,7 +29067,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Armor Cannon",
         "Psyshock",
@@ -29103,7 +29103,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Solar Beam",
@@ -29139,7 +29139,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Twin Beam",
         "Armor Cannon",
@@ -29177,7 +29177,7 @@ backup_data = {
       },
       "item": "Bright Powder",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "Cross Chop",
@@ -29213,7 +29213,7 @@ backup_data = {
       },
       "item": "Bright Powder",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "Cross Chop",
@@ -29251,7 +29251,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Claw",
         "Seismic Blade",
@@ -29287,7 +29287,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Rush",
         "Earthquake",
@@ -29323,7 +29323,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Dragon Dance",
@@ -29359,7 +29359,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Blade",
         "Dragon Dance",
@@ -29395,7 +29395,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Scale Shot",
@@ -29431,7 +29431,7 @@ backup_data = {
       },
       "item": "Garchompite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Dragon Claw",
@@ -29467,7 +29467,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Earthquake",
@@ -29503,7 +29503,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Claw",
         "Seismic Blade",
@@ -29541,7 +29541,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Rising Voltage",
@@ -29577,7 +29577,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Shadow Ball",
@@ -29613,7 +29613,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Extreme Speed",
@@ -29649,7 +29649,7 @@ backup_data = {
       },
       "item": "Magnet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Electro Ball",
         "Aurora Beam",
@@ -29687,7 +29687,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Ice Punch",
@@ -29723,7 +29723,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Thunder Punch",
@@ -29759,7 +29759,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Chop",
         "Ice Punch",
@@ -29797,7 +29797,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Quiver Dance",
@@ -29833,7 +29833,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Revelation Dance",
         "Hurricane",
@@ -29869,7 +29869,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Revelation Dance",
         "Hurricane",
@@ -29907,7 +29907,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Plasma Pulse",
         "Searing Shot",
@@ -29945,7 +29945,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Heat Wave",
@@ -29981,7 +29981,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Fire Blast",
@@ -30019,7 +30019,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Giga Drain",
@@ -30055,7 +30055,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Thrash",
@@ -30091,7 +30091,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Discharge",
         "Thrash",
@@ -30127,7 +30127,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wild Charge",
         "Knock Off",
@@ -30163,7 +30163,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zap Cannon",
         "Grass Knot",
@@ -30201,7 +30201,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Tackle",
         "Hidden Power",
@@ -30237,7 +30237,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wild Charge",
         "Flare Blitz",
@@ -30273,7 +30273,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Tackle",
         "Jump Kick",
@@ -30309,7 +30309,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wild Charge",
         "Jump Kick",
@@ -30345,7 +30345,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Overheat",
@@ -30383,7 +30383,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Lovely Bite",
         "Thunder Fang",
@@ -30421,7 +30421,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Defog",
         "Volt Switch",
@@ -30459,7 +30459,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Scald",
@@ -30495,7 +30495,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Discharge",
         "Earth Power",
@@ -30533,7 +30533,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spiky Shield",
         "Endeavor",
@@ -30569,7 +30569,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zing Zap",
         "Iron Tail",
@@ -30607,7 +30607,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Thunder",
@@ -30643,7 +30643,7 @@ backup_data = {
       },
       "item": "Petaya Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Hurricane",
@@ -30679,7 +30679,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Wild Charge",
@@ -30715,7 +30715,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Discharge",
@@ -30753,7 +30753,7 @@ backup_data = {
       },
       "item": "Light Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Volt Tackle",
@@ -30791,7 +30791,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sunny Day",
         "Dazzling Gleam",
@@ -30827,7 +30827,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Struggle Bug",
         "Dazzling Gleam",
@@ -30865,7 +30865,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Glow",
         "Bug Buzz",
@@ -30901,7 +30901,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Glow",
         "Bug Buzz",
@@ -30939,7 +30939,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Fissure",
@@ -30975,7 +30975,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Stone Edge",
@@ -31011,7 +31011,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "Stealth Rock",
@@ -31047,7 +31047,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "Earthquake",
@@ -31083,7 +31083,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "-",
@@ -31119,7 +31119,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "Earthquake",
@@ -31155,7 +31155,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "-",
@@ -31193,7 +31193,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Air Slash",
@@ -31229,7 +31229,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Thunderbolt",
@@ -31265,7 +31265,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Thunder",
@@ -31303,7 +31303,7 @@ backup_data = {
       },
       "item": "Wise Glasses",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Flash Freeze",
@@ -31339,7 +31339,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Thunderbolt",
@@ -31377,7 +31377,7 @@ backup_data = {
       },
       "item": "Aguav Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Seed",
         "Protect",
@@ -31413,7 +31413,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wood Hammer",
         "Shadow Sneak",
@@ -31451,7 +31451,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Shadow Punch",
@@ -31487,7 +31487,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Shadow Punch",
@@ -31523,7 +31523,7 @@ backup_data = {
       },
       "item": "Punching Glove",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Punch",
@@ -31559,7 +31559,7 @@ backup_data = {
       },
       "item": "Punching Glove",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Punch",
@@ -31595,7 +31595,7 @@ backup_data = {
       },
       "item": "Punching Glove",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Shadow Punch",
@@ -31631,7 +31631,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Shadow Punch",
@@ -31667,7 +31667,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Punch",
         "Mountain Chunk",
@@ -31703,7 +31703,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Shadow Punch",
@@ -31741,7 +31741,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Air Slash",
@@ -31777,7 +31777,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Hyper Voice",
@@ -31813,7 +31813,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sand Attack",
         "Hurricane",
@@ -31849,7 +31849,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Beam",
         "Hurricane",
@@ -31885,7 +31885,7 @@ backup_data = {
       },
       "item": "Pidgeotite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Heat Wave",
@@ -31921,7 +31921,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Hurricane",
@@ -31957,7 +31957,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Air Slash",
@@ -31995,7 +31995,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Dream Eater",
@@ -32031,7 +32031,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Air Slash",
@@ -32067,7 +32067,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Heat Wave",
@@ -32103,7 +32103,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Hurricane",
@@ -32139,7 +32139,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Night Shade",
         "Toxic",
@@ -32177,7 +32177,7 @@ backup_data = {
       },
       "item": "Ground Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Swords Dance",
@@ -32213,7 +32213,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Iron Head",
@@ -32249,7 +32249,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Iron Head",
@@ -32285,7 +32285,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Headlong Rush",
         "Excalibur",
@@ -32321,7 +32321,7 @@ backup_data = {
       },
       "item": "Ground Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Swords Dance",
@@ -32357,7 +32357,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Fist",
         "Iron Head",
@@ -32395,7 +32395,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Blast",
         "Rock Wrecker",
@@ -32431,7 +32431,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Rock Wrecker",
@@ -32469,7 +32469,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Hyper Voice",
@@ -32505,7 +32505,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -32541,7 +32541,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Hyper Voice",
@@ -32577,7 +32577,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -32613,7 +32613,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Draining Kiss",
@@ -32649,7 +32649,7 @@ backup_data = {
       },
       "item": "Grassy Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Draining Kiss",
@@ -32685,7 +32685,7 @@ backup_data = {
       },
       "item": "Meganiumite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -32721,7 +32721,7 @@ backup_data = {
       },
       "item": "Meganiumite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -32759,7 +32759,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Earth Power",
@@ -32795,7 +32795,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Power Gem",
@@ -32831,7 +32831,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Earth Power",
@@ -32869,7 +32869,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Heat Wave",
@@ -32905,7 +32905,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Heat Wave",
@@ -32941,7 +32941,7 @@ backup_data = {
       },
       "item": "Typhlosionite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Scorched Earth",
@@ -32977,7 +32977,7 @@ backup_data = {
       },
       "item": "Typhlosionite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Scorchng Sands",
@@ -33015,7 +33015,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Grass Knot",
@@ -33051,7 +33051,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hidden Power",
         "Grass Knot",
@@ -33087,7 +33087,7 @@ backup_data = {
       },
       "item": "Petaya Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Grass Knot",
@@ -33123,7 +33123,7 @@ backup_data = {
       },
       "item": "Heat Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Focus Blast",
@@ -33159,7 +33159,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Nasty Plot",
@@ -33197,7 +33197,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Punch",
         "Rock Slide",
@@ -33233,7 +33233,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Psychic",
@@ -33269,7 +33269,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Rock Slide",
@@ -33305,7 +33305,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Earthquake",
@@ -33341,7 +33341,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Psychic",
@@ -33379,7 +33379,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Fang",
         "Ice Fang",
@@ -33415,7 +33415,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Ice Fang",
@@ -33451,7 +33451,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Ice Fang",
@@ -33487,7 +33487,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Thunder Fang",
@@ -33525,7 +33525,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Strength",
@@ -33561,7 +33561,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Counter",
@@ -33597,7 +33597,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Strength",
@@ -33635,7 +33635,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Toxic",
@@ -33671,7 +33671,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Will-O-Wisp",
         "Sludge Bomb",
@@ -33707,7 +33707,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Heat Wave",
@@ -33743,7 +33743,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Heat Wave",
@@ -33779,7 +33779,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Toxic",
@@ -33815,7 +33815,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Strange Steam",
@@ -33851,7 +33851,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Heat Wave",
@@ -33887,7 +33887,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Heat Wave",
@@ -33923,7 +33923,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Heat Wave",
@@ -33961,7 +33961,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Leech Life",
@@ -33997,7 +33997,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Leech Life",
@@ -34033,7 +34033,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Substitute",
@@ -34069,7 +34069,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Leech Life",
@@ -34107,7 +34107,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Dark Pulse",
@@ -34143,7 +34143,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Dark Pulse",
@@ -34179,7 +34179,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gunk Shot",
         "Waterfall",
@@ -34215,7 +34215,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Hydro Pump",
@@ -34251,7 +34251,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Ice Beam",
@@ -34287,7 +34287,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Ice Beam",
@@ -34323,7 +34323,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Gunk Shot",
@@ -34361,7 +34361,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Belly Drum",
@@ -34397,7 +34397,7 @@ backup_data = {
       },
       "item": "Charizardite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scale Shot",
         "Flare Blitz",
@@ -34433,7 +34433,7 @@ backup_data = {
       },
       "item": "Charizardite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Air Slash",
@@ -34469,7 +34469,7 @@ backup_data = {
       },
       "item": "Charizardite Z",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mystic Dance",
         "Flame Burst",
@@ -34505,7 +34505,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Focus Blast",
@@ -34541,7 +34541,7 @@ backup_data = {
       },
       "item": "Charizardite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Raging Fury",
         "Outrage",
@@ -34579,7 +34579,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Blizzard",
@@ -34615,7 +34615,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Poison Jab",
@@ -34651,7 +34651,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Earth Power",
@@ -34687,7 +34687,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Sludge Bomb",
@@ -34723,7 +34723,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Ice Punch",
@@ -34759,7 +34759,7 @@ backup_data = {
       },
       "item": "Nidokingite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Drill",
         "Drill Run",
@@ -34797,7 +34797,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Spikes",
@@ -34835,7 +34835,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Dizzy Punch",
@@ -34871,7 +34871,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Teeter Dance",
         "Superpower",
@@ -34909,7 +34909,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heavy Slam",
         "Stone Edge",
@@ -34947,7 +34947,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Fire Fang",
@@ -34983,7 +34983,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Retaliate",
         "Play Rough",
@@ -35019,7 +35019,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Crunch",
@@ -35055,7 +35055,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Double-Edge",
@@ -35091,7 +35091,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Retaliate",
@@ -35129,7 +35129,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Belly Drum",
@@ -35165,7 +35165,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Energy Ball",
@@ -35201,7 +35201,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Play Rough",
@@ -35237,7 +35237,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Drain Punch",
@@ -35273,7 +35273,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Belly Drum",
@@ -35311,7 +35311,7 @@ backup_data = {
       },
       "item": "Ice Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Iron Head",
@@ -35347,7 +35347,7 @@ backup_data = {
       },
       "item": "Ice Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Iron Head",
@@ -35385,7 +35385,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Whirlwind",
@@ -35421,7 +35421,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Steel Wing",
@@ -35457,7 +35457,7 @@ backup_data = {
       },
       "item": "Skarmorite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Steel Wing",
@@ -35493,7 +35493,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Whirlwind",
@@ -35529,7 +35529,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Steel Wing",
@@ -35565,7 +35565,7 @@ backup_data = {
       },
       "item": "Skarmorite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Steel Wing",
@@ -35603,7 +35603,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Bullet Seed",
@@ -35639,7 +35639,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Bullet Seed",
@@ -35675,7 +35675,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Bullet Seed",
@@ -35713,7 +35713,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Drill Run",
@@ -35749,7 +35749,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Drill Run",
@@ -35785,7 +35785,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Double-Edge",
@@ -35821,7 +35821,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Drill Run",
@@ -35859,7 +35859,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Aqua Ring",
@@ -35895,7 +35895,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Ice Beam",
@@ -35931,7 +35931,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Double-Edge",
@@ -35967,7 +35967,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -36003,7 +36003,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Ice Beam",
@@ -36039,7 +36039,7 @@ backup_data = {
       },
       "item": "Ice Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Ice Beam",
@@ -36075,7 +36075,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "U-turn",
@@ -36113,7 +36113,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Belly Drum",
         "Ice Shard",
@@ -36151,7 +36151,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Kick",
         "Triple Axel",
@@ -36187,7 +36187,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Step",
         "High Jump Kick",
@@ -36225,7 +36225,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Ice Beam",
@@ -36263,7 +36263,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Rock Climb",
@@ -36301,7 +36301,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Fang",
         "Leech Life",
@@ -36339,7 +36339,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Strength Sap",
@@ -36375,7 +36375,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Berry Smash",
         "Mirror Coat",
@@ -36413,7 +36413,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Soil Drain",
         "Giga Drain",
@@ -36449,7 +36449,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Soil Drain",
@@ -36487,7 +36487,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Lovely Bite",
         "Tectonic Fangs",
@@ -36525,7 +36525,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Outrage",
@@ -36561,7 +36561,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Wave",
         "Dragon Rush",
@@ -36597,7 +36597,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Dance",
         "Rest",
@@ -36635,7 +36635,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Wish",
@@ -36671,7 +36671,7 @@ backup_data = {
       },
       "item": "Fairy Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Disable",
@@ -36709,7 +36709,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Wood Hammer",
@@ -36745,7 +36745,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wood Hammer",
         "Earthquake",
@@ -36783,7 +36783,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Slack Off",
@@ -36819,7 +36819,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Horsepower",
         "Ice Shard",
@@ -36855,7 +36855,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Slack Off",
@@ -36893,7 +36893,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -36929,7 +36929,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -36965,7 +36965,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37001,7 +37001,7 @@ backup_data = {
       },
       "item": "Silk Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Thunderbolt",
@@ -37037,7 +37037,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37073,7 +37073,7 @@ backup_data = {
       },
       "item": "Silk Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37109,7 +37109,7 @@ backup_data = {
       },
       "item": "Silk Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37145,7 +37145,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37181,7 +37181,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37217,7 +37217,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Ice Beam",
@@ -37253,7 +37253,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Techno Blast",
         "Zap Cannon",
@@ -37291,7 +37291,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Giga Impact",
@@ -37327,7 +37327,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Giga Impact",
@@ -37363,7 +37363,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Poison Jab",
@@ -37399,7 +37399,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Ice Beam",
@@ -37435,7 +37435,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Sludge Bomb",
@@ -37471,7 +37471,7 @@ backup_data = {
       },
       "item": "Nidoqueenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Beam",
         "Helping Hand",
@@ -37509,7 +37509,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crush Claw",
         "Protect",
@@ -37545,7 +37545,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Facade",
         "Knock Off",
@@ -37581,7 +37581,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Facade",
         "Knock Off",
@@ -37617,7 +37617,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Night Slash",
@@ -37653,7 +37653,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Close Combat",
@@ -37691,7 +37691,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Head",
         "X-Scissor",
@@ -37727,7 +37727,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Head",
         "X-Scissor",
@@ -37763,7 +37763,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Excalibur",
         "Guillotine",
@@ -37799,7 +37799,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Iron Head",
@@ -37837,7 +37837,7 @@ backup_data = {
       },
       "item": "Poison Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "Crunch",
@@ -37873,7 +37873,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Poison Fang",
@@ -37909,7 +37909,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Poison Fang",
@@ -37945,7 +37945,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "Crunch",
@@ -37981,7 +37981,7 @@ backup_data = {
       },
       "item": "Arbokite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Coil",
@@ -38017,7 +38017,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Coil",
         "Gunk Shot",
@@ -38055,7 +38055,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Cross Poison",
@@ -38093,7 +38093,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Flash Cannon",
@@ -38129,7 +38129,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Flash Cannon",
@@ -38165,7 +38165,7 @@ backup_data = {
       },
       "item": "Empoleonite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Hydro Pump",
@@ -38203,7 +38203,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pollen Puff",
         "Dazzling Gleam",
@@ -38239,7 +38239,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pollen Puff",
         "Moonblast",
@@ -38275,7 +38275,7 @@ backup_data = {
       },
       "item": "Psychic Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Moonblast",
@@ -38313,7 +38313,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Fangs",
         "Fissure",
@@ -38349,7 +38349,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Fangs",
         "Double-Edge",
@@ -38385,7 +38385,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Iron Fangs",
@@ -38421,7 +38421,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Body Press",
@@ -38457,7 +38457,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Fangs",
         "Fire Fang",
@@ -38493,7 +38493,7 @@ backup_data = {
       },
       "item": "Steelixite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Iron Fangs",
@@ -38529,7 +38529,7 @@ backup_data = {
       },
       "item": "Steelixite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gyro Ball",
         "Earthquake",
@@ -38567,7 +38567,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Ice Shard",
@@ -38605,7 +38605,7 @@ backup_data = {
       },
       "item": "Passho Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Dazzling Gleam",
@@ -38641,7 +38641,7 @@ backup_data = {
       },
       "item": "Passho Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Nasty Plot",
@@ -38677,7 +38677,7 @@ backup_data = {
       },
       "item": "Eject Pack",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Dazzling Gleam",
@@ -38713,7 +38713,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Foul Play",
@@ -38749,7 +38749,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Solar Beam",
@@ -38785,7 +38785,7 @@ backup_data = {
       },
       "item": "Heat Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Weather Ball",
@@ -38823,7 +38823,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Heat Wave",
@@ -38859,7 +38859,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Heat Wave",
@@ -38895,7 +38895,7 @@ backup_data = {
       },
       "item": "Houndoominite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snarl",
         "Heat Wave",
@@ -38933,7 +38933,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Crunch",
@@ -38971,7 +38971,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Poison Fang",
@@ -39007,7 +39007,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "Fire Fang",
@@ -39043,7 +39043,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "Crunch",
@@ -39079,7 +39079,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Poison Fang",
@@ -39117,7 +39117,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Shell Smash",
@@ -39153,7 +39153,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Dragon Pulse",
@@ -39189,7 +39189,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Dragon Pulse",
@@ -39225,7 +39225,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Draco Meteor",
@@ -39261,7 +39261,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Fire Spin",
@@ -39299,7 +39299,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Beam",
         "Hurricane",
@@ -39335,7 +39335,7 @@ backup_data = {
       },
       "item": "Damp Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rain Dance",
         "Thunder",
@@ -39371,7 +39371,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Beam",
         "Fire Blast",
@@ -39407,7 +39407,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Hyper Voice",
@@ -39445,7 +39445,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zen Headbutt",
         "High Jump Kick",
@@ -39481,7 +39481,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zen Headbutt",
         "High Jump Kick",
@@ -39517,7 +39517,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Zen Headbutt",
@@ -39553,7 +39553,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Feint",
         "High Jump Kick",
@@ -39589,7 +39589,7 @@ backup_data = {
       },
       "item": "Medichamite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Bullet Punch",
@@ -39625,7 +39625,7 @@ backup_data = {
       },
       "item": "Psychic Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Zen Headbutt",
@@ -39661,7 +39661,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Fire Punch",
@@ -39697,7 +39697,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zen Headbutt",
         "High Jump Kick",
@@ -39735,7 +39735,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Power Gem",
@@ -39771,7 +39771,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Shadow Ball",
@@ -39807,7 +39807,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Power Gem",
@@ -39845,7 +39845,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Reversal",
@@ -39881,7 +39881,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stone Edge",
@@ -39917,7 +39917,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Stone Edge",
@@ -39953,7 +39953,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Frustration",
@@ -39991,7 +39991,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Thunderbolt",
@@ -40027,7 +40027,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Volt Switch",
@@ -40063,7 +40063,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Thunderbolt",
@@ -40099,7 +40099,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Volt Switch",
@@ -40137,7 +40137,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Run",
         "Rock Slide",
@@ -40173,7 +40173,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Head Smash",
@@ -40211,7 +40211,7 @@ backup_data = {
       },
       "item": "Passho Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Earth Power",
@@ -40247,7 +40247,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Earth Power",
@@ -40283,7 +40283,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Mud Shot",
@@ -40319,7 +40319,7 @@ backup_data = {
       },
       "item": "Passho Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Earth Power",
@@ -40355,7 +40355,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Earth Power",
@@ -40391,7 +40391,7 @@ backup_data = {
       },
       "item": "Passho Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Earth Power",
@@ -40427,7 +40427,7 @@ backup_data = {
       },
       "item": "Passho Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Earth Power",
@@ -40463,7 +40463,7 @@ backup_data = {
       },
       "item": "Smooth Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Earth Power",
@@ -40499,7 +40499,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shock Wave",
         "Power Gem",
@@ -40535,7 +40535,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Earth Power",
@@ -40573,7 +40573,7 @@ backup_data = {
       },
       "item": "Ground Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Drill Peck",
@@ -40609,7 +40609,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Jump Kick",
@@ -40645,7 +40645,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Jump Kick",
@@ -40681,7 +40681,7 @@ backup_data = {
       },
       "item": "Ground Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Drill Peck",
@@ -40717,7 +40717,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Return",
@@ -40753,7 +40753,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Double-Edge",
@@ -40791,7 +40791,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snarl",
         "Dragon Pulse",
@@ -40827,7 +40827,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Dragon Pulse",
@@ -40863,7 +40863,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Dragon Pulse",
@@ -40899,7 +40899,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snarl",
         "Fire Blast",
@@ -40935,7 +40935,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Flash Cannon",
@@ -40971,7 +40971,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Dragon Pulse",
@@ -41009,7 +41009,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Draco Meteor",
@@ -41045,7 +41045,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Draco Meteor",
@@ -41081,7 +41081,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Dragon Pulse",
@@ -41117,7 +41117,7 @@ backup_data = {
       },
       "item": "Eject Pack",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Mystic Dance",
@@ -41155,7 +41155,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Seed",
         "Knock Off",
@@ -41191,7 +41191,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seed Bomb",
         "Knock Off",
@@ -41227,7 +41227,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zen Headbutt",
         "Knock Off",
@@ -41263,7 +41263,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Beatdown",
         "Rage Powder",
@@ -41301,7 +41301,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Accelerock",
@@ -41337,7 +41337,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Accelerock",
         "Crunch",
@@ -41373,7 +41373,7 @@ backup_data = {
       },
       "item": "Clear Amulet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Submission",
@@ -41411,7 +41411,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Dance",
         "Rock Slide",
@@ -41449,7 +41449,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Dragon Claw",
@@ -41487,7 +41487,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Hurricane",
@@ -41523,7 +41523,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Nasty Plot",
         "Hyper Voice",
@@ -41559,7 +41559,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Follow Me",
@@ -41595,7 +41595,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Roost",
@@ -41631,7 +41631,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Dazzling Gleam",
@@ -41667,7 +41667,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Aura Sphere",
@@ -41703,7 +41703,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Aura Sphere",
@@ -41741,7 +41741,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Hyper Voice",
@@ -41777,7 +41777,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Fire Blast",
@@ -41813,7 +41813,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Hyper Voice",
@@ -41849,7 +41849,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Fire Blast",
@@ -41885,7 +41885,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Beam",
         "Fire Blast",
@@ -41923,7 +41923,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Dragon Rush",
@@ -41959,7 +41959,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Leaf Storm",
@@ -41995,7 +41995,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Leaf Storm",
@@ -42033,7 +42033,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gyro Ball",
         "Extrasensory",
@@ -42069,7 +42069,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Confuse Ray",
@@ -42105,7 +42105,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flash Cannon",
         "Psychic",
@@ -42141,7 +42141,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gyro Ball",
         "Payback",
@@ -42177,7 +42177,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gyro Ball",
         "Zen Headbutt",
@@ -42213,7 +42213,7 @@ backup_data = {
       },
       "item": "Psychic Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gyro Ball",
         "Psychic",
@@ -42251,7 +42251,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "First Impression",
@@ -42287,7 +42287,7 @@ backup_data = {
       },
       "item": "Muscle Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Liquidation",
@@ -42323,7 +42323,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Wave Crash",
@@ -42359,7 +42359,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Razor Shell",
@@ -42395,7 +42395,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "First Impression",
@@ -42431,7 +42431,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Leech Life",
@@ -42467,7 +42467,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Leech Life",
@@ -42505,7 +42505,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Toss",
         "Soft-Boiled",
@@ -42541,7 +42541,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Soft-Boiled",
@@ -42577,7 +42577,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Memento"
       ],
@@ -42610,7 +42610,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Toss",
         "Heal Bell",
@@ -42648,7 +42648,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Bite",
         "Iron Head",
@@ -42684,7 +42684,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Bite",
         "Iron Head",
@@ -42722,7 +42722,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Night Shade",
         "Curse",
@@ -42758,7 +42758,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Infestation",
         "Toxic",
@@ -42796,7 +42796,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tailwind",
         "Horn Leech",
@@ -42834,7 +42834,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Toxic",
@@ -42870,7 +42870,7 @@ backup_data = {
       },
       "item": "Shucklenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Curse",
         "Pain Split",
@@ -42908,7 +42908,7 @@ backup_data = {
       },
       "item": "Miloticite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -42944,7 +42944,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -42980,7 +42980,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Icy Wind",
@@ -43016,7 +43016,7 @@ backup_data = {
       },
       "item": "Miloticite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pixie Beam",
         "Scald",
@@ -43052,7 +43052,7 @@ backup_data = {
       },
       "item": "Miloticite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Moonblast",
@@ -43088,7 +43088,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -43124,7 +43124,7 @@ backup_data = {
       },
       "item": "Miloticite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Moonblast",
@@ -43160,7 +43160,7 @@ backup_data = {
       },
       "item": "Miloticite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Moonblast",
@@ -43196,7 +43196,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -43232,7 +43232,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -43270,7 +43270,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sleep Talk",
         "Ancient Power",
@@ -43308,7 +43308,7 @@ backup_data = {
       },
       "item": "Charcoal",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Scorched Earth",
@@ -43344,7 +43344,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Lava Plume",
@@ -43380,7 +43380,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Lava Plume",
@@ -43416,7 +43416,7 @@ backup_data = {
       },
       "item": "Fire Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Heat Wave",
@@ -43454,7 +43454,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blast Burn",
         "Psyshock",
@@ -43490,7 +43490,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Hyper Voice",
@@ -43526,7 +43526,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Shadow Ball",
@@ -43562,7 +43562,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Psyshock",
@@ -43600,7 +43600,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Astonish",
         "Magma Storm",
@@ -43638,7 +43638,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Burn Up",
@@ -43674,7 +43674,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Heat Wave",
@@ -43712,7 +43712,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Leech Seed",
@@ -43750,7 +43750,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wild Charge",
         "Heat Crash",
@@ -43786,7 +43786,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hammer Arm",
         "Heat Crash",
@@ -43824,7 +43824,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Double-Edge",
@@ -43860,7 +43860,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Double-Edge",
@@ -43896,7 +43896,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Facade",
@@ -43932,7 +43932,7 @@ backup_data = {
       },
       "item": "Frost Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Wild Charge",
@@ -43970,7 +43970,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Hex",
@@ -44006,7 +44006,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Hex",
@@ -44042,7 +44042,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Shadow Ball",
@@ -44078,7 +44078,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Flame Burst",
@@ -44116,7 +44116,7 @@ backup_data = {
       },
       "item": "Thick Club",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Bone",
         "Flare Blitz",
@@ -44152,7 +44152,7 @@ backup_data = {
       },
       "item": "Thick Club",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Bone",
         "Flare Blitz",
@@ -44188,7 +44188,7 @@ backup_data = {
       },
       "item": "Thick Club",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Shadow Bone",
@@ -44226,7 +44226,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Punch",
         "Drain Punch",
@@ -44262,7 +44262,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Substitute",
         "Recover",
@@ -44298,7 +44298,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Return",
@@ -44336,7 +44336,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Knock Off",
@@ -44372,7 +44372,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Darkest Lariat",
         "Flare Blitz",
@@ -44408,7 +44408,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Darkest Lariat",
         "Flare Blitz",
@@ -44444,7 +44444,7 @@ backup_data = {
       },
       "item": "Incinerite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blaze Kick",
         "Darkest Lariat",
@@ -44482,7 +44482,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Searing Shot",
         "Octazooka",
@@ -44518,7 +44518,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Searing Shot",
         "Octazooka",
@@ -44554,7 +44554,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Substitute",
@@ -44590,7 +44590,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Searing Shot",
         "Octazooka",
@@ -44626,7 +44626,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Searing Shot",
         "Octazooka",
@@ -44662,7 +44662,7 @@ backup_data = {
       },
       "item": "Ice Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Octazooka",
         "Flamethrower",
@@ -44700,7 +44700,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Thunderbolt",
@@ -44736,7 +44736,7 @@ backup_data = {
       },
       "item": "Charcoal",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Chop",
         "Flare Blitz",
@@ -44772,7 +44772,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Searing Shot",
         "Aura Sphere",
@@ -44810,7 +44810,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Revelation Dance",
         "Hurricane",
@@ -44846,7 +44846,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Revelation Dance",
@@ -44882,7 +44882,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Revelation Dance",
         "Hurricane",
@@ -44918,7 +44918,7 @@ backup_data = {
       },
       "item": "Oricorionite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Revelation Dance",
         "Hurricane",
@@ -44956,7 +44956,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Punch",
         "Return",
@@ -44992,7 +44992,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "High Jump Kick",
@@ -45028,7 +45028,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Return",
@@ -45064,7 +45064,7 @@ backup_data = {
       },
       "item": "Lopunnite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Fake Out",
@@ -45100,7 +45100,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "After You",
         "Return",
@@ -45138,7 +45138,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Infernal Parade",
@@ -45174,7 +45174,7 @@ backup_data = {
       },
       "item": "Spell Tag",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spectral Serenade",
         "Flamethrower",
@@ -45210,7 +45210,7 @@ backup_data = {
       },
       "item": "Typhlosionite H",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spectral Serenade",
         "Flamethrower",
@@ -45248,7 +45248,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Muddy Water",
@@ -45284,7 +45284,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Clear Smog",
         "Scald",
@@ -45320,7 +45320,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Earth Power",
@@ -45356,7 +45356,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Earth Power",
@@ -45394,7 +45394,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fury Swipes",
         "Arm Thrust",
@@ -45432,7 +45432,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bone Rush",
         "Nasty Plot",
@@ -45468,7 +45468,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Foul Play",
         "Taunt",
@@ -45504,7 +45504,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bone Rush",
         "Brave Bird",
@@ -45540,7 +45540,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Brave Bird",
@@ -45578,7 +45578,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Boomburst",
@@ -45614,7 +45614,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Sandstorm",
@@ -45650,7 +45650,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "U-turn",
         "Crunch",
@@ -45686,7 +45686,7 @@ backup_data = {
       },
       "item": "Flygonite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Shore Up",
@@ -45722,7 +45722,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Boomburst",
@@ -45758,7 +45758,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Signal Beam",
@@ -45796,7 +45796,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Submission",
@@ -45832,7 +45832,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Fire Blast",
@@ -45868,7 +45868,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Accelerock",
@@ -45906,7 +45906,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Needle Arm",
@@ -45942,7 +45942,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Needle Arm",
@@ -45978,7 +45978,7 @@ backup_data = {
       },
       "item": "Bright Powder",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Needle Arm",
         "Sucker Punch",
@@ -46016,7 +46016,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wood Hammer",
         "Ice Hammer",
@@ -46052,7 +46052,7 @@ backup_data = {
       },
       "item": "Abomasite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freezy Frost",
         "Icy Wind",
@@ -46088,7 +46088,7 @@ backup_data = {
       },
       "item": "Abomasite S",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Ice Shard",
@@ -46126,7 +46126,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Earth Power",
@@ -46162,7 +46162,7 @@ backup_data = {
       },
       "item": "Venusaurite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sludge Bomb",
@@ -46198,7 +46198,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sludge Bomb",
@@ -46234,7 +46234,7 @@ backup_data = {
       },
       "item": "Venusaurite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Earth Power",
@@ -46270,7 +46270,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Solar Beam",
@@ -46306,7 +46306,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Sludge Bomb",
@@ -46344,7 +46344,7 @@ backup_data = {
       },
       "item": "Leek",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Air Cutter",
@@ -46380,7 +46380,7 @@ backup_data = {
       },
       "item": "Leek",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Close Combat",
@@ -46416,7 +46416,7 @@ backup_data = {
       },
       "item": "Leek",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Close Combat",
@@ -46454,7 +46454,7 @@ backup_data = {
       },
       "item": "Safety Goggles",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "X-Scissor",
@@ -46492,7 +46492,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Double-Edge",
@@ -46528,7 +46528,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Horn Leech",
@@ -46564,7 +46564,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Horn Leech",
@@ -46600,7 +46600,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Double-Edge",
@@ -46638,7 +46638,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Drill",
         "Megahorn",
@@ -46674,7 +46674,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Horn Drill",
@@ -46712,7 +46712,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Population Bomb",
         "Super Fang",
@@ -46750,7 +46750,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hone Claws",
         "Brave Bird",
@@ -46786,7 +46786,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -46822,7 +46822,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -46858,7 +46858,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Close Combat",
@@ -46894,7 +46894,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Crush Claw",
@@ -46930,7 +46930,7 @@ backup_data = {
       },
       "item": "Fighting Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -46966,7 +46966,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Double-Edge",
@@ -47002,7 +47002,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Superpower",
@@ -47040,7 +47040,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Hyper Fang",
@@ -47076,7 +47076,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Iron Tail",
@@ -47114,7 +47114,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Jump Kick",
@@ -47152,7 +47152,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Chatter",
@@ -47188,7 +47188,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Chatter",
@@ -47224,7 +47224,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Hurricane",
@@ -47260,7 +47260,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Synchronoise",
         "Boomburst",
@@ -47298,7 +47298,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Wave",
         "Bitter Malice",
@@ -47334,7 +47334,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Bitter Malice",
@@ -47372,7 +47372,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sweet Kiss",
         "Moonblast",
@@ -47408,7 +47408,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Calm Mind",
         "Draining Kiss",
@@ -47444,7 +47444,7 @@ backup_data = {
       },
       "item": "Wigglytuffite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outburst",
         "Mistsplosion",
@@ -47482,7 +47482,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Ice Beam",
@@ -47518,7 +47518,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Wave",
         "Recover",
@@ -47554,7 +47554,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Ice Beam",
@@ -47590,7 +47590,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Ice Beam",
@@ -47628,7 +47628,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Curse",
@@ -47664,7 +47664,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Impact",
         "Self-Destruct",
@@ -47700,7 +47700,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Cut",
@@ -47736,7 +47736,7 @@ backup_data = {
       },
       "item": "Snorlaxite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wood Hammer",
         "Double-Edge",
@@ -47772,7 +47772,7 @@ backup_data = {
       },
       "item": "Dream Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Slack Off",
         "Yawn",
@@ -47810,7 +47810,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Wave",
         "Headbutt",
@@ -47846,7 +47846,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Wave",
         "Headbutt",
@@ -47884,7 +47884,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Toss",
         "Heal Bell",
@@ -47920,7 +47920,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Memento"
       ],
@@ -47955,7 +47955,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wish",
         "Protect",
@@ -47991,7 +47991,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Belly Drum",
         "Explosion",
@@ -48027,7 +48027,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Power Whip",
@@ -48063,7 +48063,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Heal Bell",
@@ -48101,7 +48101,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Coil",
         "Headbutt",
@@ -48137,7 +48137,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Headbutt",
         "Coil",
@@ -48175,7 +48175,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Knock Off",
@@ -48211,7 +48211,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Knock Off",
@@ -48247,7 +48247,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Memento"
       ],
@@ -48280,7 +48280,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Surf",
@@ -48318,7 +48318,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Double-Edge",
@@ -48354,7 +48354,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Giga Impact",
@@ -48390,7 +48390,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Darkest Lariat",
         "Close Combat",
@@ -48426,7 +48426,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Double-Edge",
@@ -48464,7 +48464,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Play Rough",
@@ -48500,7 +48500,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Play Rough",
@@ -48536,7 +48536,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Blizzard",
@@ -48574,7 +48574,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Charge",
         "Earthquake",
@@ -48610,7 +48610,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Charge",
         "Megahorn",
@@ -48646,7 +48646,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cotton Guard",
         "Amnesia",
@@ -48684,7 +48684,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Slap",
         "Bullet Seed",
@@ -48720,7 +48720,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Slap",
         "Bullet Seed",
@@ -48756,7 +48756,7 @@ backup_data = {
       },
       "item": "Protective Pads",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Slap",
         "Bullet Seed",
@@ -48794,7 +48794,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Facade",
@@ -48832,7 +48832,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Facade",
@@ -48868,7 +48868,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Punch",
         "Close Combat",
@@ -48906,7 +48906,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Focus Blast",
@@ -48942,7 +48942,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Extrasensory",
@@ -48978,7 +48978,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Extrasensory",
@@ -49014,7 +49014,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Extrasensory",
@@ -49050,7 +49050,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Focus Blast",
@@ -49086,7 +49086,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Focus Blast",
@@ -49122,7 +49122,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Focus Blast",
@@ -49158,7 +49158,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Extrasensory",
@@ -49194,7 +49194,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Sleep Talk",
@@ -49230,7 +49230,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outburst",
         "Outburst",
@@ -49268,7 +49268,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Psychic Fangs",
@@ -49304,7 +49304,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Fang",
         "X-Scissor",
@@ -49340,7 +49340,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Iron Defense",
@@ -49376,7 +49376,7 @@ backup_data = {
       },
       "item": "Poison Barb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Bite",
         "Poison Jab",
@@ -49412,7 +49412,7 @@ backup_data = {
       },
       "item": "Bug Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Megahorn",
         "Psychic Fangs",
@@ -49450,7 +49450,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sky Uppercut",
         "Crunch",
@@ -49486,7 +49486,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Crunch",
@@ -49522,7 +49522,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Wicked Blow",
@@ -49558,7 +49558,7 @@ backup_data = {
       },
       "item": "Roseli Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hammer Arm",
         "Crunch",
@@ -49596,7 +49596,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Ice Beam",
@@ -49632,7 +49632,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Giga Drain",
@@ -49668,7 +49668,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Toxic",
@@ -49706,7 +49706,7 @@ backup_data = {
       },
       "item": "Black Glasses",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Poison Jab",
@@ -49742,7 +49742,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Poison Jab",
@@ -49778,7 +49778,7 @@ backup_data = {
       },
       "item": "Quick Claw",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outburst",
         "Dark Pulse",
@@ -49814,7 +49814,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Dark Pulse",
@@ -49850,7 +49850,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Crunch",
@@ -49888,7 +49888,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "No Retreat",
         "First Impression",
@@ -49926,7 +49926,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Lovely Kiss",
         "Dream Eater",
@@ -49962,7 +49962,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Fake Out",
@@ -49998,7 +49998,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Reflect",
         "Icy Wind",
@@ -50034,7 +50034,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Lovely Kiss",
         "Nasty Plot",
@@ -50072,7 +50072,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Scald",
@@ -50108,7 +50108,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Aqua Tail",
@@ -50144,7 +50144,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Aqua Tail",
@@ -50180,7 +50180,7 @@ backup_data = {
       },
       "item": "Dewgongite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Impale",
         "Aqua Bash",
@@ -50216,7 +50216,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Aqua Tail",
@@ -50254,7 +50254,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -50290,7 +50290,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -50326,7 +50326,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Earth Power",
@@ -50362,7 +50362,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -50398,7 +50398,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -50436,7 +50436,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Block",
         "Protect",
@@ -50472,7 +50472,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Spout",
         "Heavy Slam",
@@ -50508,7 +50508,7 @@ backup_data = {
       },
       "item": "Mystic Water",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -50544,7 +50544,7 @@ backup_data = {
       },
       "item": "Chesto Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Earthquake",
@@ -50580,7 +50580,7 @@ backup_data = {
       },
       "item": "Chesto Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Spout",
         "Ice Beam",
@@ -50616,7 +50616,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Spout",
         "Ice Beam",
@@ -50654,7 +50654,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Venoshock",
@@ -50690,7 +50690,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Scald",
@@ -50726,7 +50726,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Venoshock",
@@ -50762,7 +50762,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Knock Off",
@@ -50798,7 +50798,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Haze",
@@ -50834,7 +50834,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Haze",
@@ -50870,7 +50870,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Sludge Bomb",
@@ -50908,7 +50908,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icy Wind",
         "Extreme Speed",
@@ -50946,7 +50946,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Submission",
@@ -50982,7 +50982,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Submission",
@@ -51018,7 +51018,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Night Slash",
@@ -51054,7 +51054,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Submission",
@@ -51092,7 +51092,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Hydro Pump",
@@ -51128,7 +51128,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Sparkling Aria",
@@ -51164,7 +51164,7 @@ backup_data = {
       },
       "item": "Ground Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Dragon Hammer",
@@ -51200,7 +51200,7 @@ backup_data = {
       },
       "item": "Laprasite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fishious Rend",
         "Draconic Fangs",
@@ -51236,7 +51236,7 @@ backup_data = {
       },
       "item": "Laprasite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Sheer Cold",
@@ -51272,7 +51272,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Icicle Crash",
@@ -51308,7 +51308,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Icicle Crash",
@@ -51344,7 +51344,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Hydro Pump",
@@ -51382,7 +51382,7 @@ backup_data = {
       },
       "item": "Ghost Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Shadow Ball",
@@ -51418,7 +51418,7 @@ backup_data = {
       },
       "item": "Damp Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rain Dance",
         "Scald",
@@ -51454,7 +51454,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Spout",
         "Shadow Ball",
@@ -51490,7 +51490,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acid Armor",
         "Strength Sap",
@@ -51526,7 +51526,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hex",
@@ -51564,7 +51564,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Pulse",
         "Dark Pulse",
@@ -51600,7 +51600,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Crunch",
@@ -51636,7 +51636,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Dark Pulse",
@@ -51674,7 +51674,7 @@ backup_data = {
       },
       "item": "Poison Barb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Sludge Wave",
@@ -51710,7 +51710,7 @@ backup_data = {
       },
       "item": "Poison Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Wave",
         "Draco Meteor",
@@ -51746,7 +51746,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Sludge Wave",
@@ -51784,7 +51784,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Wave Crash",
@@ -51820,7 +51820,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Aqua Fang",
@@ -51856,7 +51856,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Jet",
         "Crunch",
@@ -51892,7 +51892,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -51930,7 +51930,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hurricane",
@@ -51966,7 +51966,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hurricane",
@@ -52004,7 +52004,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Encore",
@@ -52040,7 +52040,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Boomburst",
@@ -52076,7 +52076,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Boomburst",
@@ -52112,7 +52112,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Hyper Voice",
@@ -52150,7 +52150,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dive",
         "Bolt Beak",
@@ -52188,7 +52188,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Wicked Blow",
@@ -52224,7 +52224,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Wicked Blow",
@@ -52260,7 +52260,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Wicked Blow",
@@ -52296,7 +52296,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Wicked Blow",
@@ -52332,7 +52332,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Wicked Blow",
@@ -52368,7 +52368,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Crabhammer",
@@ -52404,7 +52404,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Crabhammer",
@@ -52442,7 +52442,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Crunch",
@@ -52478,7 +52478,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Crunch",
@@ -52514,7 +52514,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Crunch",
@@ -52550,7 +52550,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Crunch",
@@ -52586,7 +52586,7 @@ backup_data = {
       },
       "item": "Feraligatrite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Deathroll",
         "Crunch",
@@ -52624,7 +52624,7 @@ backup_data = {
       },
       "item": "Electric Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Drain Punch",
@@ -52660,7 +52660,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Close Combat",
@@ -52696,7 +52696,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Dual Wingbeat",
@@ -52732,7 +52732,7 @@ backup_data = {
       },
       "item": "Electric Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "High Jump Kick",
@@ -52768,7 +52768,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bounce",
         "Submission",
@@ -52804,7 +52804,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "High Jump Kick",
@@ -52842,7 +52842,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Strength",
@@ -52878,7 +52878,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Stone Edge",
@@ -52914,7 +52914,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Stone Edge",
@@ -52952,7 +52952,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Aqua Jet",
@@ -52988,7 +52988,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Close Combat",
@@ -53024,7 +53024,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Liquidation",
@@ -53060,7 +53060,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Liquidation",
@@ -53098,7 +53098,7 @@ backup_data = {
       },
       "item": "Machampite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dynamic Punch",
         "Dual Chop",
@@ -53134,7 +53134,7 @@ backup_data = {
       },
       "item": "Black Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Submission",
         "Dual Chop",
@@ -53170,7 +53170,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dynamic Punch",
         "Grass Knot",
@@ -53206,7 +53206,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dynamic Punch",
         "Stone Edge",
@@ -53242,7 +53242,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Chop",
         "Submission",
@@ -53278,7 +53278,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dynamic Punch",
         "Stone Edge",
@@ -53316,7 +53316,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Slack Off",
@@ -53352,7 +53352,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Aqua Tail",
@@ -53388,7 +53388,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -53424,7 +53424,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Hyper Fang",
@@ -53460,7 +53460,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Scald",
@@ -53496,7 +53496,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sheer Cold",
         "Slack Off",
@@ -53534,7 +53534,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Air Slash",
@@ -53570,7 +53570,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Air Slash",
@@ -53606,7 +53606,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Blizzard",
@@ -53642,7 +53642,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Ice Beam",
@@ -53680,7 +53680,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Stone Edge",
@@ -53716,7 +53716,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Rock Slide",
@@ -53752,7 +53752,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Liquidation",
@@ -53788,7 +53788,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Strength",
         "Aqua Fang",
@@ -53824,7 +53824,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Rock Slide",
@@ -53862,7 +53862,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Focus Blast",
@@ -53898,7 +53898,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Grass Knot",
@@ -53934,7 +53934,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Focus Blast",
@@ -53970,7 +53970,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -54008,7 +54008,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trick",
         "Double-Edge",
@@ -54044,7 +54044,7 @@ backup_data = {
       },
       "item": "Chople Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Agility",
         "Headbutt",
@@ -54080,7 +54080,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trick",
         "Double-Edge",
@@ -54118,7 +54118,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Night Slash",
@@ -54154,7 +54154,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Sucker Punch",
@@ -54190,7 +54190,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drill Peck",
         "Night Slash",
@@ -54226,7 +54226,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Brave Bird",
@@ -54264,7 +54264,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Metal Sound",
@@ -54300,7 +54300,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Earthquake",
@@ -54336,7 +54336,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Protect",
@@ -54372,7 +54372,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Wave Crash",
@@ -54408,7 +54408,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Hydro Pump",
@@ -54444,7 +54444,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Boomburst",
@@ -54482,7 +54482,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Quiver Dance",
@@ -54518,7 +54518,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Venoshock",
@@ -54554,7 +54554,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sky Drop",
         "Toxic",
@@ -54592,7 +54592,7 @@ backup_data = {
       },
       "item": "Bug Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Quiver Dance",
@@ -54628,7 +54628,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hyper Beam",
@@ -54666,7 +54666,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Aqua Ring",
@@ -54702,7 +54702,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Spear",
         "Rock Blast",
@@ -54738,7 +54738,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Icicle Spear",
@@ -54774,7 +54774,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Spear",
         "Toxic Spikes",
@@ -54810,7 +54810,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spike Cannon",
         "Icicle Spear",
@@ -54846,7 +54846,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spike Cannon",
         "Icicle Spear",
@@ -54884,7 +54884,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Sucker Punch",
@@ -54920,7 +54920,7 @@ backup_data = {
       },
       "item": "Kangaskhanite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power-Up Punch",
         "Body Slam",
@@ -54956,7 +54956,7 @@ backup_data = {
       },
       "item": "Silk Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Punch",
         "Sucker Punch",
@@ -54994,7 +54994,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Earth Power",
@@ -55030,7 +55030,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dive",
         "Dig",
@@ -55066,7 +55066,7 @@ backup_data = {
       },
       "item": "Rindo Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Yawn",
@@ -55102,7 +55102,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Earth Power",
@@ -55140,7 +55140,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Aqua Tail",
@@ -55176,7 +55176,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Earthquake",
@@ -55212,7 +55212,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Stockpile",
@@ -55248,7 +55248,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Scald",
@@ -55284,7 +55284,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Scald",
@@ -55320,7 +55320,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Body Slam",
@@ -55358,7 +55358,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Tackle",
@@ -55394,7 +55394,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Reversal",
@@ -55432,7 +55432,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Sacred Sword",
@@ -55468,7 +55468,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "King's Shield",
@@ -55504,7 +55504,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "King's Shield",
@@ -55540,7 +55540,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "King's Shield",
@@ -55576,7 +55576,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Head",
         "Shadow Ball",
@@ -55612,7 +55612,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "King's Shield",
         "Shadow Sneak",
@@ -55648,7 +55648,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Excalibur",
         "Shadow Claw",
@@ -55686,7 +55686,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Punch",
         "Hidden Power",
@@ -55722,7 +55722,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heavy Slam",
         "Bullet Punch",
@@ -55758,7 +55758,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hammer Arm",
         "Psychokinetic Slam",
@@ -55794,7 +55794,7 @@ backup_data = {
       },
       "item": "Metagrossite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychokinetic Slam",
         "High Horsepower",
@@ -55830,7 +55830,7 @@ backup_data = {
       },
       "item": "Metagrossite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Meteor Mash",
         "Psychokinetic Slam",
@@ -55868,7 +55868,7 @@ backup_data = {
       },
       "item": "Absolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Play Rough",
@@ -55904,7 +55904,7 @@ backup_data = {
       },
       "item": "Absolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wicked Blow",
         "Play Rough",
@@ -55940,7 +55940,7 @@ backup_data = {
       },
       "item": "Absolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wicked Blow",
         "Play Rough",
@@ -55976,7 +55976,7 @@ backup_data = {
       },
       "item": "Absolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pixie Slash",
         "Fury Cutter",
@@ -56014,7 +56014,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Pulse",
         "Sludge Wave",
@@ -56050,7 +56050,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bravado",
         "Sludge Bomb",
@@ -56086,7 +56086,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bravado",
         "Sludge Bomb",
@@ -56122,7 +56122,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bravado",
         "Sludge Bomb",
@@ -56158,7 +56158,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Pulse",
         "Earth Power",
@@ -56196,7 +56196,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Dragon Dance",
@@ -56232,7 +56232,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Slam",
         "Dragon Hammer",
@@ -56268,7 +56268,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Hammer",
         "Solar Blade",
@@ -56304,7 +56304,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sunny Day",
         "Air Slash",
@@ -56340,7 +56340,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Blade",
         "Double-Edge",
@@ -56378,7 +56378,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Icy Wind",
@@ -56414,7 +56414,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Blizzard",
@@ -56450,7 +56450,7 @@ backup_data = {
       },
       "item": "Icy Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blizzard",
         "Draining Kiss",
@@ -56488,7 +56488,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Shadow Sneak",
@@ -56524,7 +56524,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Final Gambit",
         "Final Gambit",
@@ -56560,7 +56560,7 @@ backup_data = {
       },
       "item": "Shedinjite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "U-turn",
         "Shadow Sneak",
@@ -56598,7 +56598,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "X-Scissor",
@@ -56636,7 +56636,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hurricane",
@@ -56672,7 +56672,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Bug Buzz",
@@ -56710,7 +56710,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -56746,7 +56746,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Bug Buzz",
@@ -56782,7 +56782,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Bug Buzz",
@@ -56820,7 +56820,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Punch",
         "Dual Wingbeat",
@@ -56858,7 +56858,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "X-Scissor",
         "Poison Jab",
@@ -56894,7 +56894,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Poison",
         "Twineedle",
@@ -56932,7 +56932,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Substitute",
@@ -56970,7 +56970,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Leech Life",
@@ -57006,7 +57006,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Twineedle",
@@ -57042,7 +57042,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Twineedle",
@@ -57080,7 +57080,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Iron Head",
@@ -57116,7 +57116,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Iron Head",
@@ -57152,7 +57152,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Iron Defense",
@@ -57188,7 +57188,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Whip",
         "Knock Off",
@@ -57224,7 +57224,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Knock Off",
@@ -57262,7 +57262,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Iron Fangs",
@@ -57298,7 +57298,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Fang",
         "Iron Fangs",
@@ -57336,7 +57336,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Drain Punch",
@@ -57372,7 +57372,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Gunk Shot",
@@ -57408,7 +57408,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Focus Blast",
@@ -57444,7 +57444,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Gunk Shot",
@@ -57480,7 +57480,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Focus Blast",
         "Sludge Wave",
@@ -57516,7 +57516,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Return",
@@ -57552,7 +57552,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Return",
@@ -57590,7 +57590,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Dazzling Gleam",
@@ -57628,7 +57628,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Throat Chop",
         "Psycho Cut",
@@ -57664,7 +57664,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Superpower",
         "Throat Chop",
@@ -57700,7 +57700,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Throat Chop",
         "Psycho Cut",
@@ -57738,7 +57738,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Shuriken",
         "Sucker Punch",
@@ -57776,7 +57776,7 @@ backup_data = {
       },
       "item": "Torterranite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zephyr Rush",
         "Star Crash",
@@ -57812,7 +57812,7 @@ backup_data = {
       },
       "item": "Torterranite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zephyr Rush",
         "Star Crash",
@@ -57848,7 +57848,7 @@ backup_data = {
       },
       "item": "Torterranite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Wild Charge",
@@ -57886,7 +57886,7 @@ backup_data = {
       },
       "item": "Infernapite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Jet Punch",
         "Torrent Fist",
@@ -57922,7 +57922,7 @@ backup_data = {
       },
       "item": "Infernapite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Jet Punch",
         "Torrent Fist",
@@ -57958,7 +57958,7 @@ backup_data = {
       },
       "item": "Punching Glove",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Jet Punch",
         "Drain Punch",
@@ -57996,7 +57996,7 @@ backup_data = {
       },
       "item": "Empoleonite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Freeze-Dry",
@@ -58032,7 +58032,7 @@ backup_data = {
       },
       "item": "Empoleonite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Freeze-Dry",
@@ -58068,7 +58068,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aurora Veil",
         "Sheer Cold",
@@ -58104,7 +58104,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Chilling Water",
@@ -58142,7 +58142,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Muddy Water",
@@ -58178,7 +58178,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Muddy Water",
@@ -58214,7 +58214,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Muddy Water",
@@ -58250,7 +58250,7 @@ backup_data = {
       },
       "item": "Chople Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Shelter",
@@ -58288,7 +58288,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic Plunge",
         "Triple Dive",
@@ -58326,7 +58326,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Night Slash",
         "Cross Poison",
@@ -58362,7 +58362,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "Night Slash",
@@ -58398,7 +58398,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Poison",
         "Night Slash",
@@ -58434,7 +58434,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Cross Poison",
         "Night Slash",
@@ -58472,7 +58472,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gunk Shot",
         "Knock Off",
@@ -58508,7 +58508,7 @@ backup_data = {
       },
       "item": "Black Sludge",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Punch",
         "Acid Armor",
@@ -58544,7 +58544,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Punch",
         "Poison Jab",
@@ -58580,7 +58580,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gunk Shot",
         "Fire Blast",
@@ -58618,7 +58618,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Impact",
         "Earthquake",
@@ -58654,7 +58654,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Return",
@@ -58692,7 +58692,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Calm Mind",
@@ -58728,7 +58728,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icy Wind",
         "Recover",
@@ -58766,7 +58766,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Ancient Power",
@@ -58802,7 +58802,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Knock Off",
@@ -58838,7 +58838,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sludge Bomb",
@@ -58876,7 +58876,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Stone Edge",
@@ -58912,7 +58912,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Knock Off",
@@ -58948,7 +58948,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Knock Off",
@@ -58984,7 +58984,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "U-turn",
@@ -59020,7 +59020,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Strength",
@@ -59058,7 +59058,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Reflect",
         "Light Screen",
@@ -59096,7 +59096,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Hurricane",
@@ -59132,7 +59132,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sunny Day",
         "Weather Ball",
@@ -59170,7 +59170,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Will-O-Wisp",
         "Calm Mind",
@@ -59206,7 +59206,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Will-O-Wisp",
         "Knock Off",
@@ -59242,7 +59242,7 @@ backup_data = {
       },
       "item": "Lagging Tail",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Will-O-Wisp",
         "Trick",
@@ -59278,7 +59278,7 @@ backup_data = {
       },
       "item": "Roseli Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Sneak",
         "Recover",
@@ -59316,7 +59316,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Outrage",
@@ -59352,7 +59352,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Clanging Scales",
         "Mystic Dance",
@@ -59388,7 +59388,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Clanging Scales",
         "Aura Sphere",
@@ -59424,7 +59424,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aura Sphere",
         "Clanging Scales",
@@ -59462,7 +59462,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Blade",
         "Sucker Punch",
@@ -59498,7 +59498,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Ball",
         "Dark Pulse",
@@ -59534,7 +59534,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Seed",
         "Substitute",
@@ -59570,7 +59570,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sunny Day",
         "Solar Blade",
@@ -59606,7 +59606,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Leaf Storm",
@@ -59644,7 +59644,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Dragon Rush",
@@ -59680,7 +59680,7 @@ backup_data = {
       },
       "item": "Aerodactylite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Dragon Rush",
@@ -59718,7 +59718,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Crush Claw",
@@ -59754,7 +59754,7 @@ backup_data = {
       },
       "item": "Power Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Phantom Force",
         "Frustration",
@@ -59790,7 +59790,7 @@ backup_data = {
       },
       "item": "Ghost Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Return",
         "Phantom Force",
@@ -59826,7 +59826,7 @@ backup_data = {
       },
       "item": "Banettite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Return",
@@ -59862,7 +59862,7 @@ backup_data = {
       },
       "item": "Banettite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Destiny Bond",
@@ -59900,7 +59900,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Power Gem",
@@ -59936,7 +59936,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Hyper Voice",
@@ -59972,7 +59972,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Hyper Voice",
@@ -60010,7 +60010,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Scorchng Sands",
@@ -60046,7 +60046,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Shadow Ball",
@@ -60082,7 +60082,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earth Power",
         "Shadow Ball",
@@ -60118,7 +60118,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Earth Power",
@@ -60154,7 +60154,7 @@ backup_data = {
       },
       "item": "Smooth Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scorchng Sands",
         "Shadow Ball",
@@ -60192,7 +60192,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quiver Dance",
         "Bug Buzz",
@@ -60230,7 +60230,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hex",
         "Flash Cannon",
@@ -60266,7 +60266,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Aura Sphere",
@@ -60302,7 +60302,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hex",
         "Flash Cannon",
@@ -60340,7 +60340,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Shadow Ball",
@@ -60378,7 +60378,7 @@ backup_data = {
       },
       "item": "Mawilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Swords Dance",
@@ -60414,7 +60414,7 @@ backup_data = {
       },
       "item": "Mawilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Iron Head",
@@ -60450,7 +60450,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Iron Head",
@@ -60486,7 +60486,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Iron Head",
@@ -60522,7 +60522,7 @@ backup_data = {
       },
       "item": "Mawilite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Lovely Bite",
@@ -60560,7 +60560,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flash Cannon",
         "Volt Switch",
@@ -60596,7 +60596,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Flash Cannon",
@@ -60632,7 +60632,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Wave",
         "Flash Cannon",
@@ -60668,7 +60668,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Flash Cannon",
@@ -60704,7 +60704,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Flash Cannon",
@@ -60740,7 +60740,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Flash Cannon",
@@ -60776,7 +60776,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Flash Cannon",
@@ -60812,7 +60812,7 @@ backup_data = {
       },
       "item": "Electric Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zap Cannon",
         "Flash Cannon",
@@ -60848,7 +60848,7 @@ backup_data = {
       },
       "item": "Magnezonite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rising Voltage",
         "Flash Cannon",
@@ -60884,7 +60884,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Flash Cannon",
@@ -60920,7 +60920,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Flash Cannon",
@@ -60958,7 +60958,7 @@ backup_data = {
       },
       "item": "Blastoisinite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Cannon",
         "Dark Pulse",
@@ -60994,7 +60994,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -61030,7 +61030,7 @@ backup_data = {
       },
       "item": "Blastoisinite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Spike Cannon",
@@ -61066,7 +61066,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Water Pulse",
         "Dark Pulse",
@@ -61102,7 +61102,7 @@ backup_data = {
       },
       "item": "Blastoisinite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rapid Spin",
         "Dark Pulse",
@@ -61138,7 +61138,7 @@ backup_data = {
       },
       "item": "Blastoisinite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spike Cannon",
         "Barrage",
@@ -61176,7 +61176,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Solar Beam",
@@ -61212,7 +61212,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Psyshock",
@@ -61248,7 +61248,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Solar Beam",
@@ -61286,7 +61286,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Defog",
         "Toxic",
@@ -61322,7 +61322,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Dragon Rush",
@@ -61358,7 +61358,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Cotton Guard",
@@ -61394,7 +61394,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Fire Blast",
@@ -61432,7 +61432,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -61468,7 +61468,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -61506,7 +61506,7 @@ backup_data = {
       },
       "item": "Water Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Dark Pulse",
@@ -61542,7 +61542,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Crunch",
@@ -61580,7 +61580,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Earthquake",
@@ -61616,7 +61616,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Rock Blast",
@@ -61652,7 +61652,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Fire Punch",
@@ -61688,7 +61688,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Rock Blast",
@@ -61724,7 +61724,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Blast",
         "Fire Punch",
@@ -61762,7 +61762,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Close Combat",
@@ -61798,7 +61798,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Stomping Tantrum",
@@ -61834,7 +61834,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Guillotine",
         "Night Slash",
@@ -61870,7 +61870,7 @@ backup_data = {
       },
       "item": "Dragon Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Close Combat",
@@ -61908,7 +61908,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Punch",
         "Poison Jab",
@@ -61944,7 +61944,7 @@ backup_data = {
       },
       "item": "Spell Tag",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Sludge Bomb",
@@ -61980,7 +61980,7 @@ backup_data = {
       },
       "item": "Gengarite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Fangs",
         "Jaw Lock",
@@ -62016,7 +62016,7 @@ backup_data = {
       },
       "item": "Gengarite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Sludge Bomb",
@@ -62052,7 +62052,7 @@ backup_data = {
       },
       "item": "Gengarite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Sludge Wave",
@@ -62088,7 +62088,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spectral Thief",
         "Poison Jab",
@@ -62124,7 +62124,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Sludge Bomb",
@@ -62160,7 +62160,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Sludge Bomb",
@@ -62196,7 +62196,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Sludge Wave",
@@ -62234,7 +62234,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Knock Off",
@@ -62270,7 +62270,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Close Combat",
@@ -62306,7 +62306,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Fake Out",
@@ -62342,7 +62342,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Fist",
         "Brick Break",
@@ -62378,7 +62378,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Arm Thrust",
         "Heavy Slam",
@@ -62414,7 +62414,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Knock Off",
@@ -62450,7 +62450,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heavy Slam",
         "Close Combat",
@@ -62486,7 +62486,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Fake Out",
@@ -62522,7 +62522,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Focus Punch",
         "Rock Tomb",
@@ -62558,7 +62558,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Fake Out",
@@ -62596,7 +62596,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Triple Axel",
@@ -62632,7 +62632,7 @@ backup_data = {
       },
       "item": "Hitmonleenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Kick",
         "Triple Axel",
@@ -62668,7 +62668,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poison Jab",
         "High Jump Kick",
@@ -62704,7 +62704,7 @@ backup_data = {
       },
       "item": "Hitmonleenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Mega Kick",
@@ -62742,7 +62742,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Charm",
         "Mirror Coat",
@@ -62778,7 +62778,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Charm",
         "Mirror Coat",
@@ -62814,7 +62814,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mirror Coat",
         "Encore",
@@ -62850,7 +62850,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Counter",
         "Mirror Coat",
@@ -62886,7 +62886,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Counter",
         "Mirror Coat",
@@ -62924,7 +62924,7 @@ backup_data = {
       },
       "item": "Twisted Spoon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Shadow Ball",
@@ -62960,7 +62960,7 @@ backup_data = {
       },
       "item": "Psychic Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Thunderbolt",
@@ -62996,7 +62996,7 @@ backup_data = {
       },
       "item": "Mental Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Skill Swap",
         "Psyshock",
@@ -63034,7 +63034,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Psycho Cut",
@@ -63070,7 +63070,7 @@ backup_data = {
       },
       "item": "Galladite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Psyblade",
@@ -63106,7 +63106,7 @@ backup_data = {
       },
       "item": "Galladite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Psycho Cut",
@@ -63142,7 +63142,7 @@ backup_data = {
       },
       "item": "Galladite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Psycho Cut",
@@ -63180,7 +63180,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "X-Scissor",
@@ -63216,7 +63216,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Sacred Sword",
@@ -63252,7 +63252,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Excalibur",
@@ -63288,7 +63288,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Secret Sword",
@@ -63326,7 +63326,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Body Press",
@@ -63362,7 +63362,7 @@ backup_data = {
       },
       "item": "Aggronite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heavy Slam",
         "Body Press",
@@ -63398,7 +63398,7 @@ backup_data = {
       },
       "item": "Aggronite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heavy Slam",
         "Ice Punch",
@@ -63434,7 +63434,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Heavy Slam",
@@ -63470,7 +63470,7 @@ backup_data = {
       },
       "item": "Aggronite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heavy Slam",
         "Ice Punch",
@@ -63506,7 +63506,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Stealth Rock",
@@ -63542,7 +63542,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Stealth Rock",
@@ -63580,7 +63580,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Thunder",
@@ -63616,7 +63616,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Focus Blast",
@@ -63654,7 +63654,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Night Slash",
         "Icicle Crash",
@@ -63690,7 +63690,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Axel",
         "Knock Off",
@@ -63726,7 +63726,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Crash",
         "Knock Off",
@@ -63762,7 +63762,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Punch",
         "Knock Off",
@@ -63798,7 +63798,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Ice Shard",
@@ -63834,7 +63834,7 @@ backup_data = {
       },
       "item": "Weavileite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Axel",
         "Low Kick",
@@ -63872,7 +63872,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Leaf Storm",
@@ -63908,7 +63908,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Sludge Bomb",
@@ -63944,7 +63944,7 @@ backup_data = {
       },
       "item": "Wiki Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Sludge Bomb",
@@ -63980,7 +63980,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Ingrain",
@@ -64016,7 +64016,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Sludge Bomb",
@@ -64052,7 +64052,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Sludge Bomb",
@@ -64088,7 +64088,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Clear Smog",
@@ -64124,7 +64124,7 @@ backup_data = {
       },
       "item": "Grassy Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Giga Drain",
@@ -64162,7 +64162,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Earthquake",
@@ -64198,7 +64198,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Earthquake",
@@ -64234,7 +64234,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Dual Wingbeat",
@@ -64270,7 +64270,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Earthquake",
@@ -64306,7 +64306,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Facade",
         "Protect",
@@ -64342,7 +64342,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Ice Fang",
@@ -64380,7 +64380,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Hurricane",
@@ -64416,7 +64416,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Synchronoise",
@@ -64454,7 +64454,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Rock Slide",
@@ -64490,7 +64490,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Accelerock",
         "Sky Attack",
@@ -64528,7 +64528,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Hurricane",
@@ -64564,7 +64564,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Tailwind",
@@ -64600,7 +64600,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Hurricane",
@@ -64636,7 +64636,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tailwind",
         "Dragon Pulse",
@@ -64672,7 +64672,7 @@ backup_data = {
       },
       "item": "Petaya Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Water Pulse",
@@ -64710,7 +64710,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Esper Wing",
         "Hurricane",
@@ -64746,7 +64746,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychokinetic Slam",
         "Brave Bird",
@@ -64784,7 +64784,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hurricane",
@@ -64820,7 +64820,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Air Slash",
@@ -64856,7 +64856,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hurricane",
@@ -64892,7 +64892,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Hurricane",
@@ -64930,7 +64930,7 @@ backup_data = {
       },
       "item": "Flame Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Thunderbolt",
@@ -64968,7 +64968,7 @@ backup_data = {
       },
       "item": "Frost Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Rolling Kick",
@@ -65006,7 +65006,7 @@ backup_data = {
       },
       "item": "Flying Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Head Smash",
@@ -65042,7 +65042,7 @@ backup_data = {
       },
       "item": "Rock Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Acrobatics",
         "Rock Slide",
@@ -65080,7 +65080,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Pulse",
         "Mud Shot",
@@ -65118,7 +65118,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gunk Shot",
         "Meteor Mash",
@@ -65156,7 +65156,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Payback",
         "Curse",
@@ -65192,7 +65192,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Foul Play",
         "Hypnosis",
@@ -65228,7 +65228,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wish",
         "Foul Play",
@@ -65266,7 +65266,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Esper Wing",
         "Lumina Crash",
@@ -65304,7 +65304,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "High Jump Kick",
         "Crunch",
@@ -65340,7 +65340,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Drain Punch",
@@ -65376,7 +65376,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Throat Chop",
@@ -65412,7 +65412,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Bulk Up",
@@ -65450,7 +65450,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bug Buzz",
         "Psychic",
@@ -65488,7 +65488,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fissure",
         "Crunch",
@@ -65524,7 +65524,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Wicked Blow",
@@ -65560,7 +65560,7 @@ backup_data = {
       },
       "item": "Krookodilenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bulk Up",
         "Knock Off",
@@ -65598,7 +65598,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outburst",
         "Strange Steam",
@@ -65634,7 +65634,7 @@ backup_data = {
       },
       "item": "Terrain Extender",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Mistsplosion",
@@ -65672,7 +65672,7 @@ backup_data = {
       },
       "item": "Wise Glasses",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Chloroblast",
         "Outburst",
@@ -65710,7 +65710,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Thunderbolt",
@@ -65746,7 +65746,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Foul Play",
         "Parting Shot",
@@ -65782,7 +65782,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Thunderbolt",
@@ -65820,7 +65820,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Fissure",
@@ -65856,7 +65856,7 @@ backup_data = {
       },
       "item": "Metronome",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Fissure",
@@ -65892,7 +65892,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tectonic Fangs",
         "Ice Fang",
@@ -65928,7 +65928,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Ice Shard",
@@ -65964,7 +65964,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Tectonic Fangs",
@@ -66000,7 +66000,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tectonic Fangs",
         "Ice Shard",
@@ -66038,7 +66038,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Comeuppance",
         "Iron Fangs",
@@ -66076,7 +66076,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Precipice Blades",
         "V-create",
@@ -66112,7 +66112,7 @@ backup_data = {
       },
       "item": "Red Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Precipice Blades",
         "Flare Blitz",
@@ -66148,7 +66148,7 @@ backup_data = {
       },
       "item": "Red Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "V-create",
         "Precipice Blades",
@@ -66186,7 +66186,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Seismic Fist",
@@ -66224,7 +66224,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Agility",
@@ -66260,7 +66260,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Guillotine",
@@ -66296,7 +66296,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Hammer Arm",
@@ -66334,7 +66334,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Noxious Torque",
         "Blazing Torque",
@@ -66372,7 +66372,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Wave Crash",
@@ -66408,7 +66408,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Wave Crash",
@@ -66446,7 +66446,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gem Missile",
         "Meteor Beam",
@@ -66482,7 +66482,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Meteor Beam",
         "Mortal Spin",
@@ -66520,7 +66520,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Submission",
         "Wicked Blow",
@@ -66556,7 +66556,7 @@ backup_data = {
       },
       "item": "????????",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Dance",
         "Axe Kick",
@@ -66594,7 +66594,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Head Smash",
@@ -66630,7 +66630,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Rock Slide",
@@ -66666,7 +66666,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Head Smash",
@@ -66704,7 +66704,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Hydro Pump",
@@ -66740,7 +66740,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Submission",
         "Dive",
@@ -66776,7 +66776,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Darkest Lariat",
         "Close Combat",
@@ -66812,7 +66812,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Liquidation",
         "Close Combat",
@@ -66848,7 +66848,7 @@ backup_data = {
       },
       "item": "Electric Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Drain Punch",
@@ -66886,7 +66886,7 @@ backup_data = {
       },
       "item": "Light Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Surf",
@@ -66922,7 +66922,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Surf",
@@ -66958,7 +66958,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Play Rough",
@@ -66994,7 +66994,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Surf",
@@ -67032,7 +67032,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Body Press",
         "Psychic",
@@ -67068,7 +67068,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -67104,7 +67104,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Ice Beam",
@@ -67142,7 +67142,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Waterfall",
         "Outrage",
@@ -67178,7 +67178,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Dragon Pulse",
@@ -67214,7 +67214,7 @@ backup_data = {
       },
       "item": "Mystic Water",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Dragon Pulse",
@@ -67250,7 +67250,7 @@ backup_data = {
       },
       "item": "Kingdranite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Pulse",
         "Ice Beam",
@@ -67288,7 +67288,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Power Gem",
@@ -67326,7 +67326,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Thunderbolt",
@@ -67362,7 +67362,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Hydro Pump",
@@ -67398,7 +67398,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Hydro Pump",
@@ -67434,7 +67434,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Volt Switch",
@@ -67472,7 +67472,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Tail",
         "Crunch",
@@ -67508,7 +67508,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Aqua Fang",
@@ -67546,7 +67546,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic",
         "Mirror Coat",
@@ -67582,7 +67582,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Counter",
@@ -67620,7 +67620,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gear Grind",
         "Substitute",
@@ -67658,7 +67658,7 @@ backup_data = {
       },
       "item": "Ampharosite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Dragon Pulse",
@@ -67694,7 +67694,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Reflect",
         "Light Screen",
@@ -67730,7 +67730,7 @@ backup_data = {
       },
       "item": "Electric Seed",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tail Glow",
         "Dragon Pulse",
@@ -67768,7 +67768,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scale Shot",
         "Earthquake",
@@ -67804,7 +67804,7 @@ backup_data = {
       },
       "item": "Dragonitenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Smite",
@@ -67840,7 +67840,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dual Wingbeat",
         "Dragon Claw",
@@ -67876,7 +67876,7 @@ backup_data = {
       },
       "item": "Dragonitenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Outrage",
@@ -67914,7 +67914,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Fang",
         "Hyper Fang",
@@ -67952,7 +67952,7 @@ backup_data = {
       },
       "item": "Liechi Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Wild Charge",
@@ -67990,7 +67990,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Flash Cannon",
@@ -68026,7 +68026,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Flash Cannon",
@@ -68062,7 +68062,7 @@ backup_data = {
       },
       "item": "Ground Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Earth Power",
@@ -68098,7 +68098,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Flash Cannon",
@@ -68136,7 +68136,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fiery Dance",
         "Giga Drain",
@@ -68172,7 +68172,7 @@ backup_data = {
       },
       "item": "Bug Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fiery Dance",
         "Bug Buzz",
@@ -68208,7 +68208,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Giga Drain",
@@ -68244,7 +68244,7 @@ backup_data = {
       },
       "item": "Charti Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Solar Beam",
@@ -68282,7 +68282,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Ice Beam",
@@ -68318,7 +68318,7 @@ backup_data = {
       },
       "item": "Froslassite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Destiny Bond",
         "Blizzard",
@@ -68356,7 +68356,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draining Kiss",
         "Giga Drain",
@@ -68392,7 +68392,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Calm Mind",
         "Leech Seed",
@@ -68428,7 +68428,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Leech Seed",
@@ -68466,7 +68466,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Drill",
         "Close Combat",
@@ -68502,7 +68502,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Impact",
         "Zen Headbutt",
@@ -68540,7 +68540,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Power Gem",
         "Flamethrower",
@@ -68576,7 +68576,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Psyshock",
@@ -68612,7 +68612,7 @@ backup_data = {
       },
       "item": "Slowkingite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Slack Off",
@@ -68648,7 +68648,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rain Dance",
         "Surf",
@@ -68684,7 +68684,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Psychic",
@@ -68722,7 +68722,7 @@ backup_data = {
       },
       "item": "Dragon Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Rush",
         "Sucker Punch",
@@ -68758,7 +68758,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Tail",
         "Gunk Shot",
@@ -68796,7 +68796,7 @@ backup_data = {
       },
       "item": "Salac Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "High Horsepower",
@@ -68832,7 +68832,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Dragon Claw",
@@ -68868,7 +68868,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Jagged Fangs",
         "Close Combat",
@@ -68906,7 +68906,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Comet Punch",
         "Close Combat",
@@ -68942,7 +68942,7 @@ backup_data = {
       },
       "item": "Hitmonchanite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "One-Inch Punch",
         "Ice Punch",
@@ -68980,7 +68980,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Hammer",
         "Drain Punch",
@@ -69016,7 +69016,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Hammer",
         "Hammer Arm",
@@ -69054,7 +69054,7 @@ backup_data = {
       },
       "item": "Fairy Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dazzling Gleam",
         "Psychic",
@@ -69090,7 +69090,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psyshock",
         "Shadow Ball",
@@ -69126,7 +69126,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Shadow Ball",
@@ -69164,7 +69164,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Electroweb",
@@ -69200,7 +69200,7 @@ backup_data = {
       },
       "item": "Light Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Thunderbolt",
@@ -69236,7 +69236,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Electro Ball",
         "Psychic",
@@ -69274,7 +69274,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Dazzling Gleam",
@@ -69310,7 +69310,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dazzling Gleam",
         "Psychic",
@@ -69348,7 +69348,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic Fangs",
         "Crunch",
@@ -69384,7 +69384,7 @@ backup_data = {
       },
       "item": "Iron Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Fang",
         "Crunch",
@@ -69422,7 +69422,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Beam",
         "Psychic",
@@ -69458,7 +69458,7 @@ backup_data = {
       },
       "item": "Iron Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Blizzard",
@@ -69496,7 +69496,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Protect",
         "Instruct",
@@ -69532,7 +69532,7 @@ backup_data = {
       },
       "item": "Fighting Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Foul Play",
         "Dream Eater",
@@ -69570,7 +69570,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Revival Blessing",
         "Bug Buzz",
@@ -69608,7 +69608,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Punch",
         "Fire Punch",
@@ -69646,7 +69646,7 @@ backup_data = {
       },
       "item": "Dragon Fang",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draconic Fangs",
         "Tectonic Fangs",
@@ -69684,7 +69684,7 @@ backup_data = {
       },
       "item": "Silk Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Body Slam",
@@ -69720,7 +69720,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Body Slam",
@@ -69756,7 +69756,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Play Rough",
@@ -69794,7 +69794,7 @@ backup_data = {
       },
       "item": "Blue Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Origin Pulse",
         "Thunder",
@@ -69830,7 +69830,7 @@ backup_data = {
       },
       "item": "Blue Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Origin Pulse",
         "Sheer Cold",
@@ -69866,7 +69866,7 @@ backup_data = {
       },
       "item": "Blue Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Origin Pulse",
         "Ice Beam",
@@ -69902,7 +69902,7 @@ backup_data = {
       },
       "item": "Blue Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Origin Pulse",
         "Water Spout",
@@ -69940,7 +69940,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Leech Life",
@@ -69976,7 +69976,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Leech Life",
@@ -70014,7 +70014,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fishious Rend",
         "Psychic Fangs",
@@ -70050,7 +70050,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fishious Rend",
         "Dragon Rush",
@@ -70086,7 +70086,7 @@ backup_data = {
       },
       "item": "Dracovishite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fishious Rend",
         "Draconic Fangs",
@@ -70124,7 +70124,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Splishy Splash",
         "Electro Shot",
@@ -70160,7 +70160,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Scald",
@@ -70196,7 +70196,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Scald",
@@ -70232,7 +70232,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scald",
         "Rising Voltage",
@@ -70270,7 +70270,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Punch",
         "Plasma Fists",
@@ -70308,7 +70308,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Claw",
         "Seismic Blade",
@@ -70346,7 +70346,7 @@ backup_data = {
       },
       "item": "Salamencite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Fang",
         "Zephyr Rush",
@@ -70382,7 +70382,7 @@ backup_data = {
       },
       "item": "Persim Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outrage",
         "Dual Wingbeat",
@@ -70420,7 +70420,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Salt Cure",
         "Hammer Arm",
@@ -70458,7 +70458,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sandsear Storm",
         "Sludge Wave",
@@ -70496,7 +70496,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Steam Eruption",
         "Boiling Flame",
@@ -70532,7 +70532,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boiling Flame",
         "Scald",
@@ -70570,7 +70570,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Rush",
         "Earthquake",
@@ -70608,7 +70608,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blizzard",
         "Bug Buzz",
@@ -70646,7 +70646,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bleakwind Storm",
         "Blizzard",
@@ -70684,7 +70684,7 @@ backup_data = {
       },
       "item": "Charcoal",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Earth Power",
@@ -70720,7 +70720,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Solar Beam",
@@ -70758,7 +70758,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Light Of Ruin",
         "Aura Sphere",
@@ -70796,7 +70796,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Last Respects",
         "Sucker Punch",
@@ -70832,7 +70832,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Kowtow Cleave",
         "Sucker Punch",
@@ -70870,7 +70870,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mystic Dance",
         "Blizzard",
@@ -70908,7 +70908,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Psystrike",
@@ -70946,7 +70946,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Throat Chop",
         "Head Smash",
@@ -70982,7 +70982,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Crunch",
@@ -71020,7 +71020,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ivy Cudgel",
         "Ice Hammer",
@@ -71056,7 +71056,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ivy Cudgel",
         "Wood Hammer",
@@ -71092,7 +71092,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ivy Cudgel",
         "Wood Hammer",
@@ -71128,7 +71128,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Ivy Cudgel",
@@ -71166,7 +71166,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sharpen",
         "Bitter Blade",
@@ -71202,7 +71202,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bitter Blade",
         "Shadow Claw",
@@ -71240,7 +71240,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Razor Shell",
         "Diamond Blade",
@@ -71276,7 +71276,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Stone Edge",
@@ -71314,7 +71314,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "Mighty Cleave",
@@ -71350,7 +71350,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "Psycho Cut",
@@ -71388,7 +71388,7 @@ backup_data = {
       },
       "item": "Damp Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Aeroblast",
@@ -71424,7 +71424,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Hurricane",
@@ -71460,7 +71460,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Hurricane",
@@ -71496,7 +71496,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Thunder",
@@ -71534,7 +71534,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surf",
         "Flash",
@@ -71572,7 +71572,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Cutter",
         "Bitter Blade",
@@ -71610,7 +71610,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bouncy Bubble",
         "Freezy Frost",
@@ -71648,7 +71648,7 @@ backup_data = {
       },
       "item": "Tinkatite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gigaton Hammer",
         "Bonk",
@@ -71684,7 +71684,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gigaton Hammer",
         "Ice Hammer",
@@ -71720,7 +71720,7 @@ backup_data = {
       },
       "item": "Tinkatite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gigaton Hammer",
         "Bonk",
@@ -71758,7 +71758,7 @@ backup_data = {
       },
       "item": "Dark Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rip and Tear",
         "Psychic Fangs",
@@ -71796,7 +71796,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Revival Blessing",
@@ -71832,7 +71832,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Echoed Voice",
@@ -71870,7 +71870,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ceaseless Edge",
         "Razor Shell",
@@ -71908,7 +71908,7 @@ backup_data = {
       },
       "item": "Black Glasses",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Banished Power",
         "Moonblast",
@@ -71946,7 +71946,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Hurricane",
@@ -71982,7 +71982,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snarl",
         "Electric Terrain",
@@ -72020,7 +72020,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Night Slash",
         "Terror Locks",
@@ -72056,7 +72056,7 @@ backup_data = {
       },
       "item": "Froslassite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Terror Locks",
         "Night Slash",
@@ -72094,7 +72094,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Matcha Gotcha",
         "Shadow Ball",
@@ -72132,7 +72132,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mind Blown",
         "Infernal Parade",
@@ -72168,7 +72168,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Astonish",
         "Quiver Dance",
@@ -72204,7 +72204,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Astonish",
         "Mind Blown",
@@ -72240,7 +72240,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mind Blown",
         "Psyshock",
@@ -72278,7 +72278,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Surf",
@@ -72314,7 +72314,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Chilling Water",
         "Shadow Ball",
@@ -72350,7 +72350,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Surf",
@@ -72388,7 +72388,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Arrows",
         "Spirit Shackle",
@@ -72426,7 +72426,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Wave",
         "Fusion Flare",
@@ -72464,7 +72464,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Quiver Dance",
@@ -72502,7 +72502,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Fang",
         "Ice Shard",
@@ -72538,7 +72538,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Fangs",
         "Rip and Tear",
@@ -72576,7 +72576,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Axel",
         "Triple Dive",
@@ -72614,7 +72614,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Steam",
         "Draco Meteor",
@@ -72650,7 +72650,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Steam",
         "Boiling Flame",
@@ -72688,7 +72688,7 @@ backup_data = {
       },
       "item": "Yache Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Claw",
         "Grav Apple",
@@ -72726,7 +72726,7 @@ backup_data = {
       },
       "item": "Dragon Fang",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Energy",
         "Dragon Pulse",
@@ -72764,7 +72764,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zen Headbutt",
         "Fusion Bolt",
@@ -72802,7 +72802,7 @@ backup_data = {
       },
       "item": "Power Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Steel Beam",
         "Dragon Pulse",
@@ -72838,7 +72838,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Electro Shot",
         "Steel Beam",
@@ -72876,7 +72876,7 @@ backup_data = {
       },
       "item": "Machampite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sky Uppercut",
         "Bullet Punch",
@@ -72912,7 +72912,7 @@ backup_data = {
       },
       "item": "Machampite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Bullet Punch",
@@ -72950,7 +72950,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Avalanche",
         "Body Press",
@@ -72988,7 +72988,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Curse",
         "Wave Crash",
@@ -73024,7 +73024,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Dive",
         "Zen Headbutt",
@@ -73062,7 +73062,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Defend Order",
         "Attack Order",
@@ -73098,7 +73098,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Attack Order",
         "Defend Order",
@@ -73136,7 +73136,7 @@ backup_data = {
       },
       "item": "Smoke Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rage Fist",
         "Astonish",
@@ -73172,7 +73172,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Punch",
         "Ice Punch",
@@ -73210,7 +73210,7 @@ backup_data = {
       },
       "item": "Bright Powder",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zap Jive",
         "Hex Trot",
@@ -73248,7 +73248,7 @@ backup_data = {
       },
       "item": "Dragon Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Darts",
         "Shadow Fangs",
@@ -73286,7 +73286,7 @@ backup_data = {
       },
       "item": "Gyaradeathite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Poltergeist",
         "Crunch",
@@ -73322,7 +73322,7 @@ backup_data = {
       },
       "item": "Gyaradeathite Y",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Requiem",
@@ -73360,7 +73360,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Roost",
         "Air Slash",
@@ -73398,7 +73398,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Metal Burst",
         "Shore Up",
@@ -73434,7 +73434,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Iron Head",
@@ -73472,7 +73472,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Hidden Power",
@@ -73508,7 +73508,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Mystical Fire",
@@ -73544,7 +73544,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Mystical Fire",
@@ -73580,7 +73580,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Mystical Fire",
@@ -73616,7 +73616,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Hidden Power",
@@ -73654,7 +73654,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Yawn",
         "Ice Ball",
@@ -73692,7 +73692,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Chilling Water",
@@ -73730,7 +73730,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Fist",
         "Rage Fist",
@@ -73766,7 +73766,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Rage Fist",
@@ -73804,7 +73804,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Whirling Strikes",
         "Bolt Beak",
@@ -73840,7 +73840,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Kick",
         "Whirling Strikes",
@@ -73878,7 +73878,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Diamond Storm",
@@ -73914,7 +73914,7 @@ backup_data = {
       },
       "item": "Tyranitarite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Magma Storm",
         "Diamond Storm",
@@ -73952,7 +73952,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trepidation",
         "Dire Claw",
@@ -73990,7 +73990,7 @@ backup_data = {
       },
       "item": "Hydreigonite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pixie Beam",
         "Wyrm Wind",
@@ -74028,7 +74028,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zephyr Rush",
         "Megahorn",
@@ -74066,7 +74066,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Body Press",
@@ -74102,7 +74102,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mountain Chunk",
         "Head Smash",
@@ -74138,7 +74138,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Mountain Chunk",
@@ -74176,7 +74176,7 @@ backup_data = {
       },
       "item": "King's Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sky Drop",
         "Fling",
@@ -74214,7 +74214,7 @@ backup_data = {
       },
       "item": "Wide Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Nasty Plot",
         "Electro Drift",
@@ -74252,7 +74252,7 @@ backup_data = {
       },
       "item": "Clefabite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pebble Shower",
         "Dazzling Gleam",
@@ -74290,7 +74290,7 @@ backup_data = {
       },
       "item": "Hitmontopite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Bullet Punch",
@@ -74326,7 +74326,7 @@ backup_data = {
       },
       "item": "Hitmontopite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Kick",
         "Triple Axel",
@@ -74364,7 +74364,7 @@ backup_data = {
       },
       "item": "Terrain Extender",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Weather Ball",
         "Electro Shot",
@@ -74400,7 +74400,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Dazzling Gleam",
@@ -74438,7 +74438,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flip Turn",
         "Energy Wave",
@@ -74474,7 +74474,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Beam",
         "Steel Beam",
@@ -74512,7 +74512,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fleur Cannon",
         "Psycho Boost",
@@ -74548,7 +74548,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psycho Boost",
         "Pixie Slash",
@@ -74584,7 +74584,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sacred Sword",
         "Fleur Cannon",
@@ -74622,7 +74622,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zap Cannon",
         "Armor Cannon",
@@ -74658,7 +74658,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Zap Cannon",
         "Moongeist Beam",
@@ -74696,7 +74696,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snap Trap",
         "U-turn",
@@ -74734,7 +74734,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hypnosis",
         "Dream Eater",
@@ -74770,7 +74770,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Team",
         "Foul Play",
@@ -74806,7 +74806,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Calm Mind",
@@ -74842,7 +74842,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dream Eater",
         "Dark Pulse",
@@ -74880,7 +74880,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Mega Kick",
@@ -74918,7 +74918,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Earthquake",
@@ -74954,7 +74954,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Crunch",
@@ -74990,7 +74990,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Earthquake",
@@ -75028,7 +75028,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dazzling Gleam",
         "Flamethrower",
@@ -75066,7 +75066,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Fury Swipes",
@@ -75102,7 +75102,7 @@ backup_data = {
       },
       "item": "Scope Lens",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Fury Swipes",
@@ -75140,7 +75140,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fishious Rend",
         "Ice Fang",
@@ -75176,7 +75176,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fishious Rend",
         "Crunch",
@@ -75214,7 +75214,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Curse",
         "Hyper Fang",
@@ -75250,7 +75250,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Swords Dance",
         "Headbutt",
@@ -75288,7 +75288,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Brave Bird",
         "Return",
@@ -75326,7 +75326,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Soil Drain",
@@ -75364,7 +75364,7 @@ backup_data = {
       },
       "item": "Berry Juice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stomp",
         "High Horsepower",
@@ -75402,7 +75402,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Recover",
         "Sonic Boom",
@@ -75440,7 +75440,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Slack Off",
         "Hyper Fang",
@@ -75478,7 +75478,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Headbutt",
         "Thunder Wave",
@@ -75516,7 +75516,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Earthquake",
         "Giga Impact",
@@ -75552,7 +75552,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Earthquake",
@@ -75590,7 +75590,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Blade",
         "Close Combat",
@@ -75628,7 +75628,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Memento"
       ],
@@ -75661,7 +75661,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Memento"
       ],
@@ -75696,7 +75696,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Knock Off",
@@ -75732,7 +75732,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Knock Off",
@@ -75768,7 +75768,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Mach Punch",
@@ -75804,7 +75804,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Fire Punch",
@@ -75842,7 +75842,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stone Edge",
         "Solar Blade",
@@ -75878,7 +75878,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Blade",
         "V-create",
@@ -75916,7 +75916,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Dragon Hammer",
@@ -75954,7 +75954,7 @@ backup_data = {
       },
       "item": "Figy Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Knock Off",
@@ -75992,7 +75992,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Fangs",
         "Tectonic Fangs",
@@ -76028,7 +76028,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Snap Trap",
         "Tectonic Fangs",
@@ -76066,7 +76066,7 @@ backup_data = {
       },
       "item": "Chople Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Freeze-Dry",
         "Thunder Wave",
@@ -76104,7 +76104,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pebble Shower",
         "Sing",
@@ -76142,7 +76142,7 @@ backup_data = {
       },
       "item": "Hard Stone",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mega Kick",
         "Earthquake",
@@ -76180,7 +76180,7 @@ backup_data = {
       },
       "item": "Mystic Water",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "One-Inch Punch",
@@ -76218,7 +76218,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Hammer Arm",
@@ -76256,7 +76256,7 @@ backup_data = {
       },
       "item": "Expert Belt",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder Punch",
         "Mach Punch",
@@ -76292,7 +76292,7 @@ backup_data = {
       },
       "item": "Leppa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Plasma Fists",
         "One-Inch Punch",
@@ -76330,7 +76330,7 @@ backup_data = {
       },
       "item": "Black Glasses",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seed Bomb",
         "Fake Out",
@@ -76368,7 +76368,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Thunderbolt",
@@ -76406,7 +76406,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Shock Wave",
@@ -76442,7 +76442,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Electro Ball",
         "Agility",
@@ -76480,7 +76480,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fairy Wind",
         "Thunderbolt",
@@ -76518,7 +76518,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Submission",
         "Headlong Rush",
@@ -76556,7 +76556,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Jump Kick",
         "Mega Kick",
@@ -76594,7 +76594,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Springtide Storm",
         "Hurricane",
@@ -76632,7 +76632,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Flash Cannon",
@@ -76670,7 +76670,7 @@ backup_data = {
       },
       "item": "Iron Ball",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Ball",
         "Psychic",
@@ -76708,7 +76708,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flare Blitz",
         "Psychokinetic Slam",
@@ -76746,7 +76746,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sludge Bomb",
         "Expanding Force",
@@ -76784,7 +76784,7 @@ backup_data = {
       },
       "item": "Hatterenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Beam",
         "Psychic",
@@ -76820,7 +76820,7 @@ backup_data = {
       },
       "item": "Hatterenite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Outburst",
         "Outburst",
@@ -76858,7 +76858,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Draining Kiss",
@@ -76896,7 +76896,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Sneak",
         "Destiny Bond",
@@ -76934,7 +76934,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Light Screen",
         "Reflect",
@@ -76972,7 +76972,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aura Force",
         "Swords Dance",
@@ -77010,7 +77010,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Soft-Boiled",
@@ -77046,7 +77046,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flamethrower",
         "Blizzard",
@@ -77082,7 +77082,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Soft-Boiled",
@@ -77118,7 +77118,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Soft-Boiled",
@@ -77156,7 +77156,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Relic Song",
         "Metallic Melody",
@@ -77194,7 +77194,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Transform",
         "-",
@@ -77230,7 +77230,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Transform",
         "-",
@@ -77268,7 +77268,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Feint",
@@ -77306,7 +77306,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Nuzzle",
@@ -77342,7 +77342,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Moonblast",
@@ -77380,7 +77380,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Super Fang",
         "Nuzzle",
@@ -77418,7 +77418,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Nasty Plot",
@@ -77456,7 +77456,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Aqua Fang",
@@ -77494,7 +77494,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Howl",
         "Crunch",
@@ -77532,7 +77532,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Quick Attack",
         "Population Bomb",
@@ -77570,7 +77570,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Fang",
         "Dig",
@@ -77608,7 +77608,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aqua Cutter",
         "Cut",
@@ -77646,7 +77646,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spikes",
         "Taunt",
@@ -77684,7 +77684,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic Spikes",
         "Beatdown",
@@ -77722,7 +77722,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Eruption",
         "Earth Power",
@@ -77758,7 +77758,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Steam",
         "Flash Cannon",
@@ -77796,7 +77796,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Astonish",
         "Shadow Ball",
@@ -77832,7 +77832,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Astonish",
         "Shadow Ball",
@@ -77870,7 +77870,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Needle Arm",
         "Flame Tongue",
@@ -77908,7 +77908,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Play Rough",
         "Psychic Fangs",
@@ -77944,7 +77944,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Star Crash",
         "Psychokinetic Slam",
@@ -77980,7 +77980,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Fang",
         "Leech Life",
@@ -78018,7 +78018,7 @@ backup_data = {
       },
       "item": "Grass Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "Double-Edge",
@@ -78056,7 +78056,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psystrike",
         "Ice Beam",
@@ -78092,7 +78092,7 @@ backup_data = {
       },
       "item": "Mewtwonite X",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psystrike",
         "Aura Sphere",
@@ -78130,7 +78130,7 @@ backup_data = {
       },
       "item": "Nugget",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Torment",
         "Torment",
@@ -78168,7 +78168,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Flower Trick",
@@ -78206,7 +78206,7 @@ backup_data = {
       },
       "item": "Heat Rock",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sunny Day",
         "Solar Beam",
@@ -78244,7 +78244,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Dazzling Gleam",
@@ -78282,7 +78282,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giga Drain",
         "Hidden Power",
@@ -78320,7 +78320,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rapid Spin",
         "Seed Bomb",
@@ -78358,7 +78358,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Solar Beam",
         "Weather Ball",
@@ -78396,7 +78396,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sleep Powder",
         "Hidden Power",
@@ -78434,7 +78434,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Flare Blitz",
@@ -78470,7 +78470,7 @@ backup_data = {
       },
       "item": "????????",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "Flare Blitz",
@@ -78508,7 +78508,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Flash Cannon",
         "Nasty Plot",
@@ -78546,7 +78546,7 @@ backup_data = {
       },
       "item": "Clear Amulet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surging Strikes",
         "Triple Axel",
@@ -78582,7 +78582,7 @@ backup_data = {
       },
       "item": "Urshifite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surging Strikes",
         "Jet Punch",
@@ -78618,7 +78618,7 @@ backup_data = {
       },
       "item": "Urshifite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surging Strikes",
         "Jet Punch",
@@ -78654,7 +78654,7 @@ backup_data = {
       },
       "item": "Urshifite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Surging Strikes",
         "Jet Punch",
@@ -78692,7 +78692,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seed Flare",
         "Tailwind",
@@ -78728,7 +78728,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seed Flare",
         "Air Slash",
@@ -78764,7 +78764,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Slash",
         "Earth Power",
@@ -78802,7 +78802,7 @@ backup_data = {
       },
       "item": "Latiosite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Luster Purge",
         "Wyrm Wind",
@@ -78838,7 +78838,7 @@ backup_data = {
       },
       "item": "Soul Dew",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Luster Purge",
         "Wyrm Wind",
@@ -78876,7 +78876,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wish",
         "Return",
@@ -78914,7 +78914,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fire Blast",
         "Shadow Ball",
@@ -78952,7 +78952,7 @@ backup_data = {
       },
       "item": "Iapapa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Protect",
@@ -78990,7 +78990,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aeroblast",
         "Core Enforcer",
@@ -79026,7 +79026,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aeroblast",
         "Psyshock",
@@ -79062,7 +79062,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Aeroblast",
         "Core Enforcer",
@@ -79100,7 +79100,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Ice Beam",
@@ -79138,7 +79138,7 @@ backup_data = {
       },
       "item": "Zap Plate",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Earth Power",
@@ -79176,7 +79176,7 @@ backup_data = {
       },
       "item": "Heavy-Duty Boots",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Focus Blast",
@@ -79214,7 +79214,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Hex",
@@ -79250,7 +79250,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Leech Seed",
@@ -79286,7 +79286,7 @@ backup_data = {
       },
       "item": "Occa Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Leech Seed",
@@ -79324,7 +79324,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leaf Storm",
         "Superpower",
@@ -79362,7 +79362,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Pound",
         "Pound",
@@ -79400,7 +79400,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Blizzard",
         "Scald",
@@ -79438,7 +79438,7 @@ backup_data = {
       },
       "item": "Toxic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Bullet Seed",
@@ -79476,7 +79476,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Shadow Ball",
@@ -79514,7 +79514,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Horn Leech",
         "High Horsepower",
@@ -79552,7 +79552,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Floaty Fall",
         "Double Hit",
@@ -79590,7 +79590,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Life",
         "Sucker Punch",
@@ -79628,7 +79628,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dig",
         "Leech Life",
@@ -79666,7 +79666,7 @@ backup_data = {
       },
       "item": "Eviolite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Spore",
         "Astonish",
@@ -79704,7 +79704,7 @@ backup_data = {
       },
       "item": "Covert Cloak",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stone Axe",
         "X-Scissor",
@@ -79740,7 +79740,7 @@ backup_data = {
       },
       "item": "Lum Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stone Axe",
         "Cross Chop",
@@ -79778,7 +79778,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dark Pulse",
         "Psyshock",
@@ -79816,7 +79816,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stone Edge",
         "Crabhammer",
@@ -79854,7 +79854,7 @@ backup_data = {
       },
       "item": "Thick Club",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bonemerang",
         "Head Smash",
@@ -79892,7 +79892,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Head",
         "Seed Bomb",
@@ -79930,7 +79930,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunder",
         "Volt Switch",
@@ -79968,7 +79968,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyper Voice",
         "Power Gem",
@@ -80006,7 +80006,7 @@ backup_data = {
       },
       "item": "Mental Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Trick Room",
         "Gyro Ball",
@@ -80044,7 +80044,7 @@ backup_data = {
       },
       "item": "Shuca Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Rock Slide",
         "Hammer Arm",
@@ -80080,7 +80080,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Head Smash",
         "No Retreat",
@@ -80118,7 +80118,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Diamond Storm",
         "Moonblast",
@@ -80154,7 +80154,7 @@ backup_data = {
       },
       "item": "Diancite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Diamond Storm",
         "Fairy Wind",
@@ -80192,7 +80192,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Focus Punch",
         "Spectral Thief",
@@ -80228,7 +80228,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Kick",
         "Shadow Sneak",
@@ -80266,7 +80266,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Muddy Water",
         "Secret Sword",
@@ -80304,7 +80304,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Core Enforcer",
@@ -80340,7 +80340,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Thunderous Kick",
@@ -80376,7 +80376,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tailwind",
         "Extreme Speed",
@@ -80412,7 +80412,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Bolt Strike",
@@ -80450,7 +80450,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Volt Switch",
         "Energy Ball",
@@ -80486,7 +80486,7 @@ backup_data = {
       },
       "item": "Choice Specs",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thunderbolt",
         "Energy Ball",
@@ -80524,7 +80524,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double-Edge",
         "Fake Out",
@@ -80560,7 +80560,7 @@ backup_data = {
       },
       "item": "Rocky Helmet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fake Out",
         "Double-Edge",
@@ -80598,7 +80598,7 @@ backup_data = {
       },
       "item": "Spooky Plate",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Nasty Plot",
@@ -80636,7 +80636,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Oblivion Wing",
@@ -80672,7 +80672,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Oblivion Wing",
         "Dark Pulse",
@@ -80708,7 +80708,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Oblivion Wing",
         "Baddy Bad",
@@ -80746,7 +80746,7 @@ backup_data = {
       },
       "item": "Big Root",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Leech Seed",
         "Flash Cannon",
@@ -80782,7 +80782,7 @@ backup_data = {
       },
       "item": "Chesto Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Defense",
         "Body Press",
@@ -80820,7 +80820,7 @@ backup_data = {
       },
       "item": "White Herb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Ascent",
         "Earthquake",
@@ -80856,7 +80856,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Extreme Speed",
         "Earthquake",
@@ -80894,7 +80894,7 @@ backup_data = {
       },
       "item": "Choice Band",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wave Crash",
         "Submission",
@@ -80932,7 +80932,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Iron Bash",
         "Seismic Fist",
@@ -80968,7 +80968,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Iron Bash",
         "Plasma Fists",
@@ -81006,7 +81006,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Boomburst",
         "Volt Switch",
@@ -81042,7 +81042,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Steel Beam",
         "Boomburst",
@@ -81080,7 +81080,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Make It Rain",
         "Shadow Ball",
@@ -81116,7 +81116,7 @@ backup_data = {
       },
       "item": "Air Balloon",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Gear Up",
         "Make It Rain",
@@ -81154,7 +81154,7 @@ backup_data = {
       },
       "item": "Shell Bell",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Tera Starstorm",
@@ -81192,7 +81192,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychic",
         "Heal Pulse",
@@ -81230,7 +81230,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Energy Ball",
         "Quiver Dance",
@@ -81268,7 +81268,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crunch",
         "Draconic Fangs",
@@ -81306,7 +81306,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Overheat",
         "Close Combat",
@@ -81344,7 +81344,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hydro Pump",
         "Sheer Cold",
@@ -81382,7 +81382,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Grav Apple",
         "Fissure",
@@ -81420,7 +81420,7 @@ backup_data = {
       },
       "item": "Light Clay",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Light Screen",
         "Reflect",
@@ -81458,7 +81458,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shocking Edge",
         "Psyblade",
@@ -81494,7 +81494,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tachyon Cutter",
         "Shocking Edge",
@@ -81532,7 +81532,7 @@ backup_data = {
       },
       "item": "Loaded Dice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bolt Strike",
         "Scale Shot",
@@ -81570,7 +81570,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sizzly Slide",
         "Solar Beam",
@@ -81608,7 +81608,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Knock Off",
         "Play Rough",
@@ -81646,7 +81646,7 @@ backup_data = {
       },
       "item": "Popcormite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Bullet Seed",
         "Barrage",
@@ -81684,7 +81684,7 @@ backup_data = {
       },
       "item": "Clear Amulet",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Multi-Attack",
         "Air Slash",
@@ -81722,7 +81722,7 @@ backup_data = {
       },
       "item": "Urshifite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Close Combat",
@@ -81758,7 +81758,7 @@ backup_data = {
       },
       "item": "Urshifite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Close Combat",
         "Bulk Up",
@@ -81794,7 +81794,7 @@ backup_data = {
       },
       "item": "Urshifite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sucker Punch",
         "Close Combat",
@@ -81832,7 +81832,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hammer Arm",
         "Relentless Clobber",
@@ -81870,7 +81870,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Chloroblast",
         "Gem Missile",
@@ -81908,7 +81908,7 @@ backup_data = {
       },
       "item": "Beedrillite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Icicle Spear",
         "Toxic Needles",
@@ -81946,7 +81946,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Wave Crash",
         "Zephyr Rush",
@@ -81984,7 +81984,7 @@ backup_data = {
       },
       "item": "Lucky Punch",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hammer Arm",
         "U-turn",
@@ -82022,7 +82022,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Drain Punch",
         "Power-Up Punch",
@@ -82060,7 +82060,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Giant Gale",
         "Psychokinetic Slam",
@@ -82098,7 +82098,7 @@ backup_data = {
       },
       "item": "Mawilite P",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Fertile Fangs",
         "Poison Fang",
@@ -82136,7 +82136,7 @@ backup_data = {
       },
       "item": "Persim Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Searing Shot",
         "Sludge Wave",
@@ -82174,7 +82174,7 @@ backup_data = {
       },
       "item": "Normal Gem",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dire Claw",
         "Close Combat",
@@ -82212,7 +82212,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Thousand Arrows",
         "Extreme Speed",
@@ -82250,7 +82250,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moongeist Beam",
         "Blood Moon",
@@ -82288,7 +82288,7 @@ backup_data = {
       },
       "item": "Weavilite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Beatdown",
         "Triple Tremor",
@@ -82326,7 +82326,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Mighty Cleave",
         "Psyblade",
@@ -82364,7 +82364,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shell Smash",
         "Accelerock",
@@ -82402,7 +82402,7 @@ backup_data = {
       },
       "item": "Ribombite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Sparkling Barrage",
         "Volt Bolt",
@@ -82440,7 +82440,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hurricane",
         "Razor Wind",
@@ -82478,7 +82478,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Kick",
         "Rider Kick",
@@ -82514,7 +82514,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Triple Kick",
         "Triple Axel",
@@ -82552,7 +82552,7 @@ backup_data = {
       },
       "item": "Custap Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Toxic Spikes",
         "Malignant Chain",
@@ -82590,7 +82590,7 @@ backup_data = {
       },
       "item": "Phantom Meteor",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Shadow Claw",
         "Dragon Dance",
@@ -82628,7 +82628,7 @@ backup_data = {
       },
       "item": "Adamant Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Steel Beam",
         "Roar of Time",
@@ -82664,7 +82664,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Stealth Rock",
         "Roar of Time",
@@ -82702,7 +82702,7 @@ backup_data = {
       },
       "item": "Weakness Policy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Psychokinetic Slam",
         "Double-Edge",
@@ -82740,7 +82740,7 @@ backup_data = {
       },
       "item": "Rusted Sword",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Frost Brand",
         "Diamond Blade",
@@ -82778,7 +82778,7 @@ backup_data = {
       },
       "item": "Booster Energy",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Double Iron Bash",
         "Drain Punch",
@@ -82816,7 +82816,7 @@ backup_data = {
       },
       "item": "Lucky Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "V-create",
         "Psychokinetic Slam",
@@ -82852,7 +82852,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Blue Flare",
@@ -82890,7 +82890,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Air Cutter",
         "Leaf Blade",
@@ -82928,7 +82928,7 @@ backup_data = {
       },
       "item": "Flygonite R",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Draco Meteor",
         "Boomburst",
@@ -82966,7 +82966,7 @@ backup_data = {
       },
       "item": "Colbur Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Astral Barrage",
@@ -83004,7 +83004,7 @@ backup_data = {
       },
       "item": "Leftovers",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Iron Head",
         "Zen Headbutt",
@@ -83042,7 +83042,7 @@ backup_data = {
       },
       "item": "Galactic Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Expanding Force",
         "Sheer Cold",
@@ -83080,7 +83080,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Tackle",
         "-",
@@ -83116,7 +83116,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "-",
         "-",
@@ -83152,7 +83152,7 @@ backup_data = {
       },
       "item": null,
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "-",
         "-",
@@ -83190,7 +83190,7 @@ backup_data = {
       },
       "item": "Sitrus Berry",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Dragon Hammer",
         "Recover",
@@ -83228,7 +83228,7 @@ backup_data = {
       },
       "item": "Loaded Dice",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Scale Shot",
         "Dual Wingbeat",
@@ -83266,7 +83266,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Moonblast",
         "Dark Void",
@@ -83304,7 +83304,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Hyperspace Fury",
         "Psychic Fangs",
@@ -83342,7 +83342,7 @@ backup_data = {
       },
       "item": "Focus Sash",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Ice Shard",
         "Ice Fang",
@@ -83380,7 +83380,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Synchronoise",
         "Overdrive",
@@ -83418,7 +83418,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Heat Wave",
         "Earth Power",
@@ -83456,7 +83456,7 @@ backup_data = {
       },
       "item": "Amphybuzzite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "First Impression",
         "Attack Order",
@@ -83494,7 +83494,7 @@ backup_data = {
       },
       "item": "Ancient Apple",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Light Of Ruin",
         "Boomburst",
@@ -83532,7 +83532,7 @@ backup_data = {
       },
       "item": "Glalitite",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Explosion",
         "Explosion",
@@ -83570,7 +83570,7 @@ backup_data = {
       },
       "item": "Tactical Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Apple Acid",
         "Fickle Beam",
@@ -83608,7 +83608,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Plasma Fists",
         "Drain Punch",
@@ -83646,7 +83646,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Multi-Attack",
         "Flash Cannon",
@@ -83684,7 +83684,7 @@ backup_data = {
       },
       "item": "Choice Scarf",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Raging Bull",
         "Horn Attack",
@@ -83722,7 +83722,7 @@ backup_data = {
       },
       "item": "Life Orb",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Jagged Punch",
         "Seismic Fist",
@@ -83760,7 +83760,7 @@ backup_data = {
       },
       "item": "Assault Vest",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Crabhammer",
         "Aqua Jet",
@@ -83798,7 +83798,7 @@ backup_data = {
       },
       "item": "Punching Glove",
       "level": 0,
-      "sub_level": 0,
+      "sublevel": 0,
       "moves": [
         "Seismic Fist",
         "Jagged Punch",
