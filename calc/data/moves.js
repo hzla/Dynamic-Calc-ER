@@ -3113,7 +3113,9 @@ var SS_PATCH = {
     "acc": 100,
     "priority": 0,
     "makesContact": true,
-    "isHorn": true
+    "isHorn": true,
+    ignoreDefensive: true
+
   },
   "Tackle": {
     "bp": 40,
@@ -4715,7 +4717,8 @@ var SS_PATCH = {
     "acc": 85,
     "priority": 0,
     "makesContact": true,
-    "isHorn": true
+    "isHorn": true,
+    ignoreDefensive: true
   },
   "Dragon Breath": {
     "bp": 20,
@@ -7242,7 +7245,8 @@ var SS_PATCH = {
       2
     ],
     "makesContact": true,
-    "isHorn": true
+    "isHorn": true,
+    ignoreDefensive: true
   },
   "Sacred Sword": {
     "bp": 90,
@@ -9103,7 +9107,8 @@ var SS_PATCH = {
     "priority": 0,
     "secondaries": true,
     "makesContact": true,
-    "isBite": true
+    "isBite": true,
+    ignoreDefensive: true
   },
   "Excalibur": {
     "bp": 120,
@@ -9478,7 +9483,8 @@ var SS_PATCH = {
     "category": "Physical",
     "acc": 100,
     "priority": 0,
-    "isArrow": true
+    "isArrow": true,
+    ignoreDefensive: true
   },
   "Diamond Blade": {
     "bp": 80,
@@ -11123,7 +11129,8 @@ var SS_PATCH = {
     "acc": 100,
     "priority": 0,
     "makesContact": true,
-    "isHorn": true
+    "isHorn": true,
+    ignoreDefensive: true
   },
   "Depletion Beam": {
     "bp": 85,

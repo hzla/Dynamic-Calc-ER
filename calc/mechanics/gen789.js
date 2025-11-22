@@ -284,16 +284,33 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
             type = attacker.types[0];
         }
     }
-    else if (move.named('Aura Wheel')) {
-        if (attacker.named('Morpeko')) {
-            type = 'Electric';
-        }
-        else if (attacker.named('Morpeko Hangry')) {
-            type = 'Dark';
-        }
-    }
     else if (move.named('Raging Bull')) {
         type = attacker.types[0];
+    }
+
+    const multiTypeMoves = {
+        "Muddy Water": ["Ground", "Water"],
+        "Flying Press": ["Fighting", "Flying"],
+        "Aura Wheel": ["Electric", "Dark"],
+        "Scorched Earth": ["Fire", "Ground"],
+    }
+
+    if (multiTypeMoves[move.name]) {
+        var t1 = multiTypeMoves[move.name][0]
+        var t2 = multiTypeMoves[move.name][1]
+        
+        var t1Multiplier = typeChart[t1][defender.types[0]]
+        var t2Multiplier = typeChart[t2][defender.types[0]]
+        
+        if (defender.types[1]) {
+            t1Multiplier = t1Multiplier * typeChart[t1][defender.types[1]]
+            t2Multiplier = t2Multiplier * typeChart[t2][defender.types[1]]
+        } 
+
+        if (t2Multiplier > t1Multiplier) {
+            console.log(`type changed to ${t2}`)
+            type = t2
+        }
     }
     var hasAteAbilityTypeChange = false;
     var isAerilate = false;
@@ -1822,7 +1839,7 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
     if (hitsPhysical === void 0) { hitsPhysical = false; }
     var dfMods = [];
     if (defender.hasAbility('Overcoat') && move.category == 'Special') {
-        dfMods.push(3276);
+        dfMods.push(4915);
     }
     if ((defender.hasAbility('Immunity') && move.type == 'Poison') ||
         (defender.hasAbility('Water Compaction') && move.type == 'Water')) {
