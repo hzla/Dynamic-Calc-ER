@@ -58,10 +58,10 @@ function getRecovery(gen, attacker, defender, move, damage, notation) {
     var text = '';
     var ignoresShellBell = gen.num === 3 && move.named('Doom Desire', 'Future Sight');
     if (attacker.hasItem('Shell Bell') && !ignoresShellBell) {
-        var max = Math.round(defender.maxHP() / 8);
+        var max = Math.round(defender.maxHP() / 4);
         for (var i = 0; i < minD.length; i++) {
-            recovery[0] += Math.min(Math.round(minD[i] * move.hits / 8), max);
-            recovery[1] += Math.min(Math.round(maxD[i] * move.hits / 8), max);
+            recovery[0] += Math.min(Math.round(minD[i] * move.hits / 4), max);
+            recovery[1] += Math.min(Math.round(maxD[i] * move.hits / 4), max);
         }
     }
     if (move.named('Recover')) {

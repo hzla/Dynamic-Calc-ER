@@ -508,6 +508,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     if (typeEffectiveness === 0) {
         return result;
     }
+
+    if (attacker.hasAbility("Fatal Precision") && typeEffectiveness > 1) {
+        isCritical = true;
+    }
     if ((move.named('Sky Drop') &&
         (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
         (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
@@ -2009,6 +2013,12 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         finalMods.push(2048);
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
     }
+    if (defender.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
+        if (attacker.gender != defender.gender) {
+            finalMods.push(3072);
+        }
+        desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
+    }
     if (defender.hasAbility('Parry') && move.flags.contact) {
         finalMods.push(3277);
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
@@ -2119,7 +2129,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         finalMods.push(16384);
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
     }
-    if (attacker.hasAbility('Giant Wings', 'Imposing Wings', 'Wind Rage') && move.flags.air) {
+    if (attacker.hasAbility('Giant Wings', 'Imposing Wings', 'Wind Rage') && move.flags.wind) {
         finalMods.push(5325);
     }
     if ((attacker.hasAbility('Electric Burst') && move.hasType('Electric')) ||
