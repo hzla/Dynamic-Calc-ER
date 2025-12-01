@@ -5936,7 +5936,8 @@ var REDUX_PATCH = {
         "types": [
             "Water"
         ],
-        "genderR": 127
+        "genderR": 127,
+        "nfe": true
     },
     "Staryu": {
         "id": 120,
@@ -37864,7 +37865,8 @@ var REDUX_PATCH = {
             "Ghost",
             "Grass"
         ],
-        "genderR": 2
+        "genderR": 2,
+        "nfe": true
     },
     "Jangmo-o": {
         "id": 782,

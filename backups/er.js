@@ -31526,7 +31526,7 @@ backup_data = {
       "sublevel": 0,
       "moves": [
         "Earthquake",
-        "Shadow Punch",
+        "Rage Fist",
         "One-Inch Punch",
         "Rocket Shot"
       ],
@@ -31562,7 +31562,7 @@ backup_data = {
       "sublevel": 0,
       "moves": [
         "Earthquake",
-        "Shadow Punch",
+        "Rage Fist",
         "One-Inch Punch",
         "Rocket Shot"
       ],
@@ -31598,7 +31598,7 @@ backup_data = {
       "sublevel": 0,
       "moves": [
         "Earthquake",
-        "Shadow Punch",
+        "Rage Fist",
         "One-Inch Punch",
         "Rocket Shot"
       ],

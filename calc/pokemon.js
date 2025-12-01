@@ -135,7 +135,11 @@ var Pokemon = (function () {
             abilities[_i] = arguments[_i];
         }
         var ability = this.hasAbility.apply(this, __spreadArray([], __read(abilities), false));
+        
+
         switch (ability) {
+            case true:        
+                return this.abilityOn;
             case -1:
                 return this.abilityOn;
             case undefined:

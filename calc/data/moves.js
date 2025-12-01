@@ -6500,7 +6500,8 @@ var SS_PATCH = {
     "priority": 0,
     "secondaries": true,
     "makesContact": true,
-    "isSlicing": true
+    "isSlicing": true,
+    "multihit": 2
   },
   "Gunk Shot": {
     "bp": 120,
@@ -7204,7 +7205,8 @@ var SS_PATCH = {
     "category": "Physical",
     "acc": 100,
     "priority": 0,
-    "makesContact": true
+    "makesContact": true,
+    "recoil": null
   },
   "Drill Run": {
     "bp": 85,
@@ -9335,7 +9337,8 @@ var SS_PATCH = {
     "priority": 0,
     "makesContact": true,
     "isWind": true,
-    "isPulse": true
+    "isPulse": true,
+    "hasCrashDamage": true
   },
   "Shocking Jab": {
     "bp": 80,
@@ -10042,7 +10045,7 @@ var SS_PATCH = {
     "isPunch": true
   },
   "Rage Fist": {
-    "bp": 80,
+    "bp": 90,
     "type": "Ghost",
     "category": "Physical",
     "acc": 100,

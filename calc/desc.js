@@ -45,6 +45,11 @@ function displayMove(gen, attacker, defender, move, damage, notation) {
     var maxDisplay = toDisplay(notation, max, defender.maxHP());
     var recoveryText = getRecovery(gen, attacker, defender, move, damage, notation).text;
     var recoilText = getRecoil(gen, attacker, defender, move, damage, notation).text;
+       
+    if (attacker.hasAbility('Impenetrable')) {
+        recoilText = '';
+    }
+
     return "".concat(minDisplay, " - ").concat(maxDisplay).concat(notation).concat(recoveryText &&
         " (".concat(recoveryText, ")")).concat(recoilText && " (".concat(recoilText, ")"));
 }

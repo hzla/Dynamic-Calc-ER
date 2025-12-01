@@ -374,19 +374,19 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         else if ((isNormalize = !!attacker.hasAbility('Normalize'))) {
             type = 'Normal';
         }
-        else if ((isPollinate = !!attacker.hasAbility('Pollinate', 'Steel Beetle')) && normal) {
+        else if ((isPollinate = !!attacker.hasAbility('Pollinate', 'Steel Beetle') && normal)) {
             type = 'Bug';
         }
         else if ((isIntoxicate = !!attacker.hasAbility('Intoxicate', 'Sludgy Mix') && normal)) {
             type = 'Poison';
         }
-        else if ((isHydrate = !!attacker.hasAbility('Hydrate')) && normal) {
+        else if ((isHydrate = !!attacker.hasAbility('Hydrate') && normal)) {
             type = 'Water';
         }
-        else if ((isTectonize = !!attacker.hasAbility('Tectonize')) && normal) {
+        else if ((isTectonize = !!attacker.hasAbility('Tectonize') && normal)) {
             type = 'Ground';
         }
-        else if ((isFightingSpirit = !!attacker.hasAbility('Fighting Spirit', 'Qigong')) && normal) {
+        else if ((isFightingSpirit = !!attacker.hasAbility('Fighting Spirit', 'Qigong') && normal)) {
             type = 'Fighting';
         }
         else if ((isCrystallize = !!attacker.hasAbility('Crystallize')) && move.hasType('Rock')) {
@@ -395,27 +395,28 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         else if ((isSuperconductor = !!attacker.hasAbility('Superconductor')) && move.hasType('Steel')) {
             type = 'Ice';
         }
-        else if ((isImmolate = !!attacker.hasAbility('Immolate')) && normal) {
+        else if ((isImmolate = !!attacker.hasAbility('Immolate') && normal)) {
             type = 'Fire';
         }
-        else if ((isSpectralize = !!attacker.hasAbility('Spectralize')) && normal) {
+        else if ((isSpectralize = !!attacker.hasAbility('Spectralize') && normal)) {
             type = 'Ghost';
         }
-        else if ((isDraconize = !!attacker.hasAbility('Draconize')) && normal) {
+        else if ((isDraconize = !!attacker.hasAbility('Draconize') && normal)) {
             type = 'Dragon';
         }
-        else if ((isMineralize = !!attacker.hasAbility('Mineralize')) && normal) {
+        else if ((isMineralize = !!attacker.hasAbility('Mineralize') && normal)) {
             type = 'Rock';
         }
-        else if ((isEmanate = !!attacker.hasAbility('Emanate', 'Enlightened')) && normal) {
+        else if ((isEmanate = !!attacker.hasAbility('Emanate', 'Enlightened') && normal)) {
             type = 'Psychic';
         }
-        else if ((isEmanate = !!attacker.hasAbility('Fertlize')) && normal) {
+        else if ((isEmanate = !!attacker.hasAbility('Fertlize') && normal)) {
             type = 'Grass';
         }
         else if ((isBanshee = !!attacker.hasAbility('Banshee')) && normal && !!move.flags.sound) {
             type = 'Ghost';
         }
+
         if (isGalvanize || isPixilate || isRefrigerate || isAerilate || isNormalize || isPollinate ||
             isIntoxicate || isHydrate || isTectonize || isFightingSpirit || isCrystallize || isSuperconductor || isImmolate ||
             isSpectralize || isDraconize || isMineralize || isEmanate) {
@@ -451,17 +452,22 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     const typeGainAbilities = [
         [["Dragonfly", "Draconic Might", "Half Drake"], "Dragon"],
         [['Aquatic', 'Aquatic Dweller'], "Water"],
-        [["Staineless Steel"], "Steel"],
-        [['Tender Affection','Lunar Eclipse','Moon Spirit'], 'Fairy'],
-        [['Acidic Slime'], 'Poison'],
-        [['Lunar Eclipse', 'Moon Spirit'], 'Dark'],
-        [['Aurora Borealis'], 'Ice'],
-        [['Solar Flare'], 'Fire']
+        [["Staineless Steel", "Metallic"], "Steel"],
+        [['Tender Affection', 'Fairy Tale'], 'Fairy'],
+        [['Hover'], 'Psychic'],
+        [['Turboblaze'], 'Fire'],
+        [['Teravolt'], 'Electric'],
+        [['Grounded'], 'Ground'],
+        [['Ice Age'], 'Ice'],
+        [['Phantom'], 'Ghost']
     ]
 
     for (const typeGain of typeGainAbilities) {
         if (typeGain[0].includes(defender.ability) || typeGain[0].filter(ab => defender.innates.includes(ab)).length > 0 ) {
             defender.types.push(typeGain[1])
+        }
+        if (typeGain[0].includes(attacker.ability) || typeGain[0].filter(ab => attacker.innates.includes(ab)).length > 0 ) {
+            attacker.types.push(typeGain[1])
         }
     }
 
@@ -1570,11 +1576,6 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         atMods.push(6144);
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }
-    if ((attacker.hasAbility('Steelworker', 'Atomic Punch') && move.hasType('Steel')) ||
-        (attacker.hasAbility('Rocky Payload') && move.hasType('Rock'))) {
-        atMods.push(6144);
-        desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
-    }
     if (attacker.hasAbility('Dragon\'s Maw') && move.hasType('Dragon')) {
         atMods.push(5325);
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
@@ -2118,7 +2119,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         finalMods.push(4915);
     }
     if (field.defenderSide.isFriendGuard) {
-        finalMods.push(3072);
+        finalMods.push(2048);
         desc.isFriendGuard = true;
     }
     if (defender.hasAbility('Fluffy', 'Puffy') && move.hasType('Fire')) {
@@ -2405,7 +2406,7 @@ function abilityBoosts(attacker, move, basePower) {
         bpMods.push(5325);
     if (attacker.hasAbility('Flaming Maw') && move.flags.bite)
         bpMods.push(5325);
-    if (attacker.hasAbility('Rocky Payload') && move.flags["throw"])
+    if (attacker.hasAbility('Rocky Payload') && (move.flags["throw"] || move.hasType('Rock')))
         bpMods.push(6144);
     if (attacker.hasAbility('Archer') && move.flags.arrow)
         bpMods.push(5325);
@@ -2414,6 +2415,8 @@ function abilityBoosts(attacker, move, basePower) {
     if (attacker.hasAbility('Super Slammer') && move.flags.hammer)
         bpMods.push(5325);
     if (attacker.hasAbility('Steely Spirit') && move.hasType('Steel'))
+        bpMods.push(5325);
+    if (attacker.hasAbility('Steelworker', 'Atomic Punch') && move.hasType('Steel'))
         bpMods.push(5325);
     if (attacker.hasAbility('Airborne') && move.hasType('Flying'))
         bpMods.push(5325);

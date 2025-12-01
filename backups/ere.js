@@ -22311,7 +22311,7 @@ backup_data = {
       "nature": "Adamant",
       "moves": [
         "Earthquake",
-        "Shadow Punch",
+        "Rage Fist",
         "One-Inch Punch",
         "Rocket Shot"
       ]
@@ -22347,7 +22347,7 @@ backup_data = {
       "nature": "Adamant",
       "moves": [
         "Earthquake",
-        "Shadow Punch",
+        "Rage Fist",
         "One-Inch Punch",
         "Rocket Shot"
       ]
@@ -22383,7 +22383,7 @@ backup_data = {
       "nature": "Adamant",
       "moves": [
         "Earthquake",
-        "Shadow Punch",
+        "Rage Fist",
         "One-Inch Punch",
         "Rocket Shot"
       ]
