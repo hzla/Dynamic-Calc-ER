@@ -5708,7 +5708,8 @@ var SS_PATCH = {
     "type": "Grass",
     "category": "Special",
     "acc": 100,
-    "priority": 0
+    "priority": 0,
+    "overrideDefensiveStat": 'def'
   },
   "Water Sport": {
     "bp": 0,

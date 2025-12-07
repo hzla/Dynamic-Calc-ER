@@ -32633,7 +32633,8 @@ var REDUX_PATCH = {
         "types": [
             "Fairy"
         ],
-        "genderR": 127
+        "genderR": 127,
+        "nfe": true
     },
     "Swirlix": {
         "id": 684,

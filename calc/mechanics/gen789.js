@@ -17,6 +17,10 @@ var items_1 = require("../items");
 var move_1 = require("../move");
 var result_1 = require("../result");
 var util_2 = require("./util");
+
+var useHighestOffenseMoves = ["Tachyon Cutter", "Malignant Chain", "Tera Starstorm", "Water Pledge", "Fire Pledge", "Grass Pledge", "Tri Attack", "Blast Burn", "Hydro Cannon", "Frenzy Plant", "Rock Wrecker", "Attack Order", "Relic Song", "Prismatic Laser", "Multi Attack", "Photon Geyser", "Pika Papow", "Veevee Volley", "Black Magic", "Bleakwind Storm", "Wildbolt Storm", "Sandsear Storm", "Springtide Storm", "Spectral Serenade", "Mystical Power", "Banished Power"];
+var attackStat = "atk";
+
 function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     var e_1, _a;
     var _b, _c, _d, _e, _f, _g, _h, _j;
@@ -238,6 +242,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         (move.isCrit || (attacker.hasAbility('Merciless', 'Depravity', 'Relentless') && (defender.hasStatus('psn', 'tox', 'par', 'bld') ||
             defender.boosts.spe < 0)) || (attacker.hasAbility('Heaven Asunder') && move.named("Spacial Rend"))) &&
         move.timesUsed === 1;
+
+    if (move.named("Flail") && defender.curHP() <= defender.maxHP() / 2) {
+        isCritical = true;
+    }
     var type = move.type;
     if (move.named('Weather Ball')) {
         var holdingUmbrella = attacker.hasItem('Utility Umbrella');
@@ -427,7 +435,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
             desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
         }
     }
-    if (attacker.hasAbility('Sand Song') && move.flags.sound) {
+    if (attacker.hasAbility('Sand Song') && move.flags.sound && normal) {
         type = 'Ground';
     }
     if (move.named('Tera Blast') && attacker.teraType) {
@@ -515,9 +523,6 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         return result;
     }
 
-    if (attacker.hasAbility("Fatal Precision") && typeEffectiveness > 1) {
-        isCritical = true;
-    }
     if ((move.named('Sky Drop') &&
         (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
         (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
@@ -634,7 +639,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     if (attacker.hasAbility('Equinox')) {
-        move.category = attacker.stats.atk > attacker.stats.spa ? 'Physical' : 'Special';
+        // move.category = attacker.stats.atk > attacker.stats.spa ? 'Physical' : 'Special';
+        // attacker.stats.atk = Math.max(attacker.stats.atk, attacker.stats.spa)
+        // attacker.stats.spa = Math.max(attacker.stats.atk, attacker.stats.spa)
+        // console.log(attacker.stats)
     }
     if (attacker.hasAbility('Power Fists') && move.flags.punch) {
         move.category = 'Special';
@@ -653,10 +661,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
             move.category = 'Special';
         }
     }
-    const useHighestOffenseMoves = ["Tachyon Cutter", "Malignant Chain", "Tera Starstorm", "Water Pledge", "Fire Pledge", "Grass Pledge", "Tri Attack", "Blast Burn", "Hydro Cannon", "Frenzy Plant", "Rock Wrecker", "Attack Order", "Relic Song", "Prismatic Laser", "Multi Attack", "Photon Geyser", "Pika Papow", "Veevee Volley", "Black Magic", "Bleakwind Storm", "Wildbolt Storm", "Sandsear Storm", "Springtide Storm", "Spectral Serenade", "Mystical Power", "Banished Power"]
 
-
-    var attackStat = (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') 
+    attackStat = (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') 
         ? 'atk'
         : move.named('Body Press')
             ? 'def'
@@ -666,8 +672,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
                     ? 'spa'
                     : 'atk';
 
-    if (useHighestOffenseMoves.includes(move.name)) {
+    if (useHighestOffenseMoves.includes(move.name) || attacker.hasAbility('Equinox')) {
        attackStat = (attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa' 
+       console.log(attackStat)
     }
     
 
@@ -1065,7 +1072,6 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             basePower = Math.max(1, Math.floor((150 * attacker.curHP()) / attacker.maxHP()));
             desc.moveBP = basePower;
             break;
-        case 'Flail':
         case 'Reversal':
             var p = Math.floor((48 * attacker.curHP()) / attacker.maxHP());
             basePower = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20;
@@ -1274,7 +1280,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Tough Claws', 'Apex Predator') && move.flags.contact) ||
         (attacker.hasAbility('Blood Price')) ||
         (attacker.hasAbility('Mind Crunch', 'Megabite') && move.flags.bite) ||
-        (attacker.hasAbility('Punk Rock', 'Bass Boosted', 'Sludgy Mix') || attacker.hasAbility('Amplifier') && move.flags.sound)) {
+        (attacker.hasAbility('Punk Rock', 'Bass Boosted', 'Sludgy Mix', 'Amplifier') && move.flags.sound)) {
         bpMods.push(5325);
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }
@@ -1388,10 +1394,7 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
 
-    const useHighestOffenseMoves = ["Tachyon Cutter", "Malignant Chain", "Tera Starstorm", "Water Pledge", "Fire Pledge", "Grass Pledge", "Tri Attack", "Blast Burn", "Hydro Cannon", "Frenzy Plant", "Rock Wrecker", "Attack Order", "Relic Song", "Prismatic Laser", "Multi Attack", "Photon Geyser", "Pika Papow", "Veevee Volley", "Black Magic", "Bleakwind Storm", "Wildbolt Storm", "Sandsear Storm", "Springtide Storm", "Spectral Serenade", "Mystical Power", "Banished Power"]
-
-
-    var attackStat = (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') 
+    attackStat = (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') 
         ? 'atk'
         : move.named('Body Press')
             ? 'def'
@@ -1401,7 +1404,7 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
                     ? 'spa'
                     : 'atk';
 
-    if (useHighestOffenseMoves.includes(move.name)) {
+    if (useHighestOffenseMoves.includes(move.name) || attacker.hasAbility('Equinox')) {
        attackStat = (attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa' 
     }
 
@@ -1790,6 +1793,11 @@ function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCr
     }
 
     var defenseStat = hitsPhysical ? 'def' : 'spd';
+
+    if (useHighestOffenseMoves.includes(move.name)) {
+        defenseStat = attackStat == "atk" ? 'def' : 'spd'
+        console.log(defenseStat)
+    }
     
     // todo: check choice scarf
     if (defender.hasAbility('Blur') && move.flags.contact) {
@@ -2146,6 +2154,9 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
     if ((attacker.hasAbility('Lumberjack') && defender.hasType('Grass')) || (attacker.hasAbility('Dragonslayer') && defender.hasType('Dragon')) ||
         (attacker.hasAbility('Fae Hunter') && defender.hasType('Fairy')) || (attacker.hasAbility('Monster Hunter') && defender.hasType('Dark'))) {
         finalMods.push(6144);
+    }
+    if (attacker.hasAbility("Fatal Precision") && typeEffectiveness > 1) {
+        finalMods.push(4915);
     }
     if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
         finalMods.push(4915);
