@@ -674,12 +674,11 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
 
     if (useHighestOffenseMoves.includes(move.name) || attacker.hasAbility('Equinox')) {
        attackStat = (attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa' 
-       console.log(attackStat)
     }
     
 
     var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, !!isCritical);
-    var targetWeakestDefense = (attacker.hasAbility('Exploit Weakness') && defender.status) || move.named('Shell Side Arm') || (attacker.hasAbility('Deadeye') && (move.flags.pulse || move.flags.arrow));
+    var targetWeakestDefense = (attacker.hasAbility('Exploit Weakness') && defender.status) || move.named('Shell Side Arm') || (attacker.hasAbility('Deadeye') && (move.flags.bullet || move.flags.arrow));
     
     var hitsPhysical = false;
 
@@ -696,6 +695,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         defenseStat = 'spe'
     }
 
+    console.log(`${defender.name}|${defenseStat}`)
 
     var baseDamage = (0, util_2.getBaseDamage)(attacker.level, basePower, attack, defense);
     if (field.gameType === 'Doubles' && (attacker.hasAbility('Amplifier', 'Bass Boosted') &&
@@ -1120,7 +1120,9 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
         case 'Triple Axel':
         case 'Whirling Strikes':
         case 'Triple Tremor':
+        case 'Fury Cutter':
             basePower = move.hits === 2 ? 30 : move.hits === 3 ? 40 : 20;
+            console.log(basePower)
             desc.moveBP = basePower;
             break;
         case 'Triple Kick':
@@ -1695,19 +1697,35 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         }
         atMods.push(3072);
     }
+
+    var attackerHighestStat = (0, util_2.getQPBoostedStat)(attacker);
+
+
     if ((attacker.hasAbility('Protosynthesis') &&
         (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
-        (attacker.hasAbility('Greater Spirit') && (field.hasWeather('Fog'))) ||
-        (attacker.hasAbility('Greater Spirit') && (field.hasWeather('Fog'))) ||
         (attacker.hasAbility('Quark Drive') &&
             (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))) {
         if ((move.category === 'Physical' &&
-            (0, util_2.getQPBoostedStat)(attacker) === 'atk') ||
-            (move.category === 'Special' && (0, util_2.getQPBoostedStat)(attacker) === 'spa')) {
+            attackerHighestStat === 'atk') ||
+            (move.category === 'Special' && attackerHighestStat === 'spa')) {
             atMods.push(5325);
             desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
         }
     }
+
+    if ((attacker.hasAbility('Sun Worship') && field.hasWeather('Sun')) ||
+        (attacker.hasAbility('Greater Spirit') && (field.hasWeather('Fog'))) ||
+        (attacker.hasAbility('Sea Guardian') && (field.hasWeather('Rain')))
+        ) {
+        if ((move.category === 'Physical' &&
+            attackerHighestStat === 'atk') ||
+            (move.category === 'Special' && attackerHighestStat === 'spa')) {
+            atMods.push(6144);
+            desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
+        }
+    }
+
+
     if ((attacker.hasAbility('Hadron Engine') && move.category === 'Special' &&
         field.hasTerrain('Electric') && (0, util_2.isGrounded)(attacker, field)) ||
         (attacker.hasAbility('Orichalcum Pulse') && move.category === 'Physical' &&
@@ -1908,18 +1926,35 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         }
         dfMods.push(3072);
     }
+
+    var defenderHighestStat = (0, util_2.getQPBoostedStat)(defender)
+
     if ((defender.hasAbility('Protosynthesis') &&
         (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
         (defender.hasAbility('Greater Spirit') &&
             (field.hasWeather('Fog'))) ||
         (defender.hasAbility('Quark Drive') &&
             (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))) {
-        if ((hitsPhysical && (0, util_2.getQPBoostedStat)(defender) === 'def') ||
-            (!hitsPhysical && (0, util_2.getQPBoostedStat)(defender) === 'spd')) {
+        if ((hitsPhysical && defenderHighestStat === 'def') ||
+            (!hitsPhysical && defenderHighestStat === 'spd')) {
             desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
             dfMods.push(5325);
         }
     }
+
+    if ((defender.hasAbility('Sun Worship') && field.hasWeather('Sun')) ||        
+        (defender.hasAbility('Greater Spirit') && (field.hasWeather('Fog'))) ||
+        (defender.hasAbility('Sea Guardian') && (field.hasWeather('Rain'))) 
+        ) {
+        if ((hitsPhysical && defenderHighestStat === 'def') ||
+            (!hitsPhysical && defenderHighestStat === 'spd')) {
+            desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
+            dfMods.push(6144);
+        }
+    }
+
+
+
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe)) ||
         (!hitsPhysical && defender.hasItem('Assault Vest')) ||
         (hitsPhysical && defender.hasItem('Tactical Vest'))) {
