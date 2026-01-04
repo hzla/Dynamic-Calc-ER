@@ -230,6 +230,9 @@ function getMoveEffectiveness(gen, move, type, target, source, isGhostRevealed, 
     else if (move.named('Clay Dart', 'Poison Gas') && type === 'Flying') {
         return 2;
     }
+    else if (move.named('Mud Bomb') && type === 'Flying') {
+        return 1;
+    }
     else if (move.named('Fumigation Bomb') && type === 'Bug') {
         return 2;
     }
@@ -242,7 +245,7 @@ function getMoveEffectiveness(gen, move, type, target, source, isGhostRevealed, 
     else if (move.named('Razor Wind') && type === 'Rock') {
         return 2;
     }
-    else if (move.named('Freeze Dry', 'Sheer Cold', 'Sludge', 'Brine') && type === 'Water') {
+    else if (move.named('Freeze-Dry', 'Sheer Cold', 'Sludge', 'Brine') && type === 'Water') {
         return 2;
     }
     else if (source.hasAbility('Molten Down', 'Magma Eater', 'Pyroclastic Flow') && type === 'Rock' && move.type === 'Fire') {

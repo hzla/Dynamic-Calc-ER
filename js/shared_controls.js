@@ -223,7 +223,7 @@ function showAbilityToggles(abilityObj) {
 
 	var ability = $(abilityObj).val();
 
-	var TOGGLE_ABILITIES = ['Madness Enhancement', 'Headstrong', 'Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Scare', 'Scarecrow', 'Gleam Eyes', 'Monkey Business', 'Yuki Onna', 'Showdown Mode',
+	var TOGGLE_ABILITIES = ['Avenger', 'Madness Enhancement', 'Headstrong', 'Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Scare', 'Scarecrow', 'Gleam Eyes', 'Monkey Business', 'Yuki Onna', 'Showdown Mode',
         'Unburden', 'Stakeout','Overwatch', 'Coil Up', 'Let\'s Roll', 'Grip Pincer', 'Violent Rush', 'Dreamcatcher', 'Ambush', 'Readied Action', 'Demolitionist', 'Rapid Response', 'Malicious', 'Stall', 'Breakwater', 'Champion\'s Entrance', 'Soothsayer'];
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
 		$(abilityObj).next().show();
@@ -866,9 +866,23 @@ $(".set-selector").change(function () {
 				
 				setSelectValueIfValid(abilityObj, set.ability, abilityFallback);
 
-				setSelectValueIfValid(innate1Obj, set.innates[0], innate1Fallback);
-				setSelectValueIfValid(innate2Obj, set.innates[1], innate2Fallback);
-				setSelectValueIfValid(innate3Obj, set.innates[2], innate3Fallback);
+				console.log("this is going")
+				console.log(pokemonName)
+
+
+				if (pokemonName && pokemonName.includes(" Mega") && $(this).hasClass('opposing')) {
+					console.log(set.innates)
+					setSelectValueIfValid(innate1Obj, innate1Fallback, innate1Fallback);
+					setSelectValueIfValid(innate2Obj, innate2Fallback, innate2Fallback);
+					setSelectValueIfValid(innate3Obj, innate3Fallback, innate3Fallback);
+				} else {
+					setSelectValueIfValid(innate1Obj, set.innates[0], innate1Fallback);
+					setSelectValueIfValid(innate2Obj, set.innates[1], innate2Fallback);
+					setSelectValueIfValid(innate3Obj, set.innates[2], innate3Fallback);
+
+				}
+
+
 
 
 				if (TITLE.includes("Elite Mode")) {
@@ -1224,7 +1238,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		if (setName.indexOf("(") === -1) {
 			name = setName;
 		} else {
-			var pokemonName = setName.substring(0, setName.indexOf(" (")).replaceAll("n Z", "n-Z").replaceAll("o o", "o-o");
+			var pokemonName = setName.substring(0, setName.indexOf(" (")).replaceAll("on Z", "on-Z").replaceAll("o o", "o-o");
 			
 			var species = pokedex[pokemonName];
 			name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;

@@ -499,7 +499,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     if (defender.teraType) {
         typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, defender, attacker, isGhostRevealed, field.isGravity, isRingTarget);
     }
-    if (typeEffectiveness === 0 && move.named('Thousand Arrows')) {
+    if (typeEffectiveness === 0 && move.named('Thousand Arrows', 'Mud Bomb')) {
         typeEffectiveness = 1;
     }
     if (typeEffectiveness === 0 && move.hasType('Ground') &&
@@ -553,7 +553,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         (move.hasType('Electric') &&
             defender.hasAbility('Lightning Rod', 'Motor Drive', 'Volt Absorb')) ||
         (move.hasType('Ground') &&
-            !field.isGravity && !move.named('Thousand Arrows') && !defender.hasItem('Iron Ball') &&
+            !field.isGravity && !move.named('Thousand Arrows', 'Mud Bomb') && !defender.hasItem('Iron Ball') &&
             (defender.hasAbility('Levitate', 'Imposing Wings', 'Dragonfly', 'Aerialist', 'Hover', 'Fey Flight') && !(attacker.hasAbility('Bone Zone') && move.flags.bone))) ||
         (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
         (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof', 'Parroting', 'Noise Cancel')) ||
@@ -564,7 +564,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
         return result;
     }
-    if (move.hasType('Ground') && !move.named('Thousand Arrows') &&
+    if (move.hasType('Ground') && !move.named('Thousand Arrows', 'Mud Bomb') &&
         !field.isGravity && defender.hasItem('Air Balloon')) {
         desc.defenderItem = defender.item;
         return result;
@@ -626,6 +626,23 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     if (move.hits > 1) {
         desc.hits = move.hits;
     }
+    if (attacker.hasAbility('Power Fists') && move.flags.punch) {
+        move.category = 'Special';
+    }
+    if (attacker.hasAbility('Mystic Blades') && move.flags.slicing) {
+        move.category = 'Special';
+    }
+    if (attacker.hasAbility('Mythical Arrows') && move.flags.arrow) {
+        move.category = 'Special';
+    }
+    if (attacker.hasItem('Swirly Glasses')) {
+        if (move.category === 'Special') {
+            move.category = 'Physical';
+        }
+        else if (move.category == 'Physical') {
+            move.category = 'Special';
+        }
+    }
     var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
     var basePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc);
     if (basePower === 0) {
@@ -644,23 +661,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         // attacker.stats.spa = Math.max(attacker.stats.atk, attacker.stats.spa)
         // console.log(attacker.stats)
     }
-    if (attacker.hasAbility('Power Fists') && move.flags.punch) {
-        move.category = 'Special';
-    }
-    if (attacker.hasAbility('Mystic Blades') && move.flags.slicing) {
-        move.category = 'Special';
-    }
-    if (attacker.hasAbility('Mythical Arrows') && move.flags.arrow) {
-        move.category = 'Special';
-    }
-    if (attacker.hasItem('Swirly Glasses')) {
-        if (move.category === 'Special') {
-            move.category = 'Physical';
-        }
-        else if (move.category == 'Physical') {
-            move.category = 'Special';
-        }
-    }
+
+
 
     attackStat = (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') 
         ? 'atk'
@@ -675,14 +677,15 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
     if (useHighestOffenseMoves.includes(move.name) || attacker.hasAbility('Equinox')) {
        attackStat = (attackSource.stats.atk > attackSource.stats.spa) ? 'atk' : 'spa' 
     }
+
+
     
 
     var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, !!isCritical);
     var targetWeakestDefense = (attacker.hasAbility('Exploit Weakness') && defender.status) || move.named('Shell Side Arm') || (attacker.hasAbility('Deadeye') && (move.flags.bullet || move.flags.arrow));
     
     var hitsPhysical = false;
-
-    
+   
     if (targetWeakestDefense) {
         hitsPhysical = (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical'
     } else {
@@ -695,7 +698,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         defenseStat = 'spe'
     }
 
-    console.log(`${defender.name}|${defenseStat}`)
+    console.log(`${move.name} category ${move.category} hitsPhysical ${hitsPhysical} attackStat ${attackStat} targetingDef ${defenseStat}`)
+
 
     var baseDamage = (0, util_2.getBaseDamage)(attacker.level, basePower, attack, defense);
     if (field.gameType === 'Doubles' && (attacker.hasAbility('Amplifier', 'Bass Boosted') &&
@@ -1008,10 +1012,6 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             basePower = move.bp * (defender.status || defender.hasAbility('Comatose') ? 2 : 1);
             desc.moveBP = basePower;
             break;
-        case 'Barb Barrage':
-            basePower = move.bp * (defender.hasStatus('psn', 'tox') ? 2 : 1);
-            desc.moveBP = basePower;
-            break;
         case 'Heavy Slam':
         case 'Heat Crash':
             var wr = (attacker.weightkg * (0, util_2.getWeightFactor)(attacker)) /
@@ -1122,7 +1122,6 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
         case 'Triple Tremor':
         case 'Fury Cutter':
             basePower = move.hits === 2 ? 30 : move.hits === 3 ? 40 : 20;
-            console.log(basePower)
             desc.moveBP = basePower;
             break;
         case 'Triple Kick':
@@ -1175,11 +1174,11 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         var item = gen.items.get((0, util_1.toID)(defender.item));
         resistedKnockOffDamage = !!item.megaEvolves && defender.name.includes(item.megaEvolves);
     }
-    if ((move.named('Bitter Malice', 'Infernal Parade', 'Barb Barrage') && defender.hasStatus('brn', 'psn', 'tox', 'frz', 'bld'))) {
+    if ((move.named('Bitter Malice', 'Infernal Parade', 'Barb Barrage') && defender.hasStatus('brn', 'psn', 'tox', 'frz', 'bld', 'slp', 'par'))) {
         bpMods.push(6144);
         desc.moveBP = basePower * 1.5;
     }
-    if ((move.named('Facade', 'Bravado') && attacker.hasStatus('brn', 'psn', 'tox', 'frz', 'bld')) ||
+    if ((move.named('Facade', 'Bravado') && attacker.hasStatus('brn', 'psn', 'tox', 'frz', 'bld', 'par')) ||
         (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
         (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||
         (move.named('Lash Out') && ((0, util_2.countBoosts)(gen, attacker.boosts) < 0))) {
@@ -1322,7 +1321,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     if (!move.isMax && hasAteAbilityTypeChange) {
         bpMods.push(4506);
     }
-    if ((attacker.hasAbility('Reckless', 'Rock Head') && (move.recoil || move.hasCrashDamage))) {
+    if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage))) {
         bpMods.push(4915);
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }
@@ -1507,7 +1506,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
     }
     if ((attacker.hasAbility('Flock', 'Aerialist') && move.hasType('Flying')) ||
         (attacker.hasAbility('Short Circuit') && move.hasType('Electric')) ||
-        (attacker.hasAbility('Vengeance') && move.hasType('Ghost')) ||
+        (attacker.hasAbility('Vengeance', 'Vengeance Spirit') && move.hasType('Ghost')) ||
         (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
         (attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
         (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
@@ -1758,6 +1757,10 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         desc.attackerItem = attacker.item;
     }
 
+    if (attacker.hasAbilityActive('Avenger')) {
+        atMods.push(6144);
+    }
+
 
 
     if (attacker.hasAbility('Firefighter') && defender.hasType('Fire')) {
@@ -1814,7 +1817,7 @@ function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCr
 
     if (useHighestOffenseMoves.includes(move.name)) {
         defenseStat = attackStat == "atk" ? 'def' : 'spd'
-        console.log(defenseStat)
+        // console.log(defenseStat)
     }
     
     // todo: check choice scarf
@@ -1905,8 +1908,10 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
     }
     if (defender.hasAbility('Fur Coat') && hitsPhysical) {
-        dfMods.push(8192);
-        desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
+        if (!useHighestOffenseMoves.includes(move.name)) {
+            dfMods.push(8192);
+            desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
+        }       
     }
     if (defender.hasAbility('Apple Enlightenment') && hitsPhysical) {
         dfMods.push(8192);
@@ -2052,8 +2057,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
             desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
         }
     }
-    if (defender.hasAbility('Fluffy', 'Puffy') && move.flags.contact ||
-        (defender.hasAbility('Furnace') && move.hasType('Fire'))) {
+    if (defender.hasAbility('Fluffy', 'Puffy') && move.flags.contact) {
         finalMods.push(2048);
         desc.defenderAbility = (0, util_2.addSpacedStr)(desc.defenderAbility, defender.descAbility);
     }
@@ -2149,7 +2153,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
     if (defender.hasAbility('Prism Scales') && !hitsPhysical) {
         finalMods.push(2867);
     }
-    if (defender.hasAbility('Christmas Spirit') && field.hasWeather('Hail')) {
+    if (defender.hasAbility('Christmas Spirit') && field.hasWeather('Snow', "Hail")) {
         finalMods.push(2048);
     }
     if (defender.hasAbility('Nocturnal') && move.hasType('Dark', 'Fairy')) {
