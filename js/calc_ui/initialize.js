@@ -141,7 +141,7 @@ if (SOURCES[params.get('data')]) {
 function initCalc() {
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?0b3ea005';
+  script.src= './js/shared_controls.js?0b3ea100';
   head.appendChild(script);
   saveUploaded = false
   boxSprites = ["pokesprite", "pokesprite"]
@@ -358,6 +358,10 @@ function loadDataSource(data) {
     SETDEX_XY = data
     setdex = data
 
+    if (typeof applyTrainerSetOverrides === "function") {
+        applyTrainerSetOverrides(data)
+    }
+
     moves = SS_PATCH
 
     TR_NAMES = get_trainer_names()
@@ -403,4 +407,3 @@ function loadDataSource(data) {
         "type": "Normal"
     }    
 }
-

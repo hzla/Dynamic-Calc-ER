@@ -94,6 +94,10 @@ function setOpposing(id) {
     currentTrainerSet = id
     localStorage["right"] = currentTrainerSet
 
+    if (typeof flushCurrentTrainerSetOverrideSave === "function") {
+        flushCurrentTrainerSetOverrideSave()
+    }
+
     $('.opposing').val(currentTrainerSet)
     $('.opposing').change()
     $('.opposing .select2-chosen').text(currentTrainerSet)

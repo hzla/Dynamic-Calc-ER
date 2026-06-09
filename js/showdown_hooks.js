@@ -69,6 +69,9 @@ $(document).ready(function() {
                     setTimeout(function() {
                         if (localStorage["left"]) {
                             var set = localStorage["right"]
+                            if (typeof flushCurrentTrainerSetOverrideSave === "function") {
+                                flushCurrentTrainerSetOverrideSave()
+                            }
                             $('.opposing').val(set)
                             $('.opposing').change()
                             $('.opposing .select2-chosen').text(set)
@@ -94,6 +97,9 @@ $(document).ready(function() {
             setTimeout(function() {
                 if (localStorage["left"]) {
                     var set = localStorage["right"]
+                    if (typeof flushCurrentTrainerSetOverrideSave === "function") {
+                        flushCurrentTrainerSetOverrideSave()
+                    }
                     $('.opposing').val(set)
                     $('.opposing').change()
                     $('.opposing .select2-chosen').text(set)
@@ -115,6 +121,10 @@ $(document).ready(function() {
 
         currentTrainerSet = customLeads[tr_id].split("[")[0]
         localStorage["right"] = currentTrainerSet
+
+        if (typeof flushCurrentTrainerSetOverrideSave === "function") {
+            flushCurrentTrainerSetOverrideSave()
+        }
 
         $('.opposing').val(currentTrainerSet)
         $('.opposing').change()
@@ -153,7 +163,11 @@ $(document).ready(function() {
 
         $("#weather-bar label").first().click()
 
-        $('.opposing').val(set) 
+        if (typeof flushCurrentTrainerSetOverrideSave === "function") {
+            flushCurrentTrainerSetOverrideSave()
+        }
+
+        $('.opposing').val(set)
         $('.opposing .select2-chosen').text(set)
         $('.opposing').change()
    })

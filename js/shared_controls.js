@@ -42,6 +42,11 @@ var LEGACY_STATS_RBY = ["hp", "at", "df", "sl", "sp"];
 var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
 var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
 var HIDDEN_POWER_REGEX = /Hidden Power(\w*)/;
+var TRAINER_SET_ORIGINALS = typeof TRAINER_SET_ORIGINALS === "undefined" ? {} : TRAINER_SET_ORIGINALS;
+var savingTrainerSet = typeof savingTrainerSet === "undefined" ? false : savingTrainerSet;
+var trainerSetSaveTimer = typeof trainerSetSaveTimer === "undefined" ? null : trainerSetSaveTimer;
+var currentTrainerSetSelection = typeof currentTrainerSetSelection === "undefined" ? null : currentTrainerSetSelection;
+var loadingTrainerSetControls = typeof loadingTrainerSetControls === "undefined" ? false : loadingTrainerSetControls;
 
 var CALC_STATUS = {
 	'Healthy': '',
@@ -53,6 +58,273 @@ var CALC_STATUS = {
 	'Frozen': 'frz',
 	'Bleeding': 'bld'
 };
+
+function cloneTrainerSet(set) {
+	return JSON.parse(JSON.stringify(set || {}));
+}
+
+function parseFullSetName(fullSetName) {
+	if (!fullSetName || fullSetName.indexOf(" (") === -1) {
+		return null;
+	}
+	return {
+		pokemonName: fullSetName.substring(0, fullSetName.indexOf(" (")),
+		setName: fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"))
+	};
+}
+
+function getSetFromDex(pokemonName, setName) {
+	if (!pokemonName || !setName || setName === "Blank Set") {
+		return null;
+	}
+	if (setdex && setdex[pokemonName] && setdex[pokemonName][setName]) {
+		return setdex[pokemonName][setName];
+	}
+	if (typeof SETDEX_BW !== "undefined" && SETDEX_BW && SETDEX_BW[pokemonName] && SETDEX_BW[pokemonName][setName]) {
+		return SETDEX_BW[pokemonName][setName];
+	}
+	return null;
+}
+
+function getCurrentTrainerSetRef() {
+	if (currentTrainerSetSelection) {
+		var selectedSet = getSetFromDex(currentTrainerSetSelection.pokemonName, currentTrainerSetSelection.setName);
+		if (selectedSet) {
+			return {
+				pokemonName: currentTrainerSetSelection.pokemonName,
+				setName: currentTrainerSetSelection.setName,
+				set: selectedSet
+			};
+		}
+	}
+
+	var parsed = parseFullSetName($("#p2 input.set-selector").val());
+	if (!parsed) {
+		return null;
+	}
+	var set = getSetFromDex(parsed.pokemonName, parsed.setName);
+	if (!set) {
+		return null;
+	}
+	return {
+		pokemonName: parsed.pokemonName,
+		setName: parsed.setName,
+		set: set
+	};
+}
+
+function setCurrentTrainerSetSelection(pokemonName, setName, set) {
+	if (set) {
+		rememberOriginalTrainerSet(pokemonName, setName, set);
+	}
+	currentTrainerSetSelection = set ? {
+		pokemonName: pokemonName,
+		setName: setName
+	} : null;
+}
+
+function rememberOriginalTrainerSet(pokemonName, setName, set) {
+	if (!TRAINER_SET_ORIGINALS[pokemonName]) {
+		TRAINER_SET_ORIGINALS[pokemonName] = {};
+	}
+	if (!TRAINER_SET_ORIGINALS[pokemonName][setName]) {
+		TRAINER_SET_ORIGINALS[pokemonName][setName] = cloneTrainerSet(set);
+	}
+}
+
+function getOriginalTrainerSet(pokemonName, setName) {
+	if (TRAINER_SET_ORIGINALS[pokemonName] && TRAINER_SET_ORIGINALS[pokemonName][setName]) {
+		return cloneTrainerSet(TRAINER_SET_ORIGINALS[pokemonName][setName]);
+	}
+	var set = getSetFromDex(pokemonName, setName);
+	if (!set) {
+		return null;
+	}
+	rememberOriginalTrainerSet(pokemonName, setName, set);
+	return cloneTrainerSet(set);
+}
+
+function replaceTrainerSetContents(target, source) {
+	var clonedSource = cloneTrainerSet(source);
+	for (var key in target) {
+		if (Object.prototype.hasOwnProperty.call(target, key)) {
+			delete target[key];
+		}
+	}
+	Object.assign(target, clonedSource);
+	return target;
+}
+
+function normalizeTrainerStats(stats, fallback) {
+	var normalized = {};
+	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+		var stat = LEGACY_STATS[gen][i];
+		normalized[stat] = stats && typeof stats[stat] !== "undefined" ? parseInt(stats[stat]) : fallback;
+	}
+	return normalized;
+}
+
+function normalizeTrainerMoves(movesList) {
+	var normalized = [];
+	for (var i = 0; i < 4; i++) {
+		normalized.push(movesList && movesList[i] ? movesList[i] : "(No Move)");
+	}
+	return normalized;
+}
+
+function normalizeTrainerInnates(innatesList) {
+	var normalized = [];
+	for (var i = 0; i < 3; i++) {
+		normalized.push(innatesList && innatesList[i] ? innatesList[i] : "");
+	}
+	return normalized;
+}
+
+function comparableTrainerSet(set) {
+	return {
+		level: parseInt(set.level) || 100,
+		item: set.item || "",
+		ability: set.ability || "",
+		innates: normalizeTrainerInnates(set.innates),
+		nature: set.nature || "Hardy",
+		evs: normalizeTrainerStats(set.evs, 0),
+		ivs: normalizeTrainerStats(set.ivs, 31),
+		dvs: normalizeTrainerStats(set.dvs, 15),
+		moves: normalizeTrainerMoves(set.moves),
+		gender: set.gender || "M",
+		status: set.status || "Healthy"
+	};
+}
+
+function trainerSetsMatch(left, right) {
+	return JSON.stringify(comparableTrainerSet(left)) === JSON.stringify(comparableTrainerSet(right));
+}
+
+function writeTrainerSetToDex(pokemonName, setName, setData) {
+	if (setdex && setdex[pokemonName]) {
+		setdex[pokemonName][setName] = setData;
+	}
+	if (typeof SETDEX_BW !== "undefined" && SETDEX_BW && SETDEX_BW[pokemonName]) {
+		SETDEX_BW[pokemonName][setName] = setData;
+	}
+}
+
+function getPanelStats(pokeObj, statClass, fallback) {
+	var stats = {};
+	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+		var stat = LEGACY_STATS[gen][i];
+		var value = parseInt(pokeObj.find("." + stat + " ." + statClass).val());
+		stats[stat] = isNaN(value) ? fallback : value;
+	}
+	return stats;
+}
+
+function buildTrainerSetFromRightPanel(currentSet) {
+	var pokeObj = $("#p2");
+	var setData = cloneTrainerSet(currentSet);
+	var level = parseInt(pokeObj.find(".level").val());
+	setData.level = isNaN(level) ? 100 : level;
+	setData.item = pokeObj.find(".item").val() || "";
+	setData.ability = pokeObj.find(".ability").val() || "";
+	setData.innates = [
+		pokeObj.find(".innates").eq(0).val() || "",
+		pokeObj.find(".innates").eq(1).val() || "",
+		pokeObj.find(".innates").eq(2).val() || ""
+	];
+	setData.nature = pokeObj.find(".nature").val() || "Hardy";
+	setData.evs = getPanelStats(pokeObj, "evs", 0);
+	setData.ivs = getPanelStats(pokeObj, "ivs", 31);
+	setData.dvs = getPanelStats(pokeObj, "dvs", 15);
+	setData.moves = [
+		pokeObj.find(".move1 select.move-selector").val() || "(No Move)",
+		pokeObj.find(".move2 select.move-selector").val() || "(No Move)",
+		pokeObj.find(".move3 select.move-selector").val() || "(No Move)",
+		pokeObj.find(".move4 select.move-selector").val() || "(No Move)"
+	];
+	if (pokeObj.find(".gender").parent().is(":visible")) {
+		setData.gender = getGender(pokeObj.find(".gender").val());
+	}
+	if (pokeObj.find(".status").val()) {
+		setData.status = pokeObj.find(".status").val();
+	}
+	return setData;
+}
+
+function selectedTrainerSetHasOverride(pokemonName, setName) {
+	var set = getSetFromDex(pokemonName, setName);
+	var originalSet = getOriginalTrainerSet(pokemonName, setName);
+	return !!(set && originalSet && !trainerSetsMatch(set, originalSet));
+}
+
+function updateTrainerSetRevertButton() {
+	var ref = getCurrentTrainerSetRef();
+	if (ref && selectedTrainerSetHasOverride(ref.pokemonName, ref.setName)) {
+		$("#revert-trainer-set").show();
+	} else {
+		$("#revert-trainer-set").hide();
+	}
+}
+
+function saveCurrentTrainerSetOverride(forceSave) {
+	if (
+		savingTrainerSet ||
+		(typeof calcingForSwitchIns !== "undefined" && calcingForSwitchIns)
+	) {
+		return;
+	}
+	if (!forceSave && loadingTrainerSetControls) {
+		return;
+	}
+	var ref = getCurrentTrainerSetRef();
+	if (!ref) {
+		updateTrainerSetRevertButton();
+		return;
+	}
+	rememberOriginalTrainerSet(ref.pokemonName, ref.setName, ref.set);
+	var setData = buildTrainerSetFromRightPanel(ref.set);
+	replaceTrainerSetContents(ref.set, setData);
+	writeTrainerSetToDex(ref.pokemonName, ref.setName, ref.set);
+	updateTrainerSetRevertButton();
+}
+
+function queueCurrentTrainerSetOverrideSave() {
+	clearTimeout(trainerSetSaveTimer);
+	trainerSetSaveTimer = setTimeout(saveCurrentTrainerSetOverride, 150);
+}
+
+function flushCurrentTrainerSetOverrideSave() {
+	clearTimeout(trainerSetSaveTimer);
+	saveCurrentTrainerSetOverride(true);
+}
+
+function applyTrainerSetOverrides(data) {
+	clearTimeout(trainerSetSaveTimer);
+	TRAINER_SET_ORIGINALS = {};
+	currentTrainerSetSelection = null;
+	loadingTrainerSetControls = false;
+}
+
+function revertCurrentTrainerSetOverride() {
+	var ref = getCurrentTrainerSetRef();
+	if (!ref) {
+		return;
+	}
+	var originalSet = getOriginalTrainerSet(ref.pokemonName, ref.setName);
+	if (!originalSet) {
+		return;
+	}
+	replaceTrainerSetContents(ref.set, originalSet);
+	writeTrainerSetToDex(ref.pokemonName, ref.setName, ref.set);
+
+	savingTrainerSet = true;
+	$(".opposing").val(ref.pokemonName + " (" + ref.setName + ")");
+	$(".opposing .select2-chosen").text(ref.pokemonName + " (" + ref.setName + ")");
+	$(".opposing").change();
+	setTimeout(function() {
+		savingTrainerSet = false;
+		updateTrainerSetRevertButton();
+	}, 0);
+}
 
 function legacyStatToStat(st) {
 	switch (st) {
@@ -555,6 +827,11 @@ function refresh_next_in() {
 	// console.log("refreshing next in " + lastSetName)
 	var next_poks = get_next_in()
 
+	if (!next_poks) {
+		$('.opposing.trainer-pok-list').html("")
+		return
+	}
+
 	if (damageGen < 8 && !TITLE.includes("Lumi")) {
         $("#p2 .evs, #p2 .ev-label").hide()
     }
@@ -641,6 +918,11 @@ $('#p1 .boost, #statusL1, #p1 .percent-hp').blur(function() {
 
 
 $(".set-selector").change(function () {
+	var isOpposingSetSelector = $(this).hasClass('opposing');
+	if (isOpposingSetSelector && currentTrainerSetSelection) {
+		flushCurrentTrainerSetOverrideSave();
+	}
+	loadingTrainerSetControls = isOpposingSetSelector;
 	changingSets = true
 
 	setTimeout(function() {
@@ -649,25 +931,25 @@ $(".set-selector").change(function () {
 	var fullSetName = $(this).val();
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
+	var selectedSet = getSetFromDex(pokemonName, setName);
 
-	try {
-		if (setName != 'Blank Set' && typeof SETDEX_BW[pokemonName][setName] != "undefined") {
-			currentSetLevel = SETDEX_BW[pokemonName][setName]["level"]
-		}
-	} catch {
-		return;
+	if (selectedSet && selectedSet["level"]) {
+		currentSetLevel = selectedSet["level"]
 	}
-	
 
-
-	if ($(this).hasClass('opposing')) {
-		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
-		var sprite = SETDEX_BW
+	if (isOpposingSetSelector) {
+		setCurrentTrainerSetSelection(pokemonName, setName, selectedSet);
+		CURRENT_TRAINER_POKS = selectedSet ? get_trainer_poks(fullSetName) : []
 		var left_max_hp = $("#p2 .max-hp").text()
 		$("#p2 .current-hp").val(left_max_hp).change()
 
-		$(".nav-tag.next").attr('data-next', SETDEX_BW[pokemonName][setName]['tr_id'] + 1 ).show()
-		$(".nav-tag.prev").attr('data-next', SETDEX_BW[pokemonName][setName]['tr_id'] - 1 ).show()
+		if (selectedSet && typeof selectedSet['tr_id'] !== "undefined") {
+			$(".nav-tag.next").attr('data-next', selectedSet['tr_id'] + 1 ).show()
+			$(".nav-tag.prev").attr('data-next', selectedSet['tr_id'] - 1 ).show()
+		} else {
+			$(".nav-tag.next, .nav-tag.prev, .nav-tag.partner").removeAttr('data-next').hide()
+		}
+		updateTrainerSetRevertButton()
 
 
 	} else {
@@ -677,56 +959,57 @@ $(".set-selector").change(function () {
 	
 
 
-	if ($(this).hasClass('opposing')) {
-		if (SETDEX_BW && SETDEX_BW[pokemonName]) {
-			if (setName != "Blank Set") {
-				// var sprite = SETDEX_BW[pokemonName][setName]["sprite"]
-				
-				// var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
-				// var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
-				
+	if (isOpposingSetSelector) {
+		if (selectedSet) {
+			// var sprite = SETDEX_BW[pokemonName][setName]["sprite"]
 
-
-				// if (CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS.length > 0 && TITLE.includes("1.3")) {
-					
-				// 	let orderInfo = emImpOrders[CURRENT_TRAINER_POKS.find(str => str.includes("[0]")).split("[")[0]]
+			// var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
+			// var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
 
 
 
+			// if (CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS.length > 0 && TITLE.includes("1.3")) {
+
+			// 	let orderInfo = emImpOrders[CURRENT_TRAINER_POKS.find(str => str.includes("[0]")).split("[")[0]]
 
 
-				if (SETDEX_BW[pokemonName][setName]["partner"]) {
-					$(".nav-tag.partner").show().attr('data-next', SETDEX_BW[pokemonName][setName]["partner"])
-				} else {
-					$(".nav-tag.partner").hide()
-				}
+
+
+
+			if (selectedSet["partner"]) {
+				$(".nav-tag.partner").show().attr('data-next', selectedSet["partner"])
+			} else {
+				$(".nav-tag.partner").hide()
+			}
 
 				$('#ai-tags').html("")
 				if (typeof ai != "undefined") {
 					for (tag of ai) {
 						if (tag == "Ace Pokemon" || tag == "Powerful Status") {
 							$('#ai-tags').append(`<div>${tag}</div>`)
-						}	
+						}
 					}
 				}
-				
+
 				// if (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") {
 				// 	$('#singles-format').click()
 				// } else {
-				// 	$('#doubles-format').click()
-				// }
+			// 	$('#doubles-format').click()
+			// }
 
-				let enemy_moves = SETDEX_BW[pokemonName][setName].moves
+			let enemy_moves = selectedSet.moves || []
 
-				$('#filter-move').html(`<option value="All Moves">All Moves</option>`)
+			$('#filter-move').html(`<option value="All Moves">All Moves</option>`)
 				
-				for (move of enemy_moves) {
-					$('#filter-move').append(`<option value="${move}">${move}</option>`)
-				}
-
+			for (move of enemy_moves) {
+				$('#filter-move').append(`<option value="${move}">${move}</option>`)
 			}
+
 		} else {
 			$('#trainer-sprite').hide()
+			$(".nav-tag.partner").hide()
+			$('#ai-tags').html("")
+			$('#filter-move').html(`<option value="All Moves">All Moves</option>`)
 		}
 
 		var pokesprite = pokemonName.toUpperCase().replaceAll(" ", "_").replaceAll(".","").replaceAll("’","").replaceAll(":","_").replaceAll("-", "_")
@@ -805,7 +1088,11 @@ $(".set-selector").change(function () {
 
 		var itemObj = pokeObj.find(".item");
 		var randset = $("#randoms").prop("checked") ? randdex[pokemonName] : undefined;
-		var regSets = pokemonName in setdex && setName in setdex[pokemonName];
+		var regSets = setdex && setdex[pokemonName] && setName in setdex[pokemonName];
+		var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
+		var innate1Fallback = (typeof pokemon.innates !== "undefined") ? pokemon.innates[0] : "";
+		var innate2Fallback = (typeof pokemon.innates !== "undefined") ? pokemon.innates[1] : "";
+		var innate3Fallback = (typeof pokemon.innates !== "undefined") ? pokemon.innates[2] : "";
 
 		if (randset) {
 			var listItems = randdex[pokemonName].items ? randdex[pokemonName].items : [];
@@ -851,13 +1138,7 @@ $(".set-selector").change(function () {
 					(set.dvs && set.dvs[LEGACY_STATS[gen][i]] !== undefined) ? set.dvs[LEGACY_STATS[gen][i]] : 15);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
-			var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
-
-			var innate1Fallback = (typeof pokemon.innates !== "undefined") ? pokemon.innates[0] : "";
-			var innate2Fallback = (typeof pokemon.innates !== "undefined") ? pokemon.innates[1] : "";
-			var innate3Fallback = (typeof pokemon.innates !== "undefined") ? pokemon.innates[2] : "";
-
-			
+			var setInnates = set.innates || [];
 
 			if ($("#randoms").prop("checked")) {
 				setSelectValueIfValid(abilityObj, randset.abilities && randset.abilities[0], abilityFallback);
@@ -870,15 +1151,15 @@ $(".set-selector").change(function () {
 				console.log(pokemonName)
 
 
-				if (pokemonName && pokemonName.includes(" Mega") && $(this).hasClass('opposing')) {
+				if (pokemonName && pokemonName.includes(" Mega") && isOpposingSetSelector) {
 					console.log(set.innates)
 					setSelectValueIfValid(innate1Obj, innate1Fallback, innate1Fallback);
 					setSelectValueIfValid(innate2Obj, innate2Fallback, innate2Fallback);
 					setSelectValueIfValid(innate3Obj, innate3Fallback, innate3Fallback);
 				} else {
-					setSelectValueIfValid(innate1Obj, set.innates[0], innate1Fallback);
-					setSelectValueIfValid(innate2Obj, set.innates[1], innate2Fallback);
-					setSelectValueIfValid(innate3Obj, set.innates[2], innate3Fallback);
+					setSelectValueIfValid(innate1Obj, setInnates[0], innate1Fallback);
+					setSelectValueIfValid(innate2Obj, setInnates[1], innate2Fallback);
+					setSelectValueIfValid(innate3Obj, setInnates[2], innate3Fallback);
 
 				}
 
@@ -923,11 +1204,11 @@ $(".set-selector").change(function () {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(15);
 			}
 			pokeObj.find(".nature").val("Hardy");
-			setSelectValueIfValid(abilityObj, pokemon.abilities[0], "");
+			setSelectValueIfValid(abilityObj, abilityFallback, "");
 
-			setSelectValueIfValid(innate1Obj, set.innate1, innate1Fallback);
-			setSelectValueIfValid(innate2Obj, set.innate2, innate2Fallback);
-			setSelectValueIfValid(innate3Obj, set.innate3, innate3Fallback);
+			setSelectValueIfValid(innate1Obj, innate1Fallback, "");
+			setSelectValueIfValid(innate2Obj, innate2Fallback, "");
+			setSelectValueIfValid(innate3Obj, innate3Fallback, "");
 
 			itemObj.val("");
 			for (i = 0; i < 4; i++) {
@@ -977,15 +1258,15 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
 
-		if (setdex[pokemonName][setName].gender == "M") {
+		if (selectedSet && selectedSet.gender == "M") {
 			pokeObj.find(".gender").val("Male");
-		} else if (setdex[pokemonName][setName].gender == "F") {
+		} else if (selectedSet && selectedSet.gender == "F") {
 			pokeObj.find(".gender").val("Female");
 		}
 
-		if (typeof SETDEX_BW[pokemonName] != "undefined" && typeof SETDEX_BW[pokemonName][setName] != "undefined" && SETDEX_BW[pokemonName][setName]["status"]) {
+		if (selectedSet && selectedSet["status"]) {
 			console.log("adjust status")
-			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"]).change();
+			pokeObj.find(".status").val(selectedSet["status"]).change();
 		} else {
 			pokeObj.find(".status").val("Healthy").change();
 		}
@@ -997,10 +1278,30 @@ $(".set-selector").change(function () {
 	if (fullSetName != lastSetName) {
 		refresh_next_in()
 	} else {
+		loadingTrainerSetControls = false;
+		if (isOpposingSetSelector) {
+			updateTrainerSetRevertButton();
+		}
 		return
 	}
 	lastSetName = fullSetName
+	loadingTrainerSetControls = false;
+	if (isOpposingSetSelector) {
+		updateTrainerSetRevertButton();
+	}
 	// console.log("last set name set to: " + lastSetName)
+});
+
+$(document).off("change.trainerSetPersistence input.trainerSetPersistence keyup.trainerSetPersistence blur.trainerSetPersistence", "#p2 .level, #p2 .nature, #p2 .item, #p2 .ability, #p2 .innates, #p2 .gender, #p2 .status, #p2 .evs, #p2 .ivs, #p2 .dvs, #p2 .move-selector");
+$(document).on("change.trainerSetPersistence input.trainerSetPersistence keyup.trainerSetPersistence blur.trainerSetPersistence", "#p2 .level, #p2 .nature, #p2 .item, #p2 .ability, #p2 .innates, #p2 .gender, #p2 .status, #p2 .evs, #p2 .ivs, #p2 .dvs, #p2 .move-selector", function() {
+	saveCurrentTrainerSetOverride();
+});
+
+$(document).off("click.trainerSetPersistence", "#revert-trainer-set");
+$(document).on("click.trainerSetPersistence", "#revert-trainer-set", function(event) {
+	event.preventDefault();
+	event.stopPropagation();
+	revertCurrentTrainerSetOverride();
 });
 
 function formatMovePool(moves) {

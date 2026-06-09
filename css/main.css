@@ -195,7 +195,7 @@ input[type="file"] {
     margin-right: 0px;
 }
 
-#nav-tags .next:hover , #nav-tags .prev:hover {
+#nav-tags .next:hover , #nav-tags .prev:hover, #revert-trainer-set:hover {
     background: rgba(255,255,255, 0.1);
 }
 
@@ -2126,6 +2126,5 @@ table.field {
 
 >>>>>>> master
 }
-
 
 
