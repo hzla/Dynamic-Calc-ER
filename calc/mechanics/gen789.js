@@ -307,12 +307,12 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         var t1 = multiTypeMoves[move.name][0]
         var t2 = multiTypeMoves[move.name][1]
         
-        var t1Multiplier = typeChart[t1][defender.types[0]]
-        var t2Multiplier = typeChart[t2][defender.types[0]]
+        var t1Multiplier = (0, util_2.applyInverseEffectiveness)(typeChart[t1][defender.types[0]], field)
+        var t2Multiplier = (0, util_2.applyInverseEffectiveness)(typeChart[t2][defender.types[0]], field)
         
         if (defender.types[1]) {
-            t1Multiplier = t1Multiplier * typeChart[t1][defender.types[1]]
-            t2Multiplier = t2Multiplier * typeChart[t2][defender.types[1]]
+            t1Multiplier = t1Multiplier * (0, util_2.applyInverseEffectiveness)(typeChart[t1][defender.types[1]], field)
+            t2Multiplier = t2Multiplier * (0, util_2.applyInverseEffectiveness)(typeChart[t2][defender.types[1]], field)
         } 
 
         if (t2Multiplier > t1Multiplier) {
@@ -486,7 +486,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
             var defenderType = _l.value;
             if (!defenderType)
                 continue;
-            typeEffectiveness *= (0, util_2.getMoveEffectiveness)(gen, move, defenderType, defender, attacker, isGhostRevealed, field.isGravity, isRingTarget);
+            typeEffectiveness *= (0, util_2.getMoveEffectiveness)(gen, move, defenderType, defender, attacker, isGhostRevealed, field.isGravity, isRingTarget, field);
         }
     }
     catch (e_1_1) { e_1 = { error: e_1_1 }; }
@@ -497,7 +497,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field, defenderFriend) {
         finally { if (e_1) throw e_1.error; }
     }
     if (defender.teraType) {
-        typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, defender, attacker, isGhostRevealed, field.isGravity, isRingTarget);
+        typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, defender, attacker, isGhostRevealed, field.isGravity, isRingTarget, field);
     }
     if (typeEffectiveness === 0 && move.named('Thousand Arrows', 'Mud Bomb')) {
         typeEffectiveness = 1;
@@ -1207,10 +1207,10 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         var isGhostRevealed = !!attacker.hasAbility('Scrappy', 'Blind Rage') || field.defenderSide.isForesight;
         var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
         var types = defender.teraType ? [defender.teraType] : defender.types;
-        var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, types[0], defender, attacker, isGhostRevealed, field.isGravity, isRingTarget);
-        var type2Effectiveness = types[1] ? (0, util_2.getMoveEffectiveness)(gen, move, types[1], defender, attacker, isGhostRevealed, field.isGravity, isRingTarget) : 1;
+        var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, types[0], defender, attacker, isGhostRevealed, field.isGravity, isRingTarget, field);
+        var type2Effectiveness = types[1] ? (0, util_2.getMoveEffectiveness)(gen, move, types[1], defender, attacker, isGhostRevealed, field.isGravity, isRingTarget, field) : 1;
         var type3Effectiveness = types[2]
-            ? (0, util_2.getMoveEffectiveness)(gen, move, types[2], defender, attacker, isGhostRevealed, field.isGravity, isRingTarget)
+            ? (0, util_2.getMoveEffectiveness)(gen, move, types[2], defender, attacker, isGhostRevealed, field.isGravity, isRingTarget, field)
             : 1;
         if (type1Effectiveness * type2Effectiveness * type3Effectiveness >= 2) {
             bpMods.push(5461);

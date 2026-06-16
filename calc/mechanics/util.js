@@ -188,88 +188,111 @@ function getFinalSpeed(gen, pokemon, field, side) {
     return Math.max(0, speed);
 }
 exports.getFinalSpeed = getFinalSpeed;
-function getMoveEffectiveness(gen, move, type, target, source, isGhostRevealed, isGravity, isRingTarget) {
-    if (source.hasAbility('Overwhelm') && move.hasType('Dragon') && type === 'Fairy') {
-        return 1;
-    }
-    else if (source.hasAbility('Corrosion', 'Pyroclastic Flow', 'Toxic Spill', 'Acidic Slime') && move.hasType('Poison') && type === 'Steel') {
+function invertTypeEffectiveness(effectiveness) {
+    if (effectiveness === 0 || effectiveness === 0.5) {
         return 2;
     }
-    else if (source.hasAbility('Phantom Pain', 'Soul Devourer') && move.hasType('Ghost') && type === 'Normal') {
-        return 1;
+    if (effectiveness === 2) {
+        return 0.5;
     }
-    else if (source.hasAbility("Mind's Eye") && move.hasType('Normal', "Fighting") && type === 'Ghost') {
-        return 1;
+    return effectiveness;
+}
+exports.invertTypeEffectiveness = invertTypeEffectiveness;
+function shouldUseInverseEffectiveness(field) {
+    return !!(field && (field.isInverse || field.inverse || field.isInverseBattle));
+}
+exports.shouldUseInverseEffectiveness = shouldUseInverseEffectiveness;
+function applyInverseEffectiveness(effectiveness, field) {
+    return shouldUseInverseEffectiveness(field) ? invertTypeEffectiveness(effectiveness) : effectiveness;
+}
+exports.applyInverseEffectiveness = applyInverseEffectiveness;
+function getMoveEffectiveness(gen, move, type, target, source, isGhostRevealed, isGravity, isRingTarget, field) {
+    var hasTarget = target && typeof target.hasAbility === 'function';
+    var hasSource = source && typeof source.hasAbility === 'function';
+    function finalize(effectiveness) {
+        return applyInverseEffectiveness(effectiveness, field);
     }
-    else if (source.hasAbility('Bone Zone') && move.flags.bone &&
+    if (hasSource && source.hasAbility('Overwhelm') && move.hasType('Dragon') && type === 'Fairy') {
+        return finalize(1);
+    }
+    else if (hasSource && source.hasAbility('Corrosion', 'Pyroclastic Flow', 'Toxic Spill', 'Acidic Slime') && move.hasType('Poison') && type === 'Steel') {
+        return finalize(2);
+    }
+    else if (hasSource && source.hasAbility('Phantom Pain', 'Soul Devourer') && move.hasType('Ghost') && type === 'Normal') {
+        return finalize(1);
+    }
+    else if (hasSource && source.hasAbility("Mind's Eye") && move.hasType('Normal', "Fighting") && type === 'Ghost') {
+        return finalize(1);
+    }
+    else if (hasSource && source.hasAbility('Bone Zone') && move.flags.bone &&
         (gen.types.get((0, util_1.toID)(move.type)).effectiveness[type] === 0 ||
-            target.hasAbility('Dragonfly', 'Levitate', 'Aerialist'))) {
-        return 1;
+            (hasTarget && target.hasAbility('Dragonfly', 'Levitate', 'Aerialist')))) {
+        return finalize(1);
     }
-    else if (target.hasAbility('Aerodynamics') && move.hasType('Flying')) {
+    else if (hasTarget && target.hasAbility('Aerodynamics') && move.hasType('Flying')) {
         return 0;
     }
-    else if (target.hasAbility('Mountaineer') && move.hasType('Rock')) {
+    else if (hasTarget && target.hasAbility('Mountaineer') && move.hasType('Rock')) {
         return 0;
     }
-    else if ((target.hasAbility('Weather Control')) && move.flags.weather) {
+    else if ((hasTarget && target.hasAbility('Weather Control')) && move.flags.weather) {
         return 0;
     }
-    else if (target.hasAbility('Gifted Mind') && move.hasType('Bug', 'Ghost', 'Dark')) {
+    else if (hasTarget && target.hasAbility('Gifted Mind') && move.hasType('Bug', 'Ghost', 'Dark')) {
         return 0;
     }
     else if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
-        return 1;
+        return finalize(1);
     }
     else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
-        return 1;
+        return finalize(1);
     }
     else if (move.named('Excalibur') && type === 'Dragon') {
-        return 2;
+        return finalize(2);
     }
     else if (move.named('Clay Dart', 'Poison Gas') && type === 'Flying') {
-        return 2;
+        return finalize(2);
     }
     else if (move.named('Mud Bomb') && type === 'Flying') {
-        return 1;
+        return finalize(1);
     }
     else if (move.named('Fumigation Bomb') && type === 'Bug') {
-        return 2;
+        return finalize(2);
     }
     else if (move.named('Aura Force') && type === 'Ghost') {
-        return 2;
+        return finalize(2);
     }
     else if (move.named('Crackle Slam', 'Sonic Boom', 'Acid', 'Magnet Bomb', 'Gigaton Hammer') && type === 'Steel') {
-        return 2;
+        return finalize(2);
     }
     else if (move.named('Razor Wind') && type === 'Rock') {
-        return 2;
+        return finalize(2);
     }
     else if (move.named('Freeze-Dry', 'Sheer Cold', 'Sludge', 'Brine') && type === 'Water') {
-        return 2;
+        return finalize(2);
     }
-    else if (source.hasAbility('Molten Down', 'Magma Eater', 'Pyroclastic Flow') && type === 'Rock' && move.type === 'Fire') {
-        return 2;
+    else if (hasSource && source.hasAbility('Molten Down', 'Magma Eater', 'Pyroclastic Flow') && type === 'Rock' && move.type === 'Fire') {
+        return finalize(2);
     }
-    else if (source.hasAbility('Seaweed', 'Old Mariner') && move.hasType('Grass') && type === 'Fire') {
-        return 1;
+    else if (hasSource && source.hasAbility('Seaweed', 'Old Mariner') && move.hasType('Grass') && type === 'Fire') {
+        return finalize(1);
     }
-    else if (target.hasAbility('Seaweed', 'Old Mariner') && move.hasType('Fire') && type === 'Grass') {
-        return 1;
+    else if (hasTarget && target.hasAbility('Seaweed', 'Old Mariner') && move.hasType('Fire') && type === 'Grass') {
+        return finalize(1);
     }
-    else if (source.hasAbility('Ground Shock') && move.hasType('Electric') && type === 'Ground') {
-        return 0.5;
+    else if (hasSource && source.hasAbility('Ground Shock') && move.hasType('Electric') && type === 'Ground') {
+        return finalize(0.5);
     }
     else if (move.named('Flying Press')) {
-        return (gen.types.get('fighting').effectiveness[type] *
+        return finalize(gen.types.get('fighting').effectiveness[type] *
             gen.types.get('flying').effectiveness[type]);
     }
     else if (move.named('Burning Ground')) {
-        return (gen.types.get('Fire').effectiveness[type] *
+        return finalize(gen.types.get('Fire').effectiveness[type] *
             gen.types.get('Ground').effectiveness[type]);
     }
     else {
-        return gen.types.get((0, util_1.toID)(move.type)).effectiveness[type];
+        return finalize(gen.types.get((0, util_1.toID)(move.type)).effectiveness[type]);
     }
 }
 exports.getMoveEffectiveness = getMoveEffectiveness;

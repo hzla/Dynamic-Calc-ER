@@ -1697,6 +1697,10 @@ function createField() {
 	var isMagicRoom = $("#magicroom").prop("checked");
 	var isWonderRoom = $("#wonderroom").prop("checked");
 	var isGravity = $("#gravity").prop("checked");
+	var settingsInvertTypes = typeof settings !== "undefined" && settings && settings.invertTypes &&
+		settings.damageGen >= 3 && settings.damageGen <= 8;
+	var urlInvertTypes = typeof invert !== "undefined" && invert;
+	var isInverse = $("#inverse").prop("checked") || Boolean(settingsInvertTypes || urlInvertTypes);
 	var isSR = [$("#srL").prop("checked"), $("#srR").prop("checked")];
 	var weather;
 	var spikes;
@@ -1749,7 +1753,7 @@ function createField() {
 	};
 	// console.log(is10Buff)
 	return new calc.Field({
-		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity,
+		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity, isInverse: isInverse,
 		attackerSide: createSide(0), defenderSide: createSide(1)
 	});
 }
@@ -1931,6 +1935,7 @@ function clearField() {
 	$("#clear-cascade").prop("checked", true);
 	$("#gscClear").prop("checked", true);
 	$("#gravity").prop("checked", false);
+	$("#inverse").prop("checked", false);
 	$("#srL").prop("checked", false);
 	$("#srR").prop("checked", false);
 	$("#spikesL0").prop("checked", true);

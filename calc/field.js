@@ -20,6 +20,8 @@ exports.__esModule = true;
 var Field = (function () {
     function Field(field) {
         if (field === void 0) { field = {}; }
+        var invertTypes = typeof settings !== 'undefined' && settings && settings.invertTypes &&
+            settings.damageGen >= 3 && settings.damageGen <= 8;
         this.gameType = field.gameType || 'Singles';
         this.terrain = field.terrain;
         this.weather = field.weather;
@@ -27,6 +29,8 @@ var Field = (function () {
         this.isWonderRoom = !!field.isWonderRoom;
         this.isGravity = !!field.isGravity;
         this.isAuraBreak = field.isAuraBreak || false;
+        this.isInverse = !!field.isInverse || !!field.isInverseBattle || !!field.inverse || !!invertTypes;
+        this.inverse = this.isInverse;
         this.isFairyAura = field.isFairyAura || false;
         this.isDarkAura = field.isDarkAura || false;
         this.isBeadsOfRuin = field.isBeadsOfRuin || false;
@@ -62,6 +66,8 @@ var Field = (function () {
             terrain: this.terrain,
             isMagicRoom: this.isMagicRoom,
             isWonderRoom: this.isWonderRoom,
+            isInverse: this.isInverse,
+            inverse: this.inverse,
             isGravity: this.isGravity,
             attackerSide: this.attackerSide,
             defenderSide: this.defenderSide,

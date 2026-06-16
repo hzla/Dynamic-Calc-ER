@@ -150,6 +150,34 @@ function construct_type_chart() {
     return chart
 }
 
+function isInverseBattleActive(field) {
+    if (typeof settings !== "undefined" && settings && settings.invertTypes &&
+        settings.damageGen >= 3 && settings.damageGen <= 8) {
+        return true
+    }
+    if (field) {
+        return !!(field.isInverse || field.inverse || field.isInverseBattle)
+    }
+    if (typeof $ !== "undefined" && $("#inverse").prop("checked")) {
+        return true
+    }
+    return typeof invert !== "undefined" && !!invert
+}
+
+function invertTypeEffectiveness(effectiveness) {
+    if (effectiveness === 0 || effectiveness === 0.5) {
+        return 2
+    }
+    if (effectiveness === 2) {
+        return 0.5
+    }
+    return effectiveness
+}
+
+function applyInverseTypeEffectiveness(effectiveness, field) {
+    return isInverseBattleActive(field) ? invertTypeEffectiveness(effectiveness) : effectiveness
+}
+
 function get_type_info(pok_types, move=false) {
     if (pok_types[1] == pok_types[0]) {
         pok_types[1] = "None"
@@ -206,28 +234,12 @@ function get_type_info(pok_types, move=false) {
     var type1 = type_name.indexOf(pok_types[0])
     var type2 = type_name.indexOf(pok_types[1])
 
+    if (type1 == -1) {
+        return result
+    }
 
     for (i in types) {
-        if (invert) {
-            if (type1 == -1) {
-                return result
-            }
-            
-            var matchup1 = types[i][type1]
-            var matchup2 = types[i][type2]
-
-            if (matchup1 == 0) {
-                matchup1 = 0.5
-            }
-
-            if (matchup2 == 0) {
-                matchup2 = 0.5
-            }
-            result[type_name[i]] = (1 / (matchup1 * matchup2))
-        } else {
-          
-          result[type_name[i]] = (types[i][type1] * types[i][type2])  
-        }   
+        result[type_name[i]] = (applyInverseTypeEffectiveness(types[i][type1]) * applyInverseTypeEffectiveness(types[i][type2]))
     }
     return result
 }
